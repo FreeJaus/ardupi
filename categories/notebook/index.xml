@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notebook on FreeJaus - Ardupi</title>
+    <link>http://freejaus.github.io/ardupi/categories/notebook/</link>
+    <description>Recent content in Notebook on FreeJaus - Ardupi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 20 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://freejaus.github.io/ardupi/categories/notebook/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ToDo</title>
+      <link>http://freejaus.github.io/ardupi/notebook/todo/</link>
+      <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/todo/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Contenido
+
+&lt;ul&gt;
+&lt;li&gt;Participantes: ¡Privacidad! ¡SPAM! ¿añadir sección específica con la información abiertamente disponible? ¿o utilizar usuarios de GitHub y un grupo (&lt;em&gt;team&lt;/em&gt;)? ¿o utilizar una rama del repositorio?&lt;/li&gt;
+&lt;li&gt;/ardupi/notebook/, que actualmente muestra DEFAULT LIST en blanco&lt;/li&gt;
+&lt;li&gt;Diseñar plantilla de contenido para los proyectos, para después diseñar el layout.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Layouts y CSS
+
+&lt;ul&gt;
+&lt;li&gt;Adaptar CSSs para sustituir los colores ekin por freejaus.&lt;/li&gt;
+&lt;li&gt;Adaptar layouts notebook para compartir partials/nav con index. Tratar de mantener el mayor contenido en fj-base, y añadir sólo lo necesario a fj-index y fj-nb.&lt;/li&gt;
+&lt;li&gt;Eliminar los layouts no utilizados en partials/index/.&lt;/li&gt;
+&lt;li&gt;Eliminar los layouts no utilizados en notebook/.&lt;/li&gt;
+&lt;li&gt;Ajustar el CSS de las tablas escritas en Markdown, para incluir separación entre columnas.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;JavaScript
+
+&lt;ul&gt;
+&lt;li&gt;Cambiar el fondo de nav en index cuando se empieza a hacer scroll.&lt;/li&gt;
+&lt;li&gt;Desplegar los elementos de una categoría en notebook, cuando se está en la página principal de la misma (overview, list&amp;hellip;) y el ratón está en el menú sobre la página principal, o cualquiera de las hijas.&lt;/li&gt;
+&lt;li&gt;Cuadros &lt;em&gt;spoiler&lt;/em&gt;, que muestran la entradilla de un contenido y permiten desplegarlo en la misma página. Utilizarlo para código, avisos, notas&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Deployment
+
+&lt;ul&gt;
+&lt;li&gt;Actualizar automáticamente la fecha de cada contenido con el último commit en el que se haya modificado.&lt;/li&gt;
+&lt;li&gt;Mover el subdirectorio &lt;em&gt;_hugo&lt;/em&gt; de la rama &lt;em&gt;gh-pages&lt;/em&gt; al subdirectorio &lt;em&gt;web&lt;/em&gt; de la rama &lt;em&gt;master&lt;/em&gt;. Añadir un subdirectorio &lt;em&gt;public&lt;/em&gt; en &lt;em&gt;web&lt;/em&gt;, asociado a la rama &lt;em&gt;gh-pages&lt;/em&gt;. El contenido se modifica en la rama máster, y cuando se hace un commit &lt;em&gt;&amp;lsquo;especial&amp;rsquo;&lt;/em&gt;, se despliega:
+
+&lt;ul&gt;
+&lt;li&gt;Se elimina el contenido existente en &lt;em&gt;public&lt;/em&gt; (salvo &lt;em&gt;.git/&lt;/em&gt;, naturalmente).&lt;/li&gt;
+&lt;li&gt;Se ejecuta Hugo sobre &lt;em&gt;_hugo&lt;/em&gt; para exportar en &lt;em&gt;public&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Se hace commit en &lt;em&gt;public&lt;/em&gt;, que es en realidad la rama &lt;em&gt;gh-pages&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

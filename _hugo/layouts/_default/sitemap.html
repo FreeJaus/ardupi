@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    {{ partial "nb/nav.html" . }}
+    <div style="width: 100%; margin-top: 50px;">
+      <table style="margin-left: 10%; width: 80%;">
+        <tr>
+          {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+            <td style="width: 33%; vertical-align: top;">
+        	  <div style="width: 100%; font-weight: bold; text-align: center; text-decoration: underline; margin-bottom: 1em;"><a style="color: #000;" href="/{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a></div>
+              <ul>
+                {{ range $key, $value := $taxonomy }}
+                  <li>{{$key}}</li>
+                  <ul>
+                    {{ range $value.Pages }}
+                      <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }}</a></li>
+                    {{ end }}
+                  </ul>
+                {{ end }}
+              </ul>
+    		</td>
+          {{ end }}
+          <td style="width: 33%; vertical-align: top;"><div style="width: 100%; font-weight: bold; text-align: center; text-decoration: underline; margin-bottom: 1em; color: #000;">Pages</div>
+    	    <ul>
+              {{range .Site.Pages}}
+                <li><a href="{{ .Permalink}}">{{.LinkTitle}} [{{.Section}}]</a></li>
+              {{end}}
+            </ul>
+    	  </td>
+        </tr>
+      </table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+<div class="panel-body">
+  {{.Content}}
+  <ul class="sum-list">
+    {{range (index .Site.Taxonomies.categories ((index .Menus .Section).Identifier)).Pages}}
+      <li class="sum-box">
+	    <div>
+	      <a class="sum-title" href="{{.Permalink}}">{{.Title}}</a>
+	      <span class="sum-keywords">{{with .Keywords}}{{ delimit . ", " }}{{end}}</span>
+	    <div>
+	    <div class="sum-summary">{{.Summary}}</div>
+      </li>
+    {{end}}
+  </ul>
+</div>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nb Events on FreeJaus - Ardupi</title>
+    <link>http://freejaus.github.io/ardupi/categories/nb-events/</link>
+    <description>Recent content in Nb Events on FreeJaus - Ardupi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://freejaus.github.io/ardupi/categories/nb-events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1er Taller 2016: Arduino</title>
+      <link>http://freejaus.github.io/ardupi/notebook/events/1taller/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/events/1taller/</guid>
+      <description>&lt;p&gt;Podemos ir pensando en fechas y personas interesadas para la celebración del primer taller de Arduino.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

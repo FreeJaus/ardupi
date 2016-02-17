@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nb Refs on FreeJaus - Ardupi</title>
+    <link>http://freejaus.github.io/ardupi/categories/nb-refs/</link>
+    <description>Recent content in Nb Refs on FreeJaus - Ardupi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://freejaus.github.io/ardupi/categories/nb-refs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Go(lang)</title>
+      <link>http://freejaus.github.io/ardupi/notebook/refs/golang/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/refs/golang/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://go-tour-es.appspot.com&#34;&gt;https://go-tour-es.appspot.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gobyexample.com/&#34;&gt;https://gobyexample.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;github.com/golang/&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/lint&#34;&gt;lint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;go/wiki/
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/Projects&#34;&gt;Projects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/CodeReviewComments&#34;&gt;CodeReviewComent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/SliceTricks&#34;&gt;SliceTricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;golang.org/&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/ref/spec&#34;&gt;ref/spec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/cmd/vet/&#34;&gt;cmd/vet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;golang.org/doc/&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/doc/effective_go.html&#34;&gt;effective_go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/doc/code.html&#34;&gt;code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;blog.golang.org/&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.golang.org/gos-declaration-syntax&#34;&gt;gos-declaration-syntax&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://blog.golang.org/go-maps-in-action&#34;&gt;go-maps-in-action&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/chai2010/notepadplus-go&#34;&gt;https://github.com/chai2010/notepadplus-go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

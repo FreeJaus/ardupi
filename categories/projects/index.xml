@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on FreeJaus - Ardupi</title>
+    <link>http://freejaus.github.io/ardupi/categories/projects/</link>
+    <description>Recent content in Projects on FreeJaus - Ardupi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 04 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://freejaus.github.io/ardupi/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Balancín</title>
+      <link>http://freejaus.github.io/ardupi/projects/balancin/</link>
+      <pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/projects/balancin/</guid>
+      <description>&lt;p&gt;Balancin content&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ball and beam</title>
+      <link>http://freejaus.github.io/ardupi/projects/ballbeam/</link>
+      <pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/projects/ballbeam/</guid>
+      <description>&lt;p&gt;Ball and beam content&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vehículos RC</title>
+      <link>http://freejaus.github.io/ardupi/projects/rcvehicles/</link>
+      <pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/projects/rcvehicles/</guid>
+      <description>&lt;p&gt;RC Vehicles content&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

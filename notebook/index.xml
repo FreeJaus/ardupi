@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notebooks on FreeJaus - Ardupi</title>
+    <link>http://freejaus.github.io/ardupi/notebook/</link>
+    <description>Recent content in Notebooks on FreeJaus - Ardupi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://freejaus.github.io/ardupi/notebook/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1er Taller 2016: Arduino</title>
+      <link>http://freejaus.github.io/ardupi/notebook/events/1taller/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/events/1taller/</guid>
+      <description>&lt;p&gt;Podemos ir pensando en fechas y personas interesadas para la celebración del primer taller de Arduino.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comunicación</title>
+      <link>http://freejaus.github.io/ardupi/notebook/tuts/com/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/tuts/com/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ECG de bajo coste</title>
+      <link>http://freejaus.github.io/ardupi/notebook/tfgs/ecg/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/tfgs/ecg/</guid>
+      <description>
+
+&lt;p&gt;Esta es una prueba para ver como se visualizan las listas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Un elemento (0)
+
+&lt;ul&gt;
+&lt;li&gt;Otro de segundo nivel (+2)
+
+&lt;ul&gt;
+&lt;li&gt;Y de tercero (+3)
+
+&lt;ul&gt;
+&lt;li&gt;Y cuarto (+4)
+
+&lt;ul&gt;
+&lt;li&gt;Y quinto (+4)
+
+&lt;ul&gt;
+&lt;li&gt;Hasta el infinito (+4)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Y vuelta al segundo (0+2)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Y al primero (0)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;También podemos ver código en línea, &lt;code&gt;como éste&lt;/code&gt;, o en bloque:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Así se muestra el código
+que puede tener
+varias
+líneas
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;También se puede espaciar (4), sin indicar explícitamente el inicio y final del bloque.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;título-primer-nivel:2ed55c63a4ca07031b68c2eddb9a63c4&#34;&gt;Título primer nivel&lt;/h1&gt;
+
+&lt;h2 id=&#34;de-segundo-nivel:2ed55c63a4ca07031b68c2eddb9a63c4&#34;&gt;De segundo nivel&lt;/h2&gt;
+
+&lt;h3 id=&#34;de-tercero:2ed55c63a4ca07031b68c2eddb9a63c4&#34;&gt;De tercero&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Esta&lt;/th&gt;
+&lt;th&gt;es&lt;/th&gt;
+&lt;th&gt;una&lt;/th&gt;
+&lt;th&gt;tabla&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Con&lt;/td&gt;
+&lt;td&gt;una&lt;/td&gt;
+&lt;td&gt;línea de&lt;/td&gt;
+&lt;td&gt;contenido&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Go(lang)</title>
+      <link>http://freejaus.github.io/ardupi/notebook/refs/golang/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/refs/golang/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://go-tour-es.appspot.com&#34;&gt;https://go-tour-es.appspot.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gobyexample.com/&#34;&gt;https://gobyexample.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;github.com/golang/&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/lint&#34;&gt;lint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;go/wiki/
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/Projects&#34;&gt;Projects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/CodeReviewComments&#34;&gt;CodeReviewComent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/SliceTricks&#34;&gt;SliceTricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;golang.org/&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/ref/spec&#34;&gt;ref/spec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/cmd/vet/&#34;&gt;cmd/vet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;golang.org/doc/&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/doc/effective_go.html&#34;&gt;effective_go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/doc/code.html&#34;&gt;code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;blog.golang.org/&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.golang.org/gos-declaration-syntax&#34;&gt;gos-declaration-syntax&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://blog.golang.org/go-maps-in-action&#34;&gt;go-maps-in-action&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/chai2010/notepadplus-go&#34;&gt;https://github.com/chai2010/notepadplus-go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Medidor de energía IOT</title>
+      <link>http://freejaus.github.io/ardupi/notebook/tfgs/iotpower/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/tfgs/iotpower/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regulador de posición de un bola sobre raíl</title>
+      <link>http://freejaus.github.io/ardupi/notebook/tfgs/ballbeam/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/tfgs/ballbeam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reguladores PID</title>
+      <link>http://freejaus.github.io/ardupi/notebook/tuts/pid/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/tuts/pid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Timers</title>
+      <link>http://freejaus.github.io/ardupi/notebook/tuts/timers/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/tuts/timers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ToDo</title>
+      <link>http://freejaus.github.io/ardupi/notebook/todo/</link>
+      <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/todo/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Contenido
+
+&lt;ul&gt;
+&lt;li&gt;Participantes: ¡Privacidad! ¡SPAM! ¿añadir sección específica con la información abiertamente disponible? ¿o utilizar usuarios de GitHub y un grupo (&lt;em&gt;team&lt;/em&gt;)? ¿o utilizar una rama del repositorio?&lt;/li&gt;
+&lt;li&gt;/ardupi/notebook/, que actualmente muestra DEFAULT LIST en blanco&lt;/li&gt;
+&lt;li&gt;Diseñar plantilla de contenido para los proyectos, para después diseñar el layout.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Layouts y CSS
+
+&lt;ul&gt;
+&lt;li&gt;Adaptar CSSs para sustituir los colores ekin por freejaus.&lt;/li&gt;
+&lt;li&gt;Adaptar layouts notebook para compartir partials/nav con index. Tratar de mantener el mayor contenido en fj-base, y añadir sólo lo necesario a fj-index y fj-nb.&lt;/li&gt;
+&lt;li&gt;Eliminar los layouts no utilizados en partials/index/.&lt;/li&gt;
+&lt;li&gt;Eliminar los layouts no utilizados en notebook/.&lt;/li&gt;
+&lt;li&gt;Ajustar el CSS de las tablas escritas en Markdown, para incluir separación entre columnas.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;JavaScript
+
+&lt;ul&gt;
+&lt;li&gt;Cambiar el fondo de nav en index cuando se empieza a hacer scroll.&lt;/li&gt;
+&lt;li&gt;Desplegar los elementos de una categoría en notebook, cuando se está en la página principal de la misma (overview, list&amp;hellip;) y el ratón está en el menú sobre la página principal, o cualquiera de las hijas.&lt;/li&gt;
+&lt;li&gt;Cuadros &lt;em&gt;spoiler&lt;/em&gt;, que muestran la entradilla de un contenido y permiten desplegarlo en la misma página. Utilizarlo para código, avisos, notas&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Deployment
+
+&lt;ul&gt;
+&lt;li&gt;Actualizar automáticamente la fecha de cada contenido con el último commit en el que se haya modificado.&lt;/li&gt;
+&lt;li&gt;Mover el subdirectorio &lt;em&gt;_hugo&lt;/em&gt; de la rama &lt;em&gt;gh-pages&lt;/em&gt; al subdirectorio &lt;em&gt;web&lt;/em&gt; de la rama &lt;em&gt;master&lt;/em&gt;. Añadir un subdirectorio &lt;em&gt;public&lt;/em&gt; en &lt;em&gt;web&lt;/em&gt;, asociado a la rama &lt;em&gt;gh-pages&lt;/em&gt;. El contenido se modifica en la rama máster, y cuando se hace un commit &lt;em&gt;&amp;lsquo;especial&amp;rsquo;&lt;/em&gt;, se despliega:
+
+&lt;ul&gt;
+&lt;li&gt;Se elimina el contenido existente en &lt;em&gt;public&lt;/em&gt; (salvo &lt;em&gt;.git/&lt;/em&gt;, naturalmente).&lt;/li&gt;
+&lt;li&gt;Se ejecuta Hugo sobre &lt;em&gt;_hugo&lt;/em&gt; para exportar en &lt;em&gt;public&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Se hace commit en &lt;em&gt;public&lt;/em&gt;, que es en realidad la rama &lt;em&gt;gh-pages&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eventos</title>
+      <link>http://freejaus.github.io/ardupi/notebook/events/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/events/overview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Propuestas de Trabajos Fin de Grado</title>
+      <link>http://freejaus.github.io/ardupi/notebook/props/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/props/overview/</guid>
+      <description>&lt;p&gt;Aquí pueden verse los términos de referencia de algunas propuestas de Trabajos Fin de Grado&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Referencias</title>
+      <link>http://freejaus.github.io/ardupi/notebook/refs/list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/refs/list/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/geaarduino/&#34;&gt;https://sites.google.com/site/geaarduino/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/&#34;&gt;Hugo - Hosting on GitHub Pages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trabajos Fin de Grado en curso</title>
+      <link>http://freejaus.github.io/ardupi/notebook/tfgs/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/tfgs/overview/</guid>
+      <description>&lt;p&gt;Estos son algunos de los Trabajos Fin de Grado que se encuentran actualmente en curso:&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutoriales</title>
+      <link>http://freejaus.github.io/ardupi/notebook/tuts/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/tuts/overview/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
