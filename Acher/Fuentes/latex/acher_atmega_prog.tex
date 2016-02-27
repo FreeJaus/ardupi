@@ -1,0 +1,59 @@
+\subsection{Programación}
+\label{subsec:programacion}
+
+Al ser el juego de instrucciones de la familia AVR desconocido para el desarrollador y no haber tenido nunca contacto con este tipo de microcontroladores, decidió para un primer acercamiento programar utilizando el lenguaje C, más concretamente el estándar ANSI. La arquitectura AVR está soportada por el compilador libre GCC\cite{gcc} y existe una implementación, también software libre, que permite utilizarlo bajo sistemas Windows, distribuida como WinAVR\cite{winavr} y que incluye compilador, programador y debugger.
+
+Pese a la existencia de herramientas libres y multiplataforma para efectuar el desarrollo completo, se ha utilizado el AVR Studio 4\cite{avrstudio} como IDE. La elección de esta herramienta se justifica sólo por la seguridad de saber que se están utilizando recursos del propio fabricante que garantizan una alta compatibilidad con el kit de desarrollo. En cualquier caso, el uso de las herramientas de depurado y programación se escapan al objetivo de este documento, por lo que no se profundizará en su uso.
+
+\subsubsection{Notas del desarrollador}
+
+Si bien no son necesarias para la utilización del sistema, el desarrollador considera que las siguientes anotaciones pueden resultar de interés para quién quiera entender el desarrollo completo y qué decisiones se han tomado durante el mismo.
+
+\begin{itemize}
+  \item{\textbf{Estructura de ficheros}: la programación del microcontrolador se ha dividido en tres ficheros\footnote{El diagrama de flujo del programa completo se encuentra en el \hyperref[anexoc]{Anexo C}}:
+    \begin{itemize}
+      \item{\textbf{acher\_main.c}: contiene la función \textit{main} y las rutinas de vectorización de las interrupciones.}
+      \item{\textbf{acher\_config.c}: contiene las rutinas de inicialización de variables y configuración de puertos y periféricos.}
+      \item{\textbf{acher\_main.h}: contiene la declaración de constantes, variables y prototipos de las funciones.}
+    \end{itemize}}
+  \item{\textbf{Mayúsculas y minúsculas}: respetando la convención de código escrito en C, se han declarado los nombres de todas las constantes en mayúsculas, mientras las variables globales y las funciones aparecen en minúsculas. Todas ellas se encuentran declaradas en el fichero 'acher\_main.h'.}
+  \item{\textbf{Estructura operativa de memorias}: se han utilizado tres matrices (arrays unidimensionales de tipo char/uint\_8t) que actúan implícitamente como memorias:
+    \begin{itemize}
+      \item{\textbf{leds[ ]}: su tamaño es proporcional al número de columnas declaradas. Actúa como buffer y contiene la información a mostrar bit a bit.}
+      \item{\textbf{char\_ram[ ]}: su tamaño es proporcional al límite de caracteres definido. Actúa como RAM al almacenar los caracteres recibidos a través del puerto de serie. Los caracteres almacenados en esta memoria son los que irán volcándose a leds[] en un orden establecido.}
+      \item{\textbf{CHAR\_ROM[ ]}: su tamaño es fijo. Contiene la equivalencia bit a bit en grupos de 8x5 píxeles para cada carácter del estándar ASCII. En otras palabras, define la tipografía para cada uno de los caracteres.}
+    \end{itemize}}
+  \item{\textbf{Operaciones con bits}: debido a que el compilador utilizado no permite la declaración de datos de tipo bit y como el microcontrolador no dispone de direccionamiento del mismo tipo, la modificación de bits determinados de un registro se ha realizado mediante máscaras implícitas. Así, se ha utilizado la operación lógica OR para poner a uno y la operación lógica AND para poner a cero. A continuación se muestra un ejemplo:
+
+\begin{center}
+\begin{tabular}[c]{ c | c }
+Instrucción & Contenido de REG tras la ejecución \\ \hline
+REG=0;			& 00000000 \\
+REG$|$=(1$<<$3);	& 00001000 \\
+REG\&=\~{}(1$<<$3);   	& 00000000 \\
+\end{tabular}
+\end{center}
+
+\textit{1$<<$3} genera una máscara equivalente a desplazar un uno tres posiciones a la izquierda, es decir, \textit{00001000}. El operador \~{} complementa el contenido, luego, se obtiene \textit{11110111}. Las expresiones utilizadas son equivalentes a los valores binarios ahora descritos, o a sus equivalentes en cualquier otra base, por ejemplo, hexadecimal: 0x08 y 0xF7.
+
+Más aún, la función \textit{\_BV(x)} actúa como \textit{1$<<$x}, generando una máscara con un uno desplazado \textit{x} posiciones a la izquierda y el resto ceros. Por lo tanto, \textit{\_BV(5)} == \textit{1$<<$5} == \textit{0b00100000}.
+}
+  \item{\textbf{$<$avr/io.h$>$}: al cargar la librería \textit{io.h} el compilador reconoce no sólo los nombres de los registros de función especial del microcontrolador, sino los nombres de los bits que éstos contienen. Aunque no está permitida la modificación de los bits directamente, sí pueden usarse sus nombres junto con las operaciones descritas en el apartado anterior. Así, para activar los bits RXEN0 y RXCIE del registro UCSR0B, se puede ejecutar la siguiente instrucción:
+
+\begin{center}
+UCSR0B$|$=(1$<<$RXEN0)$|$(1$<<$RXCIE0);
+\end{center}
+
+Equivalente a:
+
+\begin{center}
+UCSR0B$|$=(1$<<$RXEN0);
+
+UCSR0B$|$=(1$<<$RXCIE0);
+\end{center}
+
+Se trata de una práctica que se ha reproducido a lo largo de todo el programa no sólo porque permite ver más claramente qué se está haciendo, sino también porque facilita la detección de errores (es más difícil confundirse en un nombre que en un número) y vuelve el código ligeramente más portable (algunos bits cambian de posición dentro del mismo registro entre los diferentes modelos de la familia AVR).
+}
+\end{itemize}
+
+\input{acher_atmega_cod}

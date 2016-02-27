@@ -1,0 +1,3720 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   width="400"
+   height="294"
+   sodipodi:docname="esq_matriz.svg">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1680"
+     inkscape:window-height="973"
+     id="namedview4"
+     showgrid="true"
+     inkscape:zoom="1.135219"
+     inkscape:cx="128.74727"
+     inkscape:cy="215.95962"
+     inkscape:window-x="1024"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2818" />
+  </sodipodi:namedview>
+  <g
+     id="g3606"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,18.333336,-6.666666)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path2826"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3600"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3602"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3604" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,48.333336,-6.666666)"
+     id="g3642"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3644"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3646" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3648" />
+    <path
+       id="path3650"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g3652"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,78.333336,-6.666666)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path3654"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3656"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3658"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3660" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,108.33334,-6.666666)"
+     id="g3662"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3664"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3666" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3668" />
+    <path
+       id="path3670"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g3672"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,138.33334,-6.666666)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path3674"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3676"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3678"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3680" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,168.33334,-6.666666)"
+     id="g3682"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3684"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3686" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3688" />
+    <path
+       id="path3690"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g3692"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,198.33334,-6.666666)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path3694"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3696"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3698"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3700" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,228.33334,-6.666666)"
+     id="g3702"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3704"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3706" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3708" />
+    <path
+       id="path3710"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,18.333336,23.333334)"
+     id="g3712"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3714"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3716" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3718" />
+    <path
+       id="path3720"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g3722"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,48.333336,23.333334)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path3724"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3726"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3728"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3730" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,78.333336,23.333334)"
+     id="g3732"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3734"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3736" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3738" />
+    <path
+       id="path3740"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g3742"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,108.33334,23.333334)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path3744"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3746"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3748"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3750" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,138.33334,23.333334)"
+     id="g3752"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3754"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3756" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3758" />
+    <path
+       id="path3760"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g3762"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,168.33334,23.333334)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path3764"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3766"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3768"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3770" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,198.33334,23.333334)"
+     id="g3772"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3774"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3776" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3778" />
+    <path
+       id="path3780"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g3782"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,228.33334,23.333334)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path3784"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3786"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3788"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3790" />
+  </g>
+  <g
+     id="g3792"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,18.333336,53.333334)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path3794"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3796"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3798"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3800" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,48.333336,53.333334)"
+     id="g3802"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3804"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3806" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3808" />
+    <path
+       id="path3810"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g3812"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,78.333336,53.333334)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path3814"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3816"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3818"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3820" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,108.33334,53.333334)"
+     id="g3822"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3824"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3826" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3828" />
+    <path
+       id="path3830"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g3832"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,138.33334,53.333334)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path3834"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3836"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3838"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3840" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,168.33334,53.333334)"
+     id="g3842"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3844"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3846" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3848" />
+    <path
+       id="path3850"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g3852"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,198.33334,53.333334)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path3854"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3856"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3858"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3860" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,228.33334,53.333334)"
+     id="g3862"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3864"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3866" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3868" />
+    <path
+       id="path3870"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,18.333336,83.333334)"
+     id="g3872"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3874"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3876" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3878" />
+    <path
+       id="path3880"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g3882"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,48.333336,83.333334)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path3884"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3886"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3888"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3890" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,78.333336,83.333334)"
+     id="g3892"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3894"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3896" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3898" />
+    <path
+       id="path3900"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g3902"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,108.33334,83.333334)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path3904"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3906"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3908"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3910" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,138.33334,83.333334)"
+     id="g3912"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3914"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3916" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3918" />
+    <path
+       id="path3920"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g3922"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,168.33334,83.333334)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path3924"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3926"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3928"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3930" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,198.33334,83.333334)"
+     id="g3932"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3934"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3936" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3938" />
+    <path
+       id="path3940"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g3942"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,228.33334,83.333334)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path3944"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3946"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3948"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3950" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,18.333336,113.33333)"
+     id="g3952"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3954"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3956" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3958" />
+    <path
+       id="path3960"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g3962"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,48.333336,113.33333)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path3964"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3966"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3968"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3970" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,78.333336,113.33333)"
+     id="g3972"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3974"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3976" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3978" />
+    <path
+       id="path3980"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g3982"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,108.33334,113.33333)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path3984"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path3986"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path3988"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path3990" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,138.33334,113.33333)"
+     id="g3992"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3994"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path3996" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path3998" />
+    <path
+       id="path4000"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g4002"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,168.33334,113.33333)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path4004"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path4006"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path4008"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path4010" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,198.33334,113.33333)"
+     id="g4012"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4014"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path4016" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path4018" />
+    <path
+       id="path4020"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g4022"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,228.33334,113.33333)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path4024"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path4026"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path4028"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path4030" />
+  </g>
+  <g
+     id="g4032"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,18.333336,143.33333)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path4034"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path4036"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path4038"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path4040" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,48.333336,143.33333)"
+     id="g4042"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4044"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path4046" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path4048" />
+    <path
+       id="path4050"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g4052"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,78.333336,143.33333)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path4054"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path4056"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path4058"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path4060" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,108.33334,143.33333)"
+     id="g4062"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4064"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path4066" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path4068" />
+    <path
+       id="path4070"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g4072"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,138.33334,143.33333)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path4074"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path4076"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path4078"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path4080" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,168.33334,143.33333)"
+     id="g4082"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4084"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path4086" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path4088" />
+    <path
+       id="path4090"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g4092"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,198.33334,143.33333)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path4094"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path4096"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path4098"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path4100" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,228.33334,143.33333)"
+     id="g4102"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4104"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path4106" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path4108" />
+    <path
+       id="path4110"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,18.333336,173.33333)"
+     id="g4112"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4114"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path4116" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path4118" />
+    <path
+       id="path4120"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g4122"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,48.333336,173.33333)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path4124"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path4126"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path4128"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path4130" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,78.333336,173.33333)"
+     id="g4132"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4134"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path4136" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path4138" />
+    <path
+       id="path4140"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g4142"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,108.33334,173.33333)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path4144"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path4146"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path4148"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path4150" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,138.33334,173.33333)"
+     id="g4152"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4154"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path4156" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path4158" />
+    <path
+       id="path4160"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g4162"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,168.33334,173.33333)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path4164"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path4166"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path4168"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path4170" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,198.33334,173.33333)"
+     id="g4172"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4174"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path4176" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path4178" />
+    <path
+       id="path4180"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g4182"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,228.33334,173.33333)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path4184"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path4186"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path4188"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path4190" />
+  </g>
+  <g
+     id="g4192"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,18.333336,203.33333)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path4194"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path4196"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path4198"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path4200" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,48.333336,203.33333)"
+     id="g4202"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4204"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path4206" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path4208" />
+    <path
+       id="path4210"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g4212"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,78.333336,203.33333)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path4214"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path4216"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path4218"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path4220" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,108.33334,203.33333)"
+     id="g4222"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4224"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path4226" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path4228" />
+    <path
+       id="path4230"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g4232"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,138.33334,203.33333)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path4234"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path4236"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path4238"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path4240" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,168.33334,203.33333)"
+     id="g4242"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4244"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path4246" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path4248" />
+    <path
+       id="path4250"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="g4252"
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,198.33334,203.33333)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-36"
+       sodipodi:cx="75"
+       sodipodi:sides="3"
+       id="path4254"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star" />
+    <path
+       id="path4256"
+       d="m 82,-41 0,10"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       id="path4258"
+       d="m 62,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82,-36 10,0"
+       id="path4260" />
+  </g>
+  <g
+     transform="matrix(0.83333331,0.83333332,-0.83333331,0.83333332,228.33334,203.33333)"
+     id="g4262"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4264"
+       sodipodi:sides="3"
+       sodipodi:cx="75"
+       sodipodi:cy="-36"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 80,-36 -3.75,2.165064 -3.75,2.165063 0,-4.330127 0,-4.330127 3.75,2.165063 L 80,-36 z" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 82,-41 0,10"
+       id="path4266" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 62,-36 10,0"
+       id="path4268" />
+    <path
+       id="path4270"
+       d="m 82,-36 10,0"
+       style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <path
+     style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 310,15 90,15"
+     id="path4272"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <path
+     id="path4274"
+     d="M 310,45 90,45"
+     style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <path
+     id="path4276"
+     d="M 310,75 90,75"
+     style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <path
+     style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 310,105 90,105"
+     id="path4278"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <path
+     id="path4280"
+     d="M 310,135 90,135"
+     style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <path
+     style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 310,165 90,165"
+     id="path4282"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <path
+     style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 310,195 90,195"
+     id="path4284"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <path
+     id="path4286"
+     d="M 310,225 90,225"
+     style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <path
+     style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 125,40 0,220"
+     id="path4288"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <path
+     id="path4290"
+     d="m 155,40 0,220"
+     style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <path
+     id="path4292"
+     d="m 185,40 0,220"
+     style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <path
+     style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 215,40 0,220"
+     id="path4294"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <path
+     id="path4300"
+     d="m 245,40 0,220"
+     style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <path
+     style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 275,40 0,220"
+     id="path4302"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <path
+     style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 305,40 0,220"
+     id="path4304"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <path
+     id="path4306"
+     d="m 335,40 0,220"
+     style="fill:none;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4308"
+     width="2"
+     height="2"
+     x="124"
+     y="39"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="39"
+     x="154"
+     height="2"
+     width="2"
+     id="rect4310"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="39"
+     x="184"
+     height="2"
+     width="2"
+     id="rect4312"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4314"
+     width="2"
+     height="2"
+     x="214"
+     y="39"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="39"
+     x="244"
+     height="2"
+     width="2"
+     id="rect4316"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4318"
+     width="2"
+     height="2"
+     x="274"
+     y="39"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4320"
+     width="2"
+     height="2"
+     x="304"
+     y="39"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="39"
+     x="334"
+     height="2"
+     width="2"
+     id="rect4322"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="69"
+     x="124"
+     height="2"
+     width="2"
+     id="rect4324"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4326"
+     width="2"
+     height="2"
+     x="154"
+     y="69"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4328"
+     width="2"
+     height="2"
+     x="184"
+     y="69"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="69"
+     x="214"
+     height="2"
+     width="2"
+     id="rect4330"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4332"
+     width="2"
+     height="2"
+     x="244"
+     y="69"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="69"
+     x="274"
+     height="2"
+     width="2"
+     id="rect4334"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="69"
+     x="304"
+     height="2"
+     width="2"
+     id="rect4336"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4338"
+     width="2"
+     height="2"
+     x="334"
+     y="69"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4340"
+     width="2"
+     height="2"
+     x="124"
+     y="99"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="99"
+     x="154"
+     height="2"
+     width="2"
+     id="rect4342"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="99"
+     x="184"
+     height="2"
+     width="2"
+     id="rect4344"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4346"
+     width="2"
+     height="2"
+     x="214"
+     y="99"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="99"
+     x="244"
+     height="2"
+     width="2"
+     id="rect4348"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4350"
+     width="2"
+     height="2"
+     x="274"
+     y="99"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4352"
+     width="2"
+     height="2"
+     x="304"
+     y="99"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="99"
+     x="334"
+     height="2"
+     width="2"
+     id="rect4354"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="129"
+     x="124"
+     height="2"
+     width="2"
+     id="rect4356"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4358"
+     width="2"
+     height="2"
+     x="154"
+     y="129"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4360"
+     width="2"
+     height="2"
+     x="184"
+     y="129"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="129"
+     x="214"
+     height="2"
+     width="2"
+     id="rect4362"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4364"
+     width="2"
+     height="2"
+     x="244"
+     y="129"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="129"
+     x="274"
+     height="2"
+     width="2"
+     id="rect4366"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="129"
+     x="304"
+     height="2"
+     width="2"
+     id="rect4368"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4370"
+     width="2"
+     height="2"
+     x="334"
+     y="129"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4372"
+     width="2"
+     height="2"
+     x="124"
+     y="159"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="159"
+     x="154"
+     height="2"
+     width="2"
+     id="rect4374"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="159"
+     x="184"
+     height="2"
+     width="2"
+     id="rect4376"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4378"
+     width="2"
+     height="2"
+     x="214"
+     y="159"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="159"
+     x="244"
+     height="2"
+     width="2"
+     id="rect4380"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4382"
+     width="2"
+     height="2"
+     x="274"
+     y="159"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4384"
+     width="2"
+     height="2"
+     x="304"
+     y="159"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="159"
+     x="334"
+     height="2"
+     width="2"
+     id="rect4386"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="189"
+     x="124"
+     height="2"
+     width="2"
+     id="rect4388"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4390"
+     width="2"
+     height="2"
+     x="154"
+     y="189"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4392"
+     width="2"
+     height="2"
+     x="184"
+     y="189"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="189"
+     x="214"
+     height="2"
+     width="2"
+     id="rect4394"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4396"
+     width="2"
+     height="2"
+     x="244"
+     y="189"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="189"
+     x="274"
+     height="2"
+     width="2"
+     id="rect4398"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="189"
+     x="304"
+     height="2"
+     width="2"
+     id="rect4400"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4402"
+     width="2"
+     height="2"
+     x="334"
+     y="189"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4404"
+     width="2"
+     height="2"
+     x="124"
+     y="219"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="219"
+     x="154"
+     height="2"
+     width="2"
+     id="rect4406"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="219"
+     x="184"
+     height="2"
+     width="2"
+     id="rect4408"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4410"
+     width="2"
+     height="2"
+     x="214"
+     y="219"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="219"
+     x="244"
+     height="2"
+     width="2"
+     id="rect4412"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4414"
+     width="2"
+     height="2"
+     x="274"
+     y="219"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4416"
+     width="2"
+     height="2"
+     x="304"
+     y="219"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="219"
+     x="334"
+     height="2"
+     width="2"
+     id="rect4418"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="249"
+     x="124"
+     height="2"
+     width="2"
+     id="rect4420"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4422"
+     width="2"
+     height="2"
+     x="154"
+     y="249"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4424"
+     width="2"
+     height="2"
+     x="184"
+     y="249"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="249"
+     x="214"
+     height="2"
+     width="2"
+     id="rect4426"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4428"
+     width="2"
+     height="2"
+     x="244"
+     y="249"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="249"
+     x="274"
+     height="2"
+     width="2"
+     id="rect4430"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     y="249"
+     x="304"
+     height="2"
+     width="2"
+     id="rect4432"
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <rect
+     style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+     id="rect4434"
+     width="2"
+     height="2"
+     x="334"
+     y="249"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999" />
+  <g
+     id="g4458"
+     transform="translate(10,36)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4442"
+       width="2"
+       height="2"
+       x="89"
+       y="-22" />
+    <rect
+       y="-22"
+       x="119"
+       height="2"
+       width="2"
+       id="rect4444"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       y="-22"
+       x="149"
+       height="2"
+       width="2"
+       id="rect4446"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4448"
+       width="2"
+       height="2"
+       x="179"
+       y="-22" />
+    <rect
+       y="-22"
+       x="209"
+       height="2"
+       width="2"
+       id="rect4450"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4452"
+       width="2"
+       height="2"
+       x="239"
+       y="-22" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4454"
+       width="2"
+       height="2"
+       x="269"
+       y="-22" />
+    <rect
+       y="-22"
+       x="299"
+       height="2"
+       width="2"
+       id="rect4456"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+  </g>
+  <g
+     transform="translate(10,66)"
+     id="g4468"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <rect
+       y="-22"
+       x="89"
+       height="2"
+       width="2"
+       id="rect4470"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4472"
+       width="2"
+       height="2"
+       x="119"
+       y="-22" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4474"
+       width="2"
+       height="2"
+       x="149"
+       y="-22" />
+    <rect
+       y="-22"
+       x="179"
+       height="2"
+       width="2"
+       id="rect4476"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4478"
+       width="2"
+       height="2"
+       x="209"
+       y="-22" />
+    <rect
+       y="-22"
+       x="239"
+       height="2"
+       width="2"
+       id="rect4480"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       y="-22"
+       x="269"
+       height="2"
+       width="2"
+       id="rect4482"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4484"
+       width="2"
+       height="2"
+       x="299"
+       y="-22" />
+  </g>
+  <g
+     transform="translate(10,96)"
+     id="g4486"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <rect
+       y="-22"
+       x="89"
+       height="2"
+       width="2"
+       id="rect4488"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4490"
+       width="2"
+       height="2"
+       x="119"
+       y="-22" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4492"
+       width="2"
+       height="2"
+       x="149"
+       y="-22" />
+    <rect
+       y="-22"
+       x="179"
+       height="2"
+       width="2"
+       id="rect4494"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4496"
+       width="2"
+       height="2"
+       x="209"
+       y="-22" />
+    <rect
+       y="-22"
+       x="239"
+       height="2"
+       width="2"
+       id="rect4498"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       y="-22"
+       x="269"
+       height="2"
+       width="2"
+       id="rect4500"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4502"
+       width="2"
+       height="2"
+       x="299"
+       y="-22" />
+  </g>
+  <g
+     id="g4504"
+     transform="translate(10,126)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4506"
+       width="2"
+       height="2"
+       x="89"
+       y="-22" />
+    <rect
+       y="-22"
+       x="119"
+       height="2"
+       width="2"
+       id="rect4508"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       y="-22"
+       x="149"
+       height="2"
+       width="2"
+       id="rect4510"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4512"
+       width="2"
+       height="2"
+       x="179"
+       y="-22" />
+    <rect
+       y="-22"
+       x="209"
+       height="2"
+       width="2"
+       id="rect4514"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4516"
+       width="2"
+       height="2"
+       x="239"
+       y="-22" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4518"
+       width="2"
+       height="2"
+       x="269"
+       y="-22" />
+    <rect
+       y="-22"
+       x="299"
+       height="2"
+       width="2"
+       id="rect4520"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+  </g>
+  <g
+     transform="translate(10,156)"
+     id="g4522"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <rect
+       y="-22"
+       x="89"
+       height="2"
+       width="2"
+       id="rect4524"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4526"
+       width="2"
+       height="2"
+       x="119"
+       y="-22" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4528"
+       width="2"
+       height="2"
+       x="149"
+       y="-22" />
+    <rect
+       y="-22"
+       x="179"
+       height="2"
+       width="2"
+       id="rect4530"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4532"
+       width="2"
+       height="2"
+       x="209"
+       y="-22" />
+    <rect
+       y="-22"
+       x="239"
+       height="2"
+       width="2"
+       id="rect4534"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       y="-22"
+       x="269"
+       height="2"
+       width="2"
+       id="rect4536"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4538"
+       width="2"
+       height="2"
+       x="299"
+       y="-22" />
+  </g>
+  <g
+     id="g4540"
+     transform="translate(10,186)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4542"
+       width="2"
+       height="2"
+       x="89"
+       y="-22" />
+    <rect
+       y="-22"
+       x="119"
+       height="2"
+       width="2"
+       id="rect4544"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       y="-22"
+       x="149"
+       height="2"
+       width="2"
+       id="rect4546"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4548"
+       width="2"
+       height="2"
+       x="179"
+       y="-22" />
+    <rect
+       y="-22"
+       x="209"
+       height="2"
+       width="2"
+       id="rect4550"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4552"
+       width="2"
+       height="2"
+       x="239"
+       y="-22" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4554"
+       width="2"
+       height="2"
+       x="269"
+       y="-22" />
+    <rect
+       y="-22"
+       x="299"
+       height="2"
+       width="2"
+       id="rect4556"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+  </g>
+  <g
+     id="g4558"
+     transform="translate(10,216)"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4560"
+       width="2"
+       height="2"
+       x="89"
+       y="-22" />
+    <rect
+       y="-22"
+       x="119"
+       height="2"
+       width="2"
+       id="rect4562"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       y="-22"
+       x="149"
+       height="2"
+       width="2"
+       id="rect4564"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4566"
+       width="2"
+       height="2"
+       x="179"
+       y="-22" />
+    <rect
+       y="-22"
+       x="209"
+       height="2"
+       width="2"
+       id="rect4568"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4570"
+       width="2"
+       height="2"
+       x="239"
+       y="-22" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4572"
+       width="2"
+       height="2"
+       x="269"
+       y="-22" />
+    <rect
+       y="-22"
+       x="299"
+       height="2"
+       width="2"
+       id="rect4574"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+  </g>
+  <g
+     transform="translate(10,246)"
+     id="g4576"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999">
+    <rect
+       y="-22"
+       x="89"
+       height="2"
+       width="2"
+       id="rect4578"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4580"
+       width="2"
+       height="2"
+       x="119"
+       y="-22" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4582"
+       width="2"
+       height="2"
+       x="149"
+       y="-22" />
+    <rect
+       y="-22"
+       x="179"
+       height="2"
+       width="2"
+       id="rect4584"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4586"
+       width="2"
+       height="2"
+       x="209"
+       y="-22" />
+    <rect
+       y="-22"
+       x="239"
+       height="2"
+       width="2"
+       id="rect4588"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       y="-22"
+       x="269"
+       height="2"
+       width="2"
+       id="rect4590"
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-opacity:1"
+       id="rect4592"
+       width="2"
+       height="2"
+       x="299"
+       y="-22" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="70"
+     y="230"
+     id="text4594"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999"><tspan
+       sodipodi:role="line"
+       id="tspan4596"
+       x="70"
+       y="230"
+       style="font-size:14px">F0</tspan></text>
+  <text
+     id="text4598"
+     y="200"
+     x="70"
+     style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     xml:space="preserve"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999"><tspan
+       style="font-size:14px"
+       y="200"
+       x="70"
+       id="tspan4600"
+       sodipodi:role="line">F1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="70"
+     y="170"
+     id="text4602"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999"><tspan
+       sodipodi:role="line"
+       id="tspan4604"
+       x="70"
+       y="170"
+       style="font-size:14px">F2</tspan></text>
+  <text
+     id="text4606"
+     y="140"
+     x="70"
+     style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     xml:space="preserve"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999"><tspan
+       style="font-size:14px"
+       y="140"
+       x="70"
+       id="tspan4608"
+       sodipodi:role="line">F3</tspan></text>
+  <text
+     id="text4610"
+     y="110"
+     x="70"
+     style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     xml:space="preserve"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999"><tspan
+       style="font-size:14px"
+       y="110"
+       x="70"
+       id="tspan4612"
+       sodipodi:role="line">F4</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="70"
+     y="80"
+     id="text4614"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999"><tspan
+       sodipodi:role="line"
+       id="tspan4616"
+       x="70"
+       y="80"
+       style="font-size:14px">F5</tspan></text>
+  <text
+     id="text4618"
+     y="50"
+     x="70"
+     style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     xml:space="preserve"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999"><tspan
+       style="font-size:14px"
+       y="50"
+       x="70"
+       id="tspan4620"
+       sodipodi:role="line">F6</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="70"
+     y="20"
+     id="text4622"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999"><tspan
+       sodipodi:role="line"
+       id="tspan4624"
+       x="70"
+       y="20"
+       style="font-size:14px">F7</tspan></text>
+  <text
+     id="text4626"
+     y="274"
+     x="116"
+     style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     xml:space="preserve"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999"><tspan
+       style="font-size:14px"
+       y="274"
+       x="116"
+       id="tspan4628"
+       sodipodi:role="line">C0</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="146"
+     y="274"
+     id="text4634"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999"><tspan
+       sodipodi:role="line"
+       id="tspan4636"
+       x="146"
+       y="274"
+       style="font-size:14px">C1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="176"
+     y="274"
+     id="text4638"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999"><tspan
+       sodipodi:role="line"
+       id="tspan4640"
+       x="176"
+       y="274"
+       style="font-size:14px">C2</tspan></text>
+  <text
+     id="text4642"
+     y="274"
+     x="206"
+     style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     xml:space="preserve"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999"><tspan
+       style="font-size:14px"
+       y="274"
+       x="206"
+       id="tspan4644"
+       sodipodi:role="line">C3</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="236"
+     y="274"
+     id="text4646"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999"><tspan
+       sodipodi:role="line"
+       id="tspan4648"
+       x="236"
+       y="274"
+       style="font-size:14px">C4</tspan></text>
+  <text
+     id="text4650"
+     y="274"
+     x="266"
+     style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     xml:space="preserve"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999"><tspan
+       style="font-size:14px"
+       y="274"
+       x="266"
+       id="tspan4652"
+       sodipodi:role="line">C5</tspan></text>
+  <text
+     id="text4654"
+     y="274"
+     x="296"
+     style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     xml:space="preserve"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999"><tspan
+       style="font-size:14px"
+       y="274"
+       x="296"
+       id="tspan4656"
+       sodipodi:role="line">C6</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="326"
+     y="274"
+     id="text4658"
+     inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/esq_matriz.png"
+     inkscape:export-xdpi="264.57999"
+     inkscape:export-ydpi="264.57999"><tspan
+       sodipodi:role="line"
+       id="tspan4660"
+       x="326"
+       y="274"
+       style="font-size:14px">C7</tspan></text>
+</svg>

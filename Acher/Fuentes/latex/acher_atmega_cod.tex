@@ -1,0 +1,194 @@
+\subsubsection{acher\_main.c}
+
+\begin{itemize}
+\item{\textbf{Librerías y cabeceras}:
+  \lstinputlisting[lastline=9]{acher_main.c}
+
+  En primer lugar se han cargado las librerías necesarias para reconocer funciones y variables específicas.
+  \begin{itemize}
+    \item{\textbf{io.h}: reconoce el modelo de microcontrolador y permite utilizar nombres de registros específicos.}
+    \item{\textbf{interrupt.h}: reconoce el sistema de interrupciones, declara funciones y vectores de interrupción específicos.}
+    \item{\textbf{pgmspace.h}: declara funciones para permitir la declaración de constantes y variables en zonas de memoria concretas.}
+    \item{\textbf{ina90.h}: declara las funciones específicas, entre ellas \_SLEEP() para entrar en modos de bajo consumo.}
+    \item{\textbf{delay.h}: declara funciones para generar retardos mediante ticks.}
+    \item{\textbf{acher\_main.h}: declara todas las variables y prototipos de funciones a utilizar.}
+    \item{\textbf{acher\_config.c}: se definen las funciones y rutinas de inicialización y configuración.}
+  \end{itemize}
+}
+
+\item{\textbf{Cuerpo del programa}:
+  \lstinputlisting[firstnumber=last,firstline=10,lastline=19]{acher_main.c}
+
+  La ejecución del programa sólo llama la rutina de configuración, \textit{config()} y entra continuamente en modo de bajo consumo. Sólo ``despierta'' para atender a las interrupciones. Después, vuelve a ``dormir''.
+}
+
+\item{\textbf{Rutina de tratamiento de la interrupción por recepción de la USART}:
+  \lstinputlisting[firstnumber=last,firstline=20,lastline=25]{acher_main.c}
+
+  Comprueba si hay espacio libre, si lo hay guarda el dato. Si el dato es una orden de borrado, reinicia el índice y desactiva las interrupciones de los temporizadores. Paso a Paso:
+  \begin{itemize}
+     \item{Si el índice de próximo carácter a escribir (\textit{show\_lim}) es menor que el máximo reservado (\textit{CHAR\_NUM}), es decir, si hay sitio libre en \textit{char\_ram}, guarda el dato recibido en el registro al que apunta \textit{show\_lim} dentro de \textit{char\_ram} e incrementa el índice.}
+     \item{Si el dato recibido es el declarado como \textit{BORRAR}, se reinicia el índice.}
+     \item{Mientras el índice sea cero, cuando la ram esté vacía, se desactivan las interrupciones de los Timers.}
+  \end{itemize}
+}
+
+\item{\textbf{Rutina de tratamiento de la interrupción por comparación del Timer0}:
+  \lstinputlisting[firstnumber=last,firstline=26,lastline=40]{acher_main.c}
+
+  Carga el contenido a mostrar para cada fila y mantiene activa la fila hasta la siguiente interrupción. Paso a paso:
+  \begin{itemize}
+    \item{Desactiva todas las filas.}
+    \item{Si el índice es igual a la última fila, se reinicia. Si no, se incrementa.}
+    \item{Carga en la máscara \textit{line\_shadow} el índice de la fila a mostrar.}
+    \item{Envía al registro de desplazamiento el bit indicado por la máscara de cada columna almacenada en el buffer (\textit{leds[ ]}).}
+    \item{Activa la fila.}
+  \end{itemize}
+}
+
+\item{\textbf{Rutina de tratamiento de la interrupción por comparación del Timer1}:
+  \lstinputlisting[firstnumber=last,firstline=41,lastline=55]{acher_main.c}
+
+  Modifica el contenido del buffer de acuerdo con la información presente en \textit{char\_ram}. Paso a paso:
+  \begin{itemize}
+    \item{Desplaza todas las columnas almacenadas en el buffer (\textit{leds[ ]}) una posición a la izquierda.}
+    \item{Si el índice de columna se sale de rango (es uno más que la última columna del carácter) se escribe null en la última columna del buffer, se reinicia el índice, y se incrementa el índice de carácter. Además, si el índice de carácter se sale de rango (apunta al primer carácter vacío de la ram) se reinicia.}
+    \item{Si no hay problemas de rango, escribe la columna de \textit{CHAR\_ROM} a la que apunta \textit{show\_col} dentro del carácter al que apunta \textit{show\_char} dentro de \textit{char\_ram}.}
+  \end{itemize}
+}
+
+\item{\textbf{Rutina de envío de dato al registro de desplazamiento}:
+  \lstinputlisting[firstnumber=last,firstline=56,lastline=68]{acher_main.c}
+
+  Envía el bit recibido al registro de desplazamiento activando convenientemente la señal de reloj. Paso a paso:
+  \begin{itemize}
+     \item{Desactiva la señal de reloj.}
+     \item{Si el dato recibido es diferente de cero, carga un cero en la línea de dato. Si es cero, carga un uno\footnote{Por el diseño realizado en el apartado \ref{subsubsec:muestra}, para activar un LED de la matriz la salida correspondiente del registro de desplazamiento debe estar a nivel bajo. Por lo tanto, en lo que al registro respecta, estamos trabajando con lógica negativa. De ahí que invirtamos el significado del dato recibido.}.}
+     \item{Desactiva las interrupciones.}
+     \item{Espera 1$\mu$s\footnote{De no hacerlo, no podríamos garantizar el correcto funcionamiento del registro de desplazamiento, pues en la hoja de características\cite{164} se especifica el tiempo mínimo que debe durar una transición en la línea de reloj.}.}
+     \item{Activa la señal de reloj, cargando el dato en el registro de desplazamiento.}
+     \item{Espera 1$\mu$s.}
+     \item{Activa las interrupciones.}
+   \end{itemize}
+}
+
+\item{\textbf{Función de escritura en los contactos conectados a las filas de la matriz}:
+  \lstinputlisting[firstnumber=last,firstline=69]{acher_main.c}
+
+  Escribe el valor correspondiente a cada contacto en los puertos y bits adecuados en función de las conexiones realizadas.
+}
+\end{itemize}
+
+\subsubsection{acher\_config.c}
+
+\begin{itemize}
+\item{\textbf{Rutina de configuración e inicialización}:
+  \lstinputlisting[lastline=13]{acher_config.c}
+
+Llama a todas las subrutinas de configuración e inicialización, configura el modo de bajo consumo y activa las interrupciones. Se desactivan ADC, Timer2 y TWI durante el tiempo en que esté ``dormido''.
+}
+
+\item{\textbf{Configuración de los puertos}:
+  \lstinputlisting[firstnumber=last,firstline=14,lastline=22]{acher_config.c}
+
+  \begin{itemize}
+    \item{Bits \textit{SHIFT\_DATA} y \textit{SHIFT\_CLK} del puerto B como salida.}
+    \item{Las salidas del puerto B desactivadas.}
+    \item{Todo el puerto C como salida.}
+    \item{Todo el puerto C activado\footnote{Como el diseño se ha realizado con transistores PNP, éstos conducen cuando la tensión en base es nula. Activamos las salidas para que los transistores estén en corte.}.}
+    \item{Bits 2 y 3 del puerto D como salida.}
+    \item{Las salidas del puerto D activadas.}
+  \end{itemize}
+}
+
+\item{\textbf{Inicialización de las variables}:
+  \lstinputlisting[firstnumber=last,firstline=23,lastline=34]{acher_config.c}
+
+  \begin{itemize}
+  \item{Borra los índices de columna, de carácter y de ram, además de la máscara de filas.}
+  \item{Borra todo el buffer y carga unos en el registro de desplazamiento.}
+  \item{Borra toda la ram.}
+  \item{El índice de fila apunta a la última, para reiniciarse en la primera interrupción.}
+  \end{itemize}
+}
+
+\item{\textbf{Configuración de los Timers}:
+  \lstinputlisting[firstnumber=last,firstline=35,lastline=54]{acher_config.c}
+
+  \begin{itemize}
+    \item{Borra el contador de los Timers 0 y 1.}
+    \item{Define los límites de comparación para el Timer 0 (\textit{LINE\_LIMIT}) y el Timer 1 (\textit{COLUMN\_LIMIT}).}
+    \item{Configura el modo y el prescaler para los Timers 0 y 1 (CTC, $clk_{I/O}$/1024).}
+    \item{Limpia todos los flags de los Timers 0 y 1 (compA, compB, OV).}
+    \item{Llama a la función \textit{timer\_int()} para activar las interrupciones de los Timers 0 y 1.}
+  \end{itemize}
+}
+
+\item{\textbf{Configuración de la USART}:
+  \lstinputlisting[firstnumber=last,firstline=55,lastline=65]{acher_config.c}
+
+   Carga el valor calculado para un velocidad de 19200 baudios y configura el periférico para trabajar en modo asíncrono normal con 1 bit start, 8 bits data, no paridad y 1 bit stop. Limpia los flags de recepción y transmisión y habilita la recepción y la interrupción asociada. Deshabilita la transmisión.
+}
+
+\item{\textbf{Des/activación de las interrupciones de los Timers 0 y 1}:
+  \lstinputlisting[firstnumber=last,firstline=66]{acher_config.c}
+
+  Si el dato recibido como argumento es cero, se desactivan las interrupciones de los Timers 0 y 1. Si es diferente de cero, se activan.
+}
+\end{itemize}
+
+\subsubsection{acher\_main.h}
+
+\begin{itemize}
+\item{\textbf{Definición de constantes}:
+  \lstinputlisting[lastline=18]{acher_main.h}
+
+  Se definen:
+  \begin{itemize}
+    \item{LINES: número de líneas de la matriz.}
+    \item{COLUMNS: número de columnas de la matriz.}
+    \item{CHAR\_NUM: capacidad de la ram.}
+    \item{CHAR\_WIDTH: anchura de cada carácter (en columnas).}
+    \item{BORRAR: código de borrado para la USART.}
+    \item{SHIFT: puerto al que está conectado el registro de desplazamiento.}
+    \item{SHIFT\_DATA: bit del puerto \textit{SHIFT} al que está conectado la entrada de dato del registro de desplazamiento.}
+    \item{SHIFT\_CLK: bit del puerto\textit{SHIFT} al que está conectado la entrada de reloj del registro de desplazamiento.}
+    \item{FREC: frecuencia de la señal de reloj, a utilizar para calcular el valor para la velocidad de transmisión y para las funciones de delay.}
+    \item{BAUDRATE: velocidad de transmisión deseada (en baudios).}
+    \item{UBR\_VAL: valor que debemos escribir en el registro de la USART para obtener una velocidad \textit{BAUDRATE} con una frecuencia \textit{FREC}.}
+  \end{itemize}
+}
+
+\item{\textbf{Declaración de los prototipos de las funciones}:
+  \lstinputlisting[firstnumber=last,firstline=19,lastline=28]{acher_main.h}
+
+  Se declaran:
+  \begin{itemize}
+     \item{config(): rutina de inicialización y configuración.}
+     \item{conf\_ports(): rutina de configuración e inicialización de puertos.}
+     \item{conf\_variables(): rutina de inicialización de variables.}
+     \item{conf\_timers(): rutina de configuración de los Timers 0 y 1.}
+     \item{con\_serial(): rutina de configuración de la USART.}
+     \item{shiftr\_write(): función para escribir un bit en el registro de desplazamiento.}
+     \item{line\_write(): función para escribir en las salidas conectadas a las filas de la matriz.}
+     \item{timer\_int(): función para des/activar las interrupciones de los Timers 0 y 1.}
+  \end{itemize}
+}
+
+\item{\textbf{Declaración de variables}:
+  \lstinputlisting[firstnumber=last,firstline=29,lastline=34]{acher_main.h}
+
+  Se declaran:
+  \begin{itemize}
+    \item{show\_col: índice de columna dentro del carácter que se está cargando en el buffer.}
+    \item{show\_char: índice de carácter dentro de la ram que se está cargando en el buffer.}
+    \item{show\_lim: índice que apunta al próximo espacio libre en la ram.}
+    \item{char\_ram[ ]: ram donde se almacenan los caracteres recibidos a través de la USART.}
+    \item{leds[ ]: buffer donde se almacena el contenido que está mostrándose.}
+    \item{line\_shadow: máscara para gestión de las filas.}
+    \item{l: índice que apunta a la fila activa}
+    \item{CHAR\_ROM[ ]: juego de caracteres almacenado en la zona de programa de la memoria del microcontrolador.}
+  \end{itemize}
+}
+
+\end{itemize}

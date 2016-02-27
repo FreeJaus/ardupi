@@ -1,0 +1,62 @@
+\section{Sobre Acher}
+
+El objetivo de este proyecto es diseñar y construir un sistema para el control de carteles de texto formados por matrices de LEDs de forma dinámica y gestionar a través de un ordenador la información que en ellas se muestra. Lo que en un principio surgió como un reto personal, se ha enmarcado en el contexto de un trabajo monográfico para la asignatura \href{http://www.industria-ingeniaritza-tekniko-bilbao.ehu.es/p229-content/es/contenidos/informacion/euiti_bi_iti_electronica/es_oferta/adjuntos/19797.pdf}{Empleo del Ordenador Personal en la Instrumentación de Panel}, impartida en la \href{http://www.industria-ingeniaritza-tekniko-bilbao.ehu.es/}{Escuela Universitaria de Ingeniería Técnica Industrial de Bilbao}, centro perteneciente a la \href{http://ehu.es/}{Universidad del País Vasco / Euskal Herriko Unibertsitatea}.
+
+El proyecto se ha estructurado en tres partes claramente diferenciadas: adquisición, transmisión y muestra de información. Todas ellas son en realidad independientes y podrían ser sustituidas por otras de idéntica funcionalidad, sin que el funcionamiento de las otras se viera afectado. Por ello, analizaremos cada una de las partes por separado, obviando la existencia del resto, aunque especificando las condiciones necesarias para que el proyecto funcione al unirlas. 
+
+\subsection{Wishlist}
+
+A continuación se listan aquellas funcionalidades que por falta de tiempo no se han implementado en esta revisión:
+
+\begin{itemize}
+  \item{Completar el contenido de CHAR\_ROM para la totalidad de los caracteres ASCII (ahora sólo están las mayúsculas y algunos caracteres sueltos).}
+  \item{Diseñar uno o varios PCBs para la fabricación de un sistema real, y no sólo el prototipo.}
+  \item{Diseñar e implementar la lógica necesaria para permitir la programación en circuito, evitando así la necesidad de un programador externo.}
+  \item{Averiguar cómo trabajar con rutas y referencias relativas en LabVIEW (variables del tipo \$self o \$thispath).}
+  \item{Ofrecer al usuario la opción de ver en la propia aplicación lo que debería mostrarse en la matriz de LEDs.}
+  \item{Implementar órdenes mediante sentencias de escape para que el usuario pueda seleccionar diferentes formas de visualización en la matriz. Para lo cual también es necesario programar diferentes rutinas, a atender por la interrupción de columna, en el microcontrolador.}
+  \item{Implementar órdenes mediante sentencias de escape para que el usuario pueda seleccionar la velocidad de desplazamiento del texto.}
+  \item{Probar diferentes programas libres y multiplataforma, tanto para el desarrollo de la aplicación de usuario final como para el desarrollo y depurado del programa del microcontrolador.}
+\end{itemize}
+  
+Se espera puedan ser añadidas en un futuro por el propio desarrollador o por terceras personas, en virtud de la licencia utilizada para la distribución del proyecto y del código fuente.
+
+\subsection{Atribuciones y agradecimientos}
+
+Para la programación del microcontrolador utilizado en el proyecto y para el diseño del circuito electrónico se ha utilizado como referencia el artículo \textit{Funcionamiento de una matriz de LEDS}\cite{ucontrol_leds} publicado por Ariel Palazzesi en la revista electrónica uControl.
+
+\textit{LabVIEW}\cite{labview} es el nombre de un producto de la empresa \textit{National Instruments Corporation}\cite{ni}. Todas las figuras de la sección \hyperref[sec:adquisicion]{Adquisición} se han obtenido de \textit{LabVIEW} o de la ejecución de programas desarrollados con \textit{LabVIEW}.
+
+El desarrollador quiere y debe agradecer el inestimable apoyo de Iñigo Oleagordia, profesor en la EUITI de Bilbao (UPV/EHU), al haber facilitado todos los recursos, tanto materiales como bibliográficos, solicitados.
+
+Toda la documentación del programa (este documento), a excepción de aquellas figuras capturadas directamente de \textit{LabVIEW}, se ha creado y modificado con software libre. A continuación se citan los programas utilizados:
+
+\begin{itemize}
+  \item{LaTeX}
+  \item{Gedit}
+  \item{Notepad++}
+  \item{Inkscape}
+  \item{Dia}
+  \item{Gimp}
+  \item{Qucs}
+  \item{KiCAD}
+\end{itemize}
+  
+\subsection{Licencia}
+
+\begin{center}
+ \includegraphics[width=200pt]{./images/ccby.png}
+\end{center}
+
+Este documento, a excepción hecha del código fuente, se distribuye bajo licencia Creative Commons By 3.0 (CC-by-3.0). Están permitidas la copia, distribución, y comunicación pública de la obra, así como su modificación y adaptación, siempre y cuando se reconozca la autoría mencionando a Unai Martínez Corral (pero no de una manera que sugiera que tiene su apoyo o apoya el uso que hace de su obra).
+
+El \href{http://creativecommons.org/licenses/by/3.0/legalcode}{texto legal} completo está disponible en la página de la organización \href{http://creativecommons.org}{Creative Commons}:
+\begin{center}http://creativecommons.org/licenses/by/3.0/legalcode\end{center}
+
+\vspace{1cm}
+
+\begin{center}
+ \includegraphics[width=100pt]{./images/gpl.png}
+\end{center}
+
+El código fuente del programa se distribuye bajo licencia GPL, tal como lo indican las cabeceras de los ficheros que lo contienen. En el fichero LICENSE.txt puede encontrarse el texto legal completo. También está disponible en la página del \href{http://www.gnu.org}{proyecto GNU}.

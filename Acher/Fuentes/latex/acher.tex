@@ -1,0 +1,144 @@
+\documentclass[a4paper,titlepage,10pt,oneside]{article}
+
+\usepackage[utf8]{inputenc} % Para poder escribir acentos directamente
+\usepackage[spanish]{babel} % Para que el LaTeX sepa que el texto está en español y divida las sílabas al final de una línea correctamente, entre otras cosas
+\usepackage[left=3cm, right=3cm, top=3cm, bottom=3cm]{geometry} % Para ajustar los márgenes, ya que por defecto son mayores
+\usepackage{graphicx} % Para insertar imágenes
+\usepackage[numbers]{natbib}
+\usepackage[nottoc,notlot,notlof,numbib]{tocbibind}
+\usepackage[font=scriptsize,format=plain,labelfont=bf,textfont=it,justification=centerlast]{caption}
+\usepackage{listings}
+\lstset{language=[ANSI]C, basicstyle=\scriptsize\ttfamily, keywordstyle=\color{Bittersweet}, commentstyle=\color{white}}
+\lstset{numbers=left, numberstyle=\tiny, numbersep=5pt}
+
+\usepackage{fancyhdr} % Para definir encabezados y pies de página personalizados
+\pagestyle{fancy}
+\fancyhead[L]{EUITI de Bilbao \\ Universidad del País Vasco} % Páginas pares e impares, alineado a la izquierda en la cabecera
+\fancyhead[R]{Unai Martinez Corral \\ umartinez012@ikasle.ehu.es} % Páginas pares e impares, alineado a la derecha en la cabecera
+\fancyfoot[C]{\thepage} % Páginas pares e impares, centrado en el pie
+\fancyfoot[L]{Acher - Trabajo monográfico} % Páginas pares e impares, alineado a la izquierda en el pie
+\fancyfoot[R]{2010-2011} % Páginas pares e impares, alineado a la derecha en el pie
+
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[
+    bookmarks=true,
+    unicode=true,
+    pdftitle={Acher},
+    pdfsubject={Empleo del Ordenador Personal en la Instrumentacion de Panel},
+    pdfauthor={Unai Martinez Corral},
+    linktoc=all,
+    colorlinks=true,
+    linkcolor=Blue,
+    urlcolor=BlueViolet,
+    citecolor=Blue,
+    ]{hyperref}
+
+\renewcommand{\spanishtablename}{Tabla}
+\renewcommand{\spanishlisttablename}{Índice de tablas}
+
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\footnoterule}{\vspace*{15pt}
+  \noindent\rule{1cm}{0.4pt}\vspace*{2.6pt}}
+
+\parskip=2mm
+
+%--------------------------------------------------------------------------
+
+\title{
+\begin{center}
+ \includegraphics[width=400pt]{./images/acher_logo.png}
+\end{center}
+\vspace{2.5cm}
+\Huge{v0.1}
+\vspace{1cm}
+}
+
+\author{
+\LARGE{\textbf{Unai Martinez Corral}} \\
+\\
+\large{umartinez012@ikasle.ehu.es} \\
+\vspace{1cm} \\
+\large{\textbf{Empleo del Ordenador Personal en la Instrumentación de Panel}}\\
+\\
+\large{EUITI de Bilbao}
+\vspace{2.25cm}
+}
+
+\date{\LARGE{2010-2011}}
+
+%--------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle
+
+%--------------------------------------------------------------------------
+
+\tableofcontents
+
+\newpage
+
+\listoffigures
+
+\listoftables
+
+%--------------------------------------------------------------------------
+
+\newpage
+\input{acher_about.tex}
+
+\newpage
+\input{acher_labview.tex}
+
+\newpage
+\input{acher_serial.tex}
+
+\newpage
+\input{acher_atmega.tex}
+
+\newpage
+\input{acher_bib.tex}
+
+%--------------------------------------------------------------------------
+\fancyfoot[C]{}
+%--------------------------------------------------------------------------
+
+\newpage
+\begin{center}
+ \textcolor{White}{.} \\
+ \vspace{9cm}
+ \section*{\Huge{\textbf{\underline{Anexo A}}}}\label{anexoa}
+\end{center}
+
+\newpage
+  \textcolor{White}{.} \\
+  \vspace{3cm} \\
+  \includegraphics[width=400pt]{./images/acher_labview.png}
+
+%--------------------------------------------------------------------------
+
+\newpage
+\begin{center}
+ \textcolor{White}{.} \\
+ \vspace{9cm}
+ \section*{\Huge{\textbf{\underline{Anexo B}}}}\label{anexob}
+\end{center}
+
+\newpage
+  \includegraphics[angle=90,width=400pt]{./images/esq.png}
+
+%--------------------------------------------------------------------------
+
+\newpage
+\begin{center}
+ \textcolor{White}{.} \\
+ \vspace{9cm}
+ \section*{\Huge{\textbf{\underline{Anexo C}}}}\label{anexoc}
+\end{center}
+
+\newpage
+  \textcolor{White}{.} \\
+  \vspace{1.5cm} \\
+  \includegraphics[width=425pt]{./images/dia_flujo.png}
+
+\end{document}

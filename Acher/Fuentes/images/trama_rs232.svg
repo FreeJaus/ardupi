@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="trama_rs232.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.1">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective7" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.92748466"
+     inkscape:cx="452.91057"
+     inkscape:cy="1651.5934"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1680"
+     inkscape:window-height="973"
+     inkscape:window-x="1024"
+     inkscape:window-y="25"
+     showgrid="true"
+     showguides="false"
+     inkscape:snap-grids="true"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2813" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 100,-787.63782 60,0 0,60 60,0 0,-60 60,0 0,60 60,0 60,0 60,0 60,0 60,0 0,-60 60,0 0,60 60,0 60,0 0,-60 120,0"
+       id="path3589"
+       sodipodi:nodetypes="ccccccccccccccccccc"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="585.37372"
+       y="-339.19586"
+       id="text3591"
+       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17"><tspan
+         sodipodi:role="line"
+         id="tspan3593"
+         x="585.37372"
+         y="-339.19586"
+         style="font-size:24px">Start</tspan></text>
+    <text
+       id="text3595"
+       y="-667.63782"
+       x="428"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17"><tspan
+         style="font-size:30px"
+         y="-667.63782"
+         x="428"
+         id="tspan3597"
+         sodipodi:role="line">Data</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="961.82538"
+       y="44.714611"
+       id="text3599"
+       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17"><tspan
+         sodipodi:role="line"
+         id="tspan3601"
+         x="961.82538"
+         y="44.714611"
+         style="font-size:24px">Parity</tspan></text>
+    <text
+       id="text3603"
+       y="86.026581"
+       x="1013.4061"
+       style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17"><tspan
+         style="font-size:24px"
+         y="86.026581"
+         x="1013.4061"
+         id="tspan3605"
+         sodipodi:role="line">Stop</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 160,-807.63782 0,180"
+       id="path3607"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       id="path3609"
+       d="m 220,-807.63782 0,180"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 280,-807.63782 0,80"
+       id="path3611"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 340,-807.63782 0,80"
+       id="path3615"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       id="path3617"
+       d="m 400,-807.63782 0,80"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       id="path3621"
+       d="m 460,-807.63782 0,80"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 520,-807.63782 0,80"
+       id="path3623"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 580,-807.63782 0,80"
+       id="path3627"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 640,-807.63782 0,80"
+       id="path3629"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       id="path3631"
+       d="m 700,-807.63782 0,180"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       id="path3635"
+       d="m 760,-807.63782 0,180"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 820,-807.63782 0,180"
+       id="path3637"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 900,-787.63782 -820,0"
+       id="path3639"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       sodipodi:nodetypes="cc"
+       id="path3641"
+       d="m 900,-727.63782 -820,0"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="10"
+       y="-783.63782"
+       id="text3643"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17"><tspan
+         sodipodi:role="line"
+         id="tspan3645"
+         x="10"
+         y="-783.63782"
+         style="font-size:14px">1 lógico</tspan></text>
+    <text
+       id="text3647"
+       y="-723.63782"
+       x="10"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17"><tspan
+         style="font-size:14px"
+         y="-723.63782"
+         x="10"
+         id="tspan3649"
+         sodipodi:role="line">0 lógico</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 820,-637.63782 -660,0"
+       id="path3651"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3655"
+       sodipodi:sides="3"
+       sodipodi:cx="160"
+       sodipodi:cy="-637.63782"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 165,-637.63782 -3.75,2.16507 -3.75,2.16506 0,-4.33013 0,-4.33012 3.75,2.16506 3.75,2.16506 z"
+       transform="matrix(-0.64,0,0,-0.64,268.45,-1045.726)"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       transform="matrix(0.64,0,0,0.64,112.05,-229.54959)"
+       d="m 165,-637.63782 -3.75,2.16507 -3.75,2.16506 0,-4.33013 0,-4.33012 3.75,2.16506 3.75,2.16506 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-637.63782"
+       sodipodi:cx="160"
+       sodipodi:sides="3"
+       id="path3657"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       transform="matrix(-0.64,0,0,-0.64,328.45,-1045.726)"
+       d="m 165,-637.63782 -3.75,2.16507 -3.75,2.16506 0,-4.33013 0,-4.33012 3.75,2.16506 3.75,2.16506 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-637.63782"
+       sodipodi:cx="160"
+       sodipodi:sides="3"
+       id="path3659"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3661"
+       sodipodi:sides="3"
+       sodipodi:cx="160"
+       sodipodi:cy="-637.63782"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 165,-637.63782 -3.75,2.16507 -3.75,2.16506 0,-4.33013 0,-4.33012 3.75,2.16506 3.75,2.16506 z"
+       transform="matrix(0.64,0,0,0.64,592.05,-229.54959)"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3663"
+       sodipodi:sides="3"
+       sodipodi:cx="160"
+       sodipodi:cy="-637.63782"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 165,-637.63782 -3.75,2.16507 -3.75,2.16506 0,-4.33013 0,-4.33012 3.75,2.16506 3.75,2.16506 z"
+       transform="matrix(-0.64,0,0,-0.64,808.45,-1045.726)"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       transform="matrix(0.64,0,0,0.64,652.05,-229.54959)"
+       d="m 165,-637.63782 -3.75,2.16507 -3.75,2.16506 0,-4.33013 0,-4.33012 3.75,2.16506 3.75,2.16506 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-637.63782"
+       sodipodi:cx="160"
+       sodipodi:sides="3"
+       id="path3665"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       transform="matrix(-0.64,0,0,-0.64,868.45,-1045.726)"
+       d="m 165,-637.63782 -3.75,2.16507 -3.75,2.16506 0,-4.33013 0,-4.33012 3.75,2.16506 3.75,2.16506 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="2.5000002"
+       sodipodi:r1="5"
+       sodipodi:cy="-637.63782"
+       sodipodi:cx="160"
+       sodipodi:sides="3"
+       id="path3667"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="star"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3669"
+       sodipodi:sides="3"
+       sodipodi:cx="160"
+       sodipodi:cy="-637.63782"
+       sodipodi:r1="5"
+       sodipodi:r2="2.5000002"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 165,-637.63782 -3.75,2.16507 -3.75,2.16506 0,-4.33013 0,-4.33012 3.75,2.16506 3.75,2.16506 z"
+       transform="matrix(0.64,0,0,0.64,712.05,-229.54959)"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="181.13507"
+       y="-747.75397"
+       id="text3671"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17"><tspan
+         sodipodi:role="line"
+         id="tspan3673"
+         x="181.13507"
+         y="-747.75397"
+         style="font-size:25px">0</tspan></text>
+    <text
+       id="text3675"
+       y="-747.75397"
+       x="303.13507"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17"><tspan
+         style="font-size:25px"
+         y="-747.75397"
+         x="303.13507"
+         id="tspan3677"
+         sodipodi:role="line">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="363.13507"
+       y="-747.75397"
+       id="text3679"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17"><tspan
+         sodipodi:role="line"
+         id="tspan3681"
+         x="363.13507"
+         y="-747.75397"
+         style="font-size:25px">0</tspan></text>
+    <text
+       id="text3683"
+       y="-747.75397"
+       x="423.13507"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17"><tspan
+         style="font-size:25px"
+         y="-747.75397"
+         x="423.13507"
+         id="tspan3685"
+         sodipodi:role="line">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="483.13507"
+       y="-747.75397"
+       id="text3687"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17"><tspan
+         sodipodi:role="line"
+         id="tspan3689"
+         x="483.13507"
+         y="-747.75397"
+         style="font-size:25px">0</tspan></text>
+    <text
+       id="text3691"
+       y="-747.75397"
+       x="543.13507"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17"><tspan
+         style="font-size:25px"
+         y="-747.75397"
+         x="543.13507"
+         id="tspan3693"
+         sodipodi:role="line">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="661.13507"
+       y="-747.75397"
+       id="text3695"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17"><tspan
+         sodipodi:role="line"
+         id="tspan3697"
+         x="661.13507"
+         y="-747.75397"
+         style="font-size:25px">0</tspan></text>
+    <text
+       id="text3699"
+       y="-747.75397"
+       x="723.13507"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17"><tspan
+         style="font-size:25px"
+         y="-747.75397"
+         x="723.13507"
+         id="tspan3701"
+         sodipodi:role="line">0</tspan></text>
+    <text
+       id="text3703"
+       y="-747.75397"
+       x="243.13507"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17"><tspan
+         style="font-size:25px"
+         y="-747.75397"
+         x="243.13507"
+         id="tspan3705"
+         sodipodi:role="line">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="603.13507"
+       y="-747.75397"
+       id="text3707"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17"><tspan
+         sodipodi:role="line"
+         id="tspan3709"
+         x="603.13507"
+         y="-747.75397"
+         style="font-size:25px">1</tspan></text>
+    <text
+       id="text3711"
+       y="-747.75397"
+       x="783.13507"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/opositivo/Mahaigaina/eop_monografico/images/trama_rs232.png"
+       inkscape:export-xdpi="101.17"
+       inkscape:export-ydpi="101.17"><tspan
+         style="font-size:25px"
+         y="-747.75397"
+         x="783.13507"
+         id="tspan3713"
+         sodipodi:role="line">1</tspan></text>
+  </g>
+</svg>
