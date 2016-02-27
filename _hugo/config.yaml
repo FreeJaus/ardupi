@@ -1,7 +1,7 @@
 publishdir: "../public"
 title: "FreeJaus - Ardupi"
 baseurl: "http://freejaus.github.io/ardupi/"
-canonifyurls: false
+canonifyurls: true
 
 params:
   brand: "ArduPi"
