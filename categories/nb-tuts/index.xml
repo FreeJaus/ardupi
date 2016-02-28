@@ -14,7 +14,25 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>http://freejaus.github.io/ardupi/notebook/tuts/com/</guid>
-      <description></description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;¿Qué es una antena?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=y1Bke3750WE&#34;&gt;Arduino EMF Detector&lt;/a&gt;, para entender el efecto de la radiación electromagnética en un cable suelto.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;315/433MHz&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;nRF24L01&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;HC-05, HC-06, HM-10, HM-11&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ESP8266&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.pjrc.com/teensy/td_libs_VirtualWire.html&#34;&gt;VirtualWire&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>

@@ -43,6 +43,11 @@
   </url>
   
   <url>
+    <loc>http://freejaus.github.io/ardupi/notebook/refs/env/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://freejaus.github.io/ardupi/notebook/refs/golang/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -54,6 +59,11 @@
   
   <url>
     <loc>http://freejaus.github.io/ardupi/notebook/tfgs/ecg/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://freejaus.github.io/ardupi/notebook/refs/pir/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   

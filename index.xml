@@ -72,7 +72,221 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>http://freejaus.github.io/ardupi/notebook/tuts/com/</guid>
-      <description></description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;¿Qué es una antena?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=y1Bke3750WE&#34;&gt;Arduino EMF Detector&lt;/a&gt;, para entender el efecto de la radiación electromagnética en un cable suelto.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;315/433MHz&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;nRF24L01&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;HC-05, HC-06, HM-10, HM-11&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ESP8266&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.pjrc.com/teensy/td_libs_VirtualWire.html&#34;&gt;VirtualWire&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Entorno de trabajo</title>
+      <link>http://freejaus.github.io/ardupi/notebook/refs/env/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/refs/env/</guid>
+      <description>
+
+&lt;p&gt;En este apartado se reúnen referencias relacionadas con las herramientas utilizadas de forma transversal en prácticamente todos los proyectos. Se agrupan en función del tipo de tarea para la que se utilizan:&lt;/p&gt;
+
+&lt;h1 id=&#34;desarrollo-y-diseño:03cb9baba41e58d7f157c177b9dbf3c1&#34;&gt;Desarrollo y diseño&lt;/h1&gt;
+
+&lt;h2 id=&#34;esquemas-diagramas-pcbs-y-simulaciones:03cb9baba41e58d7f157c177b9dbf3c1&#34;&gt;Esquemas, diagramas, PCBs y simulaciones&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://fritzing.org&#34;&gt;Fritzing&lt;/a&gt; para diseñar montajes, esquemas e incluso PCBs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;123circuits&lt;/p&gt;
+
+&lt;h2 id=&#34;microprocesadores:03cb9baba41e58d7f157c177b9dbf3c1&#34;&gt;Microprocesadores&lt;/h2&gt;
+
+&lt;p&gt;¿En que se diferencian un microprocesador y un microcontrolador (ambos de 32 bits)?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ARM (&lt;a href=&#34;https://www.mbed.com/en/development/hardware/&#34;&gt;mbed.com&lt;/a&gt;)
+
+&lt;ul&gt;
+&lt;li&gt;Raspberry Pi&lt;/li&gt;
+&lt;li&gt;Banana Pi&lt;/li&gt;
+&lt;li&gt;Orange Pi&lt;/li&gt;
+&lt;li&gt;Galileo&lt;/li&gt;
+&lt;li&gt;BragleBone&lt;/li&gt;
+&lt;li&gt;OLinuXino&lt;/li&gt;
+&lt;li&gt;pcDuino&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Intel&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Galileo&lt;/li&gt;
+&lt;li&gt;Arduino 101
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Gizmo&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ODROID&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Fox SBC&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Zynq: MicroZed, ZYBO&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Parallela&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Residualmente se puede ejecutar Windows IoT&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.eetimes.com/document.asp?doc_id=1328008&#34;&gt;http://www.eetimes.com/document.asp?doc_id=1328008&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;microcontroladores:03cb9baba41e58d7f157c177b9dbf3c1&#34;&gt;Microcontroladores&lt;/h2&gt;
+
+&lt;p&gt;Como puede intuirse por el nombre, en &lt;em&gt;FreeJaus - ArduPi&lt;/em&gt; se utilizan principalmente las placas del ecosistema &lt;a href=&#34;https://www.arduino.cc&#34;&gt;Arduino&lt;/a&gt; (basadas en productos de &lt;a href=&#34;https://www.atmel.com&#34;&gt;Atmel&lt;/a&gt;) como plataforma para los diseños basados en microcontrolador, o uC. También se dispone de placas de desarollo basadas en uC de &lt;a href=&#34;https://www.microchip.com&#34;&gt;Microchip&lt;/a&gt;, conocidos como &lt;em&gt;PICs&lt;/em&gt;. En lo que respecta a las especificaciones técnicas de los dispositivos, tanto Atmel como Microchip, y otros como &lt;a href=&#34;https://www.google.es/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=0ahUKEwjVx7_P1JjLAhXL7RQKHYX7DnsQFggoMAA&amp;amp;url=http%3A%2F%2Fwww.st.com%2F&amp;amp;usg=AFQjCNHCiJI1kEQQ_kNXNIxUqhoDnZJPpw&amp;amp;bvm=bv.115339255,d.bGs&#34;&gt;STMicroelectronics&lt;/a&gt; o &lt;a href=&#34;www.nxp.com&#34;&gt;NXP&lt;/a&gt;, comercializan productos en familias desde 8bits hasta 32bits con una muy amplia variedad de periféricos y características auxiliares. Por lo tanto, no existe una familia de productos que sea &lt;em&gt;mejor&lt;/em&gt; a priori; todo depende de los requerimientos de la aplicación que se quiera desarrollar. Cualquiera servirá para prácticamente todos los proyectos de iniciación, ya que rara vez se llegan a aprovechar todos los recursos disponibles. Cuando necesitemos adquirir un componente más potente, ya sabremos lo suficiente sobre su funcionamiento para informarnos y decidirnos por un fabricante y un producto concretos.&lt;/p&gt;
+
+&lt;p&gt;Tradicionalmente los PIC han sido muy utilizados, a nivel profesional, y también entre aficionados y entusiatas, debido a su muy bajo coste y a granularidad en las familias de productos. Sin embargo, desde el lanzamiento de Arduino, el escenario ha dado un &lt;a href=&#34;https://www.google.com/trends/explore#q=arduino%2C%20microchip&amp;amp;cmpt=q&amp;amp;tz=Etc%2FGMT-1&#34;&gt;vuelco&lt;/a&gt;. La explicación, tan sencilla como compleja, es que Arduino surgió desde un principio como un proyecto &lt;a href=&#34;https://opensource.org/&#34;&gt;Open Source&lt;/a&gt; y, especialmente, &lt;a href=&#34;http://www.gnu.org/philosophy/free-sw.es.html&#34;&gt;Libre&lt;/a&gt;. Además, se inspiró en &lt;a href=&#34;http://wiring.org.co/&#34;&gt;Wiring&lt;/a&gt; para diseñar el entorno de desarrollo y ofrecer un lenguaje C simplificado (en el que se preconfiguran y ocultan los regisros de configuración del uC al usuario), facilitando que usuarios sin conocimientos de electrónica ni informática pudieran realizar montajes básicos. Cuando se presentó, Microchip, entre otros, ya disponía de una ingente cantidad de librerías y referencias en la red. Sin embargo, el enfoque era empresarial, de contacto con sus partners (empresas), y de protección de su propiedad intelectual (aunque gran cantidad de documentación y fuentes se ofrecieran de forma gratuita a través de su página). Por ello, la comunidad, ahora llamada maker, se encontró más cómoda en un entorno abierto.  Un gran esfuerzo de difusión y generación de contenido (librerías, tutoriales, vídeos&amp;hellip;) hicieron el resto.&lt;/p&gt;
+
+&lt;p&gt;El resultado inicial fue la reinvención de la rueda, ya que la red se llenó de adaptaciones, reivindicadas como open source, de muchos diseños que hasta entonces se habían liberado con PICs como base. Si bien la &lt;em&gt;liberación&lt;/em&gt; en páginas de aficionados (especialmente radioaficionados y entusiastas de los vehículos de radio control) era Libre, valga la redundancia, no era común que se especificara una licencia del tipo &lt;a href=&#34;http://creativecommons.org/&#34;&gt;Creative Commons&lt;/a&gt;. En paralelo, la liberación de controladores para impresoras 3D y máquinas CNC basadas en Arduino, hizo de la marca una abanderada del movimiento maker. Comunidad que la ha utilizado en sistemas domóticos, de realidad aumentada, wearables&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;NOTA: desde 2015, los fundadores utilizan la marca &lt;a href=&#34;https://www.arduino.cc/en/Main/GenuinoBrand&#34;&gt;Genuino&lt;/a&gt; fuera de los EEUU. Ver &lt;a href=&#34;http://freejaus.github.io/ardupi/notebook/refs/pir&#34;&gt;Marcas, diseños, piratería y open source&lt;/a&gt; para más información.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Por lo anterior, como estudiantes de ingenierías industriales e informática, nuestro interés por los sistemas basados en microcontroladores se extiende a todos los fabricantes y modelos, desde los flujos de trabajo más rápidos y automatizados, hasta los complejos y detallados.
+Tomamos Arduino como referencia porque la curva de aprendizaje inicial es muy tendida, pero entendemos que debemos mirar más allá y más atrás del &lt;em&gt;hype&lt;/em&gt;. Bebemos de fuentes libres y publicamos abiertamente el contenido generado, y también nos identificamos con la cultura hacker, y tratamos de entender qué hacen los sistemas y cómo lo hacen.&lt;/p&gt;
+
+&lt;p&gt;Desde este punto de vista, aunque se utilizan nombres propios para referirse a diseños de placa concretos en el ecosistema Arduino, la mayoría son prácticamente el mismo circuito con variaciones en lo que respecta a la forma, el tipo de conectores utilizados, o el empaquetado del microcontrolador. Los componentes comunes son:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Microcontrolador principal&lt;/li&gt;
+&lt;li&gt;Oscilador de cristal&lt;/li&gt;
+&lt;li&gt;Regulador de tensión&lt;/li&gt;
+&lt;li&gt;Conversor USB-UART(TTL)&lt;/li&gt;
+&lt;li&gt;Pulsador de reset&lt;/li&gt;
+&lt;li&gt;LEDs indicadores&lt;/li&gt;
+&lt;li&gt;Condensadores (para el cristal, el regulador y la entrada de alimentación del uC)&lt;/li&gt;
+&lt;li&gt;Resistencias (para los LEDs o pullup/pulldown)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Por concretar, los modelos &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoardUno&#34;&gt;Uno&lt;/a&gt;, &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoardPro&#34;&gt;Pro&lt;/a&gt;, &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoardProMini&#34;&gt;Pro Mini&lt;/a&gt;, &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoardMini&#34;&gt;Mini&lt;/a&gt; y &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoardNano&#34;&gt;Nano&lt;/a&gt; tienen un &lt;a href=&#34;http://www.atmel.com/dyn/resources/prod_documents/doc2545.pdf&#34;&gt;ATmega168&lt;/a&gt; o &lt;a href=&#34;http://www.atmel.com/dyn/resources/prod_documents/doc8025.pdf&#34;&gt;ATmega328&lt;/a&gt; como uC principal. Son dos variantes del mismo uC de 8 bits, con diferencias en el tamaño de la memoria. El modelo &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoardMega2560&#34;&gt;Mega&lt;/a&gt; está basado en un &lt;a href=&#34;http://www.atmel.com/Images/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf&#34;&gt;ATmega2560&lt;/a&gt;, que es esencialmente la misma arquitectura, pero tiene un número significativamente mayor de recursos (contadores, entradas/salidas, etc.). Todos ellos, además del uC principal, incluyen un oscilador de 8MHz o 16MHz, y reguladores de tensión de 3,3v o 5v, dependiendo del fabricante. Algunos incluyen conversor USB-UART, pero no es necesario, tal como se expone en &lt;a href=&#34;https://github.com/FreeJaus/ardupi/wiki/Arduino-USB:-comunicaci%C3%B3n-serie-%28RS232,-USB,-TTL%29-y-programaci%C3%B3n-%28sketch,-bootloader,-ISP...%29&#34;&gt;Arduino-USB: comunicación serie (RS232, USB, TTL)&amp;hellip;&lt;/a&gt;. En lo que respecta a los LEDs, suelen incluir dos para mostrar la trasferencia y recepción de datos a través la UART, y un tercero para uso general. La lectura pausada de las descripciones de cada modelo, y la &lt;a href=&#34;https://www.arduino.cc/en/Products/Compare&#34;&gt;comparación&lt;/a&gt; de las mismas, nos permite identificar cada uno de los componentes en las placas (en los modelos más compactos, hay que mirar las dos caras).&lt;/p&gt;
+
+&lt;p&gt;Es especialmente didáctico el siguiente vídeo, donde se muestra el montaje y programación de un Pro Mini con componentes discretos (uC, oscilador, dos condensadores y un LED): &lt;a href=&#34;https://www.youtube.com/watch?v=sNIMCdVOHOM&#34;&gt;1-Day Project: Build Your Own Arduino Uno for $5&lt;/a&gt;. El proyecto &lt;a href=&#34;https://github.com/FreeJaus/ardupi/tree/master/Acher&#34;&gt;Acher&lt;/a&gt; va un paso más allá y utiliza un ATmega48 para controlar una matriz de LEDs a través del puerto serie (RS232) del ordenador. En lugar de un conversor USB-UART(TTL), se utiliza un &lt;a href=&#34;https://www.maximintegrated.com/en/products/interface/transceivers/MAX232.html&#34;&gt;MAX232&lt;/a&gt;. En lo que respecta al uC, se trata de una versión &lt;a href=&#34;http://www.atmel.com/Images/doc2554.pdf&#34;&gt;compatible&lt;/a&gt; pero con menos memoria que el ATmega168/368. Sin embargo, el interés del proyecto reside en que no se utiliza Arduino, sino que se programa directamente en C. Por ello, es una referencia interesante para entender cuál es el valor añadido de Arduino/Genuino/Wiring desde el punto de vista de la usabilidad y simplicidad del entorno de desarrollo.&lt;/p&gt;
+
+&lt;p&gt;A finales de 2014, el fabricante de uno de los conversores USB-UART(TTL) más utilizados, FTDI, publicó una actualización del driver en Windows que borró el identificador de cualquier chip no oficial, dejando &lt;a href=&#34;http://freejaus.github.io/ardupi/notebook/refs/pir&#34;&gt;aparentemente&lt;/a&gt; inservibles las placas de usuarios de todo el mundo. Como resultado, además del &lt;a href=&#34;https://www.youtube.com/watch?v=eU66as4Bbds&#34;&gt;revuelo&lt;/a&gt; que supuso en la industria, los diseñadores de placas optaron por otras &lt;a href=&#34;http://www.eevblog.com/forum/reviews/alternatives-to-ftdi-usb-to-uart-converter/&#34;&gt;alternativas&lt;/a&gt;. Algunos optaron por modelos con la misma funcionalidad (&lt;a href=&#34;http://www.prolific.com.tw/UserFiles/files/ds_pl2303HXD_v1_4_4.pdf&#34;&gt;PL2303&lt;/a&gt;, &lt;a href=&#34;http://www.silabs.com/products/interface/usbtouart/Pages/usb-to-uart-bridge.aspx&#34;&gt;CP210x&lt;/a&gt;, &lt;a href=&#34;http://www.abclinuxu.cz/data/prilohy/8/0/208508-ch340ds2_e-9177667200158999136.PDF&#34;&gt;CH340&lt;/a&gt;&amp;hellip;), que es lo más habitual en placas no oficiales adquiridas a través de páginas como las del grupo Alibaba. En estos casos, es habitual que al conectar las placas a un PC con Windows, éste no reconozca el driver automáticamente, como sí sucede con las oficiales. Para solucionarlo sólo hay que buscar y descargar el driver adecuado.&lt;/p&gt;
+
+&lt;p&gt;En el caso de las placas Arduino oficiales, optaron por renovar los diseños incluyendo un segundo uC en sustitución del chip de FTDI. Utilizaron ATmega8u2 o ATmega16u4, que tienen soporte para USB, y los programaron para que actuaran como conversores USB-UART. Este es el caso de la &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoardUno&#34;&gt;Uno&lt;/a&gt;, y la Mega (además del cambio del ATmega1280 &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoardMega&#34;&gt;original&lt;/a&gt; por el ATmega2560). Sin embargo, en el caso de la Uno, por ejemplo, se daba la paradoja de que el uC utilizado como conversor era tan potente o más que el uC principal. Por ello, surgieron modelos que utilizan sólo un ATmega16u4 o ATmega32u4, como uC y para la conexión USB, disminuyendo así el coste y simplificando el diseño de la placa. Por ejemplo, &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoardLeonardo&#34;&gt;Leonardo&lt;/a&gt; es el equivalente a Uno, &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoardEsplora&#34;&gt;Esplora&lt;/a&gt; es Leonardo con otra forma, &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoardMicro&#34;&gt;Micro&lt;/a&gt; es el equivalente a Nano, y &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoardLilyPadUSB&#34;&gt;LilyPad&lt;/a&gt; es un diseño pensado para utilizar en prendas de ropa.&lt;/p&gt;
+
+&lt;p&gt;Además de los modelos más conocidos de la familia, ya presentados, hay diseños aún más pequeños basados en la serie &lt;a href=&#34;http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf&#34;&gt;ATtiny&lt;/a&gt;, donde podemos encontrar modelos en encapsulados con ocho patillas (en &lt;a href=&#34;http://www.atmel.com/products/microcontrollers/avr/tinyavr.aspx&#34;&gt;tinyAVR&lt;/a&gt; los hay con menos aún). Por ejemplo, Arduino &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoGemma&#34;&gt;Gemma&lt;/a&gt; utiliza un ATtiny85, el mayor de entre los más pequeños. En el siguiente vídeo se ve un montaje en una protoboard parecido al enlazado anteriormente, pero prescindiendo del oscilador de cristal, ya que se utiliza el interno del ATtiny: &lt;a href=&#34;https://www.youtube.com/watch?v=30rPt802n1k&#34;&gt;How-To: Shrinkify Your Arduino Projects &lt;/a&gt;. En el otro extremo, tras la estela del éxito de las arquitecturas ARM en dispositivos móviles, los modelos &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoardZero&#34;&gt;Zero&lt;/a&gt; y &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoardDue&#34;&gt;Due&lt;/a&gt; son los equivalentes a Uno/Mega, pero con uC de 32bits y relojes de 48MHz/84MHz, respectivamente. El &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoard101&#34;&gt;101&lt;/a&gt; combina un x86 (Quark) con un ARC de 32bits, ambos a 32MHz.&lt;/p&gt;
+
+&lt;p&gt;Finalmente, se han comercializado modelos que incluían algún periférico para comunicaciones: &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoardYun&#34;&gt;Yún&lt;/a&gt; con Ethernet y Wifi, &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoardBT&#34;&gt;BT&lt;/a&gt; con Bluetooth, o &lt;a href=&#34;https://www.arduino.cc/en/Main/ArduinoBoardMegaADK&#34;&gt;MegaADK&lt;/a&gt; para interactuar con Android. No obstante, la mayoría de ellos ya no se comercializan, principalmente porque existe una amplia variedad de complementos (&lt;em&gt;shields&lt;/em&gt;) con rangos de precio amplios y fáciles de conectar a los modelos básicos. También porque en 32bits y el Internet-of-Things (IoT), además de las plataformas compatibles con &lt;a href=&#34;https://developer.mbed.org/platforms/&#34;&gt;ARM mbed&lt;/a&gt;, las placas comercializadas como &lt;em&gt;Single-Board-Computer (SBC)&lt;/em&gt; permiten ejecutar distribuciones de GNU/Linux y &lt;a href=&#34;http://www.eetimes.com/document.asp?doc_id=1328008&#34;&gt;ofrecen&lt;/a&gt; prestaciones muy superiores.&lt;/p&gt;
+
+&lt;h2 id=&#34;arduino-avr:03cb9baba41e58d7f157c177b9dbf3c1&#34;&gt;Arduino (AVR)&lt;/h2&gt;
+
+&lt;p&gt;Aunque el IDE oficial de Arduino permite programar fácilmente las placas y probar los diferentes ejemplos con pequeñas variaciones, resulta insuficiente cuando los proyectos adquieren un mínimo de complejidad. Por ejemplo, cuando se tienen dos placas conectadas, o se trabaja con proyectos compuestos por varios ficheros. Por suerte, puesto que las librerías de Arduino son código C, hay múltiples IDEs alternativos:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://arduinodev.com/codeblocks/&#34;&gt;CodeBlocks Arduino IDE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dalpix.com/mariamole&#34;&gt;MariaMole&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eclipse.org/&#34;&gt;Eclipse&lt;/a&gt;, &lt;a href=&#34;http://playground.arduino.cc/Code/Eclipse&#34;&gt;playground.arduino.cc/Code/Eclipse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.atmel.com/tools/atmelstudio.aspx&#34;&gt;Atmel Studio&lt;/a&gt;, requiere &lt;a href=&#34;http://www.visualmicro.com/&#34;&gt;Arduino for Microsoft Visual Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lenguajes gráficos:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://s4a.cat/&#34;&gt;S4A&lt;/a&gt;, para unir &lt;a href=&#34;https://scratch.mit.edu/&#34;&gt;Scratch&lt;/a&gt; y Arduino&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.ardublock.com/&#34;&gt;Ardublock&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.minibloq.org/&#34;&gt;miniBloq&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.embrio.io/&#34;&gt;Embrio.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://playground.arduino.cc/Main/DevelopmentTools&#34;&gt;playground.arduino.cc/Main/DevelopmentTools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;control-de-versiones-del-contenido:03cb9baba41e58d7f157c177b9dbf3c1&#34;&gt;Control de versiones del contenido&lt;/h1&gt;
+
+&lt;p&gt;La ventaja principal y más evidente de un &lt;a href=&#34;https://en.wikipedia.org/wiki/Version_control&#34;&gt;sistema de control de versiones&lt;/a&gt; (&lt;em&gt;Version Control System -VCS-&lt;/em&gt;) es que nos permite tener una única copia de un proyecto, con la seguridad de poder hacer cambios y volver en cualquier momento a un estado anterior, si es que nos equivocamos. En otras palabras, evitamos tener varias carpetas con nombres como &amp;lsquo;trabajo_final&amp;rsquo;, &amp;lsquo;trabajo_final2&amp;rsquo;, &amp;lsquo;trabajo_finalB&amp;rsquo;, &amp;lsquo;trabajo_definitivo&amp;rsquo;, &amp;lsquo;trabajo_finalfinal&amp;rsquo;&amp;hellip; Esta es una característica que encontramos en Dropbox o Google Drive, por ejemplo, donde se guardan versiones de nuestros ficheros cada vez que los modificamos. Algunos procesadores de texto también incluyen ciertas funcionalidades similares.&lt;/p&gt;
+
+&lt;p&gt;Más allá, un buen VCS no trata los ficheros como binarios, guardando una copia nueva cada vez que se modifica el fichero. En su lugar, analiza el contenido y guarda únicamente las diferencias, que normalmente ocupan mucho menos. De esta forma no sólo se optimiza el espacio de almacenamiento, sino que se reducen significativamente los tiempos de transferencia. Al mismo tiempo, siempre y cuando el contenido de los ficheros sea accesible (por su formato), el sistema es capaz de gestionar y comprimir la información.&lt;/p&gt;
+
+&lt;p&gt;Como resultado de poder analizar el contenido, el VCS puede comparar e identificar las diferencias entre dos versiones del mismo fichero que hayan sido modificadas por personas diferentes (o en momentos diferentes) e identificar los cambios entran en conflicto entre sí. Si no es así, se unen automáticamente. Si hay conflicto, se indica dónde se ha dado y cuáles son los ficheros y líneas afectados.&lt;/p&gt;
+
+&lt;p&gt;Las características anteriores hacen prácticamente imprescindible el uso de un VCS cuando se trabaja habitualmente desde varios equipos, o cuando varias personas colaboran en la edición de los mismos ficheros. Por ello, hay un &lt;a href=&#34;https://en.wikipedia.org/wiki/Comparison_of_version_control_software&#34;&gt;amplio abanico&lt;/a&gt; de VCS, tanto libres como propietarios.&lt;/p&gt;
+
+&lt;h2 id=&#34;git:03cb9baba41e58d7f157c177b9dbf3c1&#34;&gt;Git&lt;/h2&gt;
+
+&lt;p&gt;De entre ellos, &lt;a href=&#34;https://git-scm.com/&#34;&gt;git&lt;/a&gt;, desarrollado por &lt;a href=&#34;https://en.wikipedia.org/wiki/Linus_Torvalds&#34;&gt;Linus Torvalds&lt;/a&gt;, es el más utilizado. En &lt;a href=&#34;https://www.youtube.com/watch?v=4XpnKHJAok8&#34;&gt;esta&lt;/a&gt; charla de 2007 en Google, el autor presentó el proyecto y valoró sus características en comparación con otros sistemas de control de versiones, como Subversion (SVN), Bazaar, BitKeeper&amp;hellip; Se podría resumir, con su estilo característico, en que git hace bien todo lo que el resto llevaban años queriendo conseguir: trabajar sin tener conexión a internet, poder hacer ramas/branches y unirlas, unir varios proyectos en uno, etc. En cierta forma, no le falta razón, porque git es muy potente y hace muy fáciles operaciones relativamente complejas. Sin embargo, su naturaleza distribuida y el hecho de ser principalmente una herramienta de terminal, hacen que el primer paso genere cierta reticencia. Algunas limitaciones, como la imposibilidad de descargar, modificar y enviar a un servidor sólo un subconjunto de fichero de un proyecto, puede crear cierta frustración inicial.&lt;/p&gt;
+
+&lt;p&gt;Aún así, el tiempo invertido merece la pena, ya que es un estandar de facto en las comunidades de software y hardware libre, y también en muchas empresas. Por suerte, además, hay disponible en la red todo tipo de información, tutoriales, ejercicios y ejemplos. Por ejemplo, &lt;a href=&#34;https://try.github.io&#34;&gt;tryGit&lt;/a&gt; es un tutorial interactivo de 15 minutos para conocer los comandos básicos de git desde terminal. Tanto en GNU/Linux como en &lt;a href=&#34;https://git-for-windows.github.io/&#34;&gt;Windows&lt;/a&gt;, se proveen las herramientas &lt;code&gt;git-gui&lt;/code&gt; (Git GUI) y &lt;code&gt;gitk&lt;/code&gt; (Repository -&amp;gt; Visualize * History). Adicionalmente, existen &lt;a href=&#34;https://git-scm.com/downloads/guis&#34;&gt;GUIs alternativas&lt;/a&gt;, gratuitas y de pago. Por ejemplo, &lt;a href=&#34;https://desktop.github.com/&#34;&gt;GitHub Desktop&lt;/a&gt; (disponible para Windows y Mac) ofrece una integración completa de credenciales (generación y adición de claves) con GitHub.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;NOTA: git es un sistema de control de versiones libre y multiplataforma que se puede utilizar en cualquier equipo. GitHub, como se explicará más adelante, es una forja que ofrece espacio web para alojar repositorios de git, además de wikis, alojamiento web, etc. A pesar del nombre, y aunque generalmente utilizamos GitHub como servidor central en el que sincronizar el contenido, es importante entender que son proyectos claramente diferenciados e independientes. No es necesaria una cuenta en GitHub para usar git, y no es necesario usar git para colaborar en GitHub.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Siendo un sistema tan complejo, es recomendable adquirir las nociones básicas e ir investigando nuevas posibilidades de la herramienta en función de las necesidades. Generalmente suele haber varias formas de realizar tareas complejas, y la solución más adecuada depende del flujo de trabajo concreto que se quiera seguir.&lt;/p&gt;
+
+&lt;h1 id=&#34;documentación:03cb9baba41e58d7f157c177b9dbf3c1&#34;&gt;Documentación&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wiki (en GitHub o wiki.freejaus.com)&lt;/li&gt;
+&lt;li&gt;Markdown
+
+&lt;ul&gt;
+&lt;li&gt;Extensión para Firefox&lt;/li&gt;
+&lt;li&gt;Exportar a PDF&lt;/li&gt;
+&lt;li&gt;Convertir a LaTeX&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Plantillas
+
+&lt;ul&gt;
+&lt;li&gt;GEA&lt;/li&gt;
+&lt;li&gt;TFG&lt;/li&gt;
+&lt;li&gt;Evento/Actividad&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;difusión:03cb9baba41e58d7f157c177b9dbf3c1&#34;&gt;Difusión&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Webs estáticas en GitHub (freejaus.github.io [forja.freejaus.com] y una por repositorio -&lt;em&gt;gh-pages&lt;/em&gt;-)
+
+&lt;ul&gt;
+&lt;li&gt;HTML + CSS&lt;/li&gt;
+&lt;li&gt;Markdown + Hugo (Golang)&lt;/li&gt;
+&lt;li&gt;Jekyll (Ruby)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;news.freejaus.com (Wordpress)&lt;/li&gt;
+&lt;li&gt;Twitter, Youtube, Vimeo&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Ikasletxea&lt;/li&gt;
+&lt;li&gt;¿? Telegram&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;forja:03cb9baba41e58d7f157c177b9dbf3c1&#34;&gt;Forja&lt;/h1&gt;
+
+&lt;p&gt;Se denomina &lt;a href=&#34;https://en.wikipedia.org/wiki/Forge_%28software%29&#34;&gt;forja&lt;/a&gt; a una plataforma que ofrece servicios integrados para facilitar el desarrollo colaborativo de software. Suelen incluir, al menos, alojamiento de repositorios de código mediante algún sistema de control de versiones, y alojamiento web. Además es habitual encontrar gestores de tareas, gestores de lanzamiento de ediciones, listas de correo o foros, wikis, etc. Las más conocidas son posiblemente &lt;a href=&#34;https://en.wikipedia.org/wiki/SourceForge&#34;&gt;SourceForge&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Google_Code#Project_hosting&#34;&gt;Google Code&lt;/a&gt; y &lt;a href=&#34;https://en.wikipedia.org/wiki/GitHub&#34;&gt;GitHub&lt;/a&gt;, pero la lista es &lt;a href=&#34;https://en.wikipedia.org/wiki/Comparison_of_source_code_hosting_facilities&#34;&gt;extensa&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;github:03cb9baba41e58d7f157c177b9dbf3c1&#34;&gt;GitHub&lt;/h2&gt;
+
+&lt;p&gt;Además de la gestión de código fuente mediante Git, GitHub ofrece recursos para facilitar la gestión y documentación de los proyectos:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Para la documentación se utiliza una sintaxis basada en &lt;a href=&#34;https://es.wikipedia.org/wiki/Markdown&#34;&gt;Markdown&lt;/a&gt;, pero con ciertas particularidades. En &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34;&gt;Markdown Cheatsheet&lt;/a&gt; hay una referencia de la sintaxis utilizada en Github.
+
+&lt;ul&gt;
+&lt;li&gt;El contenido del fichero &lt;code&gt;REAMDE.md&lt;/code&gt; en la raíz del repositorio se muestra en la página principal del proyecto.&lt;/li&gt;
+&lt;li&gt;Se facilita una wiki, accesible a través de &lt;code&gt;github.com/&amp;lt;user|organization&amp;gt;/&amp;lt;repo&amp;gt;/wiki&lt;/code&gt; compuesta por múltiples ficheros &lt;code&gt;.md&lt;/code&gt;. Además de la posibilidad de editar el contenido a través de la web, en &lt;a href=&#34;https://help.github.com/articles/adding-and-editing-wiki-pages-locally/&#34;&gt;&amp;ldquo;Adding and editing wiki pages locally&amp;rdquo;&lt;/a&gt; hay instrucciones sobre cómo hacer un &lt;code&gt;git clone&lt;/code&gt; de la wiki, y sobre el formato a utilizar a la hora de editar o crear ficheros.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Se dispone de un gestor de tareas/bugs, accesible a través de &lt;code&gt;github.com/&amp;lt;user|organization&amp;gt;/&amp;lt;repo&amp;gt;/issues&lt;/code&gt;. En &lt;a href=&#34;https://guides.github.com/features/issues/&#34;&gt;Mastering Issues&lt;/a&gt; hay una lectura de 10 minutos sobre su uso.&lt;/li&gt;
+&lt;li&gt;Se provee espacio para almacenar una web estática en HTML + CSS, accesible a través de &lt;code&gt;&amp;lt;user|organization&amp;gt;.github.io/&amp;lt;repo&amp;gt;&lt;/code&gt;. Al igual que en el caso de la wiki, el contenido de ésta se gestiona como un repositorio más, tal como se explica en &lt;a href=&#34;https://guides.github.com/features/pages/&#34;&gt;Getting Started with GitHub pages&lt;/a&gt;. Se pueden utilizar generadores de contenido estático para facilitar la generación de la página estática, como por ejemplo, &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; (escrito en &lt;a href=&#34;https://www.ruby-lang.org&#34;&gt;Ruby&lt;/a&gt;) o &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; (escrito en &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt;). Los artículos &lt;a href=&#34;https://help.github.com/articles/using-jekyll-with-pages/&#34;&gt;Using Jekyll with Pages&lt;/a&gt; y &lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/&#34;&gt;Hosting on GitHub Pages&lt;/a&gt; ofrecen más información al respecto.&lt;/li&gt;
+&lt;li&gt;En &lt;a href=&#34;https://guides.github.com/&#34;&gt;GitHub Guides&lt;/a&gt; hay más guías para comprender el flujo de colaboración promovido en GitHub (basado en &amp;lsquo;forks&amp;rsquo; y peticiones de &amp;lsquo;pull&amp;rsquo;).&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -197,6 +411,16 @@ líneas
     </item>
     
     <item>
+      <title>Marcas, diseños, piratería y open source</title>
+      <link>http://freejaus.github.io/ardupi/notebook/refs/pir/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/refs/pir/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/FreeJaus/ardupi/wiki/Unbrick-FTDI&#34;&gt;https://github.com/FreeJaus/ardupi/wiki/Unbrick-FTDI&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Reguladores PID</title>
       <link>http://freejaus.github.io/ardupi/notebook/tuts/pid/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
@@ -226,7 +450,9 @@ líneas
 &lt;ul&gt;
 &lt;li&gt;Participantes: ¡Privacidad! ¡SPAM! ¿añadir sección específica con la información abiertamente disponible? ¿o utilizar usuarios de GitHub y un grupo (&lt;em&gt;team&lt;/em&gt;)? ¿o utilizar una rama del repositorio?&lt;/li&gt;
 &lt;li&gt;/ardupi/notebook/, que actualmente muestra DEFAULT LIST en blanco&lt;/li&gt;
-&lt;li&gt;Diseñar plantilla de contenido para los proyectos, para después diseñar el layout.&lt;/li&gt;
+&lt;li&gt;Diseñar plantilla de contenido para los proyectos, para después diseñar el layout&lt;/li&gt;
+&lt;li&gt;Diseñar layout para los TFGs, imitando la plantilla de la guía&lt;/li&gt;
+&lt;li&gt;Diseñar layout para los GEA, imitando la plantilla de la guía&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Layouts y CSS
 
@@ -243,12 +469,13 @@ líneas
 &lt;li&gt;Cambiar el fondo de nav en index cuando se empieza a hacer scroll.&lt;/li&gt;
 &lt;li&gt;Desplegar los elementos de una categoría en notebook, cuando se está en la página principal de la misma (overview, list&amp;hellip;) y el ratón está en el menú sobre la página principal, o cualquiera de las hijas.&lt;/li&gt;
 &lt;li&gt;Cuadros &lt;em&gt;spoiler&lt;/em&gt;, que muestran la entradilla de un contenido y permiten desplegarlo en la misma página. Utilizarlo para código, avisos, notas&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Que cada usuario pueda escoger el estilo. ¿Se pueden ofrecer varios templates? ¿O sólo un cambio de CSS?&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Deployment
 
 &lt;ul&gt;
 &lt;li&gt;Actualizar automáticamente la fecha de cada contenido con el último commit en el que se haya modificado.&lt;/li&gt;
-&lt;li&gt;Mover el subdirectorio &lt;em&gt;_hugo&lt;/em&gt; de la rama &lt;em&gt;gh-pages&lt;/em&gt; al subdirectorio &lt;em&gt;web&lt;/em&gt; de la rama &lt;em&gt;master&lt;/em&gt;. Añadir un subdirectorio &lt;em&gt;public&lt;/em&gt; en &lt;em&gt;web&lt;/em&gt;, asociado a la rama &lt;em&gt;gh-pages&lt;/em&gt;. El contenido se modifica en la rama máster, y cuando se hace un commit &lt;em&gt;&amp;lsquo;especial&amp;rsquo;&lt;/em&gt;, se despliega:
+&lt;li&gt;Mover el subdirectorio &lt;em&gt;_hugo&lt;/em&gt; de la rama &lt;em&gt;gh-pages&lt;/em&gt; al subdirectorio &lt;em&gt;web&lt;/em&gt; de la rama &lt;em&gt;master&lt;/em&gt;. Añadir un subdirectorio &lt;em&gt;public&lt;/em&gt; en &lt;em&gt;web&lt;/em&gt;, asociado a la rama &lt;em&gt;gh-pages&lt;/em&gt;. El contenido se modifica en la rama máster, y cuando se hace un commit &lt;em&gt;&amp;lsquo;especial&amp;rsquo;&lt;/em&gt; (¿&lt;em&gt;hook&lt;/em&gt;?), se despliega:
 
 &lt;ul&gt;
 &lt;li&gt;Se elimina el contenido existente en &lt;em&gt;public&lt;/em&gt; (salvo &lt;em&gt;.git/&lt;/em&gt;, naturalmente).&lt;/li&gt;
@@ -256,26 +483,15 @@ líneas
 &lt;li&gt;Se hace commit en &lt;em&gt;public&lt;/em&gt;, que es en realidad la rama &lt;em&gt;gh-pages&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Tutoriales
+
+&lt;ul&gt;
+&lt;li&gt;Cómo editar el contenido en la wiki
+web&lt;/li&gt;
+&lt;li&gt;Cómo transferir el contenido de la wiki a la web&lt;/li&gt;
+&lt;li&gt;Cómo hacer deploy de la web. ¿Quién puede hacerlo?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eventos</title>
-      <link>http://freejaus.github.io/ardupi/notebook/events/overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://freejaus.github.io/ardupi/notebook/events/overview/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Propuestas de Trabajos Fin de Grado</title>
-      <link>http://freejaus.github.io/ardupi/notebook/props/overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://freejaus.github.io/ardupi/notebook/props/overview/</guid>
-      <description>&lt;p&gt;Aquí pueden verse los términos de referencia de algunas propuestas de Trabajos Fin de Grado&lt;/p&gt;
 </description>
     </item>
     

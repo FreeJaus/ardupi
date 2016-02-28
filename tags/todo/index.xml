@@ -20,7 +20,9 @@
 &lt;ul&gt;
 &lt;li&gt;Participantes: ¡Privacidad! ¡SPAM! ¿añadir sección específica con la información abiertamente disponible? ¿o utilizar usuarios de GitHub y un grupo (&lt;em&gt;team&lt;/em&gt;)? ¿o utilizar una rama del repositorio?&lt;/li&gt;
 &lt;li&gt;/ardupi/notebook/, que actualmente muestra DEFAULT LIST en blanco&lt;/li&gt;
-&lt;li&gt;Diseñar plantilla de contenido para los proyectos, para después diseñar el layout.&lt;/li&gt;
+&lt;li&gt;Diseñar plantilla de contenido para los proyectos, para después diseñar el layout&lt;/li&gt;
+&lt;li&gt;Diseñar layout para los TFGs, imitando la plantilla de la guía&lt;/li&gt;
+&lt;li&gt;Diseñar layout para los GEA, imitando la plantilla de la guía&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Layouts y CSS
 
@@ -37,18 +39,27 @@
 &lt;li&gt;Cambiar el fondo de nav en index cuando se empieza a hacer scroll.&lt;/li&gt;
 &lt;li&gt;Desplegar los elementos de una categoría en notebook, cuando se está en la página principal de la misma (overview, list&amp;hellip;) y el ratón está en el menú sobre la página principal, o cualquiera de las hijas.&lt;/li&gt;
 &lt;li&gt;Cuadros &lt;em&gt;spoiler&lt;/em&gt;, que muestran la entradilla de un contenido y permiten desplegarlo en la misma página. Utilizarlo para código, avisos, notas&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Que cada usuario pueda escoger el estilo. ¿Se pueden ofrecer varios templates? ¿O sólo un cambio de CSS?&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Deployment
 
 &lt;ul&gt;
 &lt;li&gt;Actualizar automáticamente la fecha de cada contenido con el último commit en el que se haya modificado.&lt;/li&gt;
-&lt;li&gt;Mover el subdirectorio &lt;em&gt;_hugo&lt;/em&gt; de la rama &lt;em&gt;gh-pages&lt;/em&gt; al subdirectorio &lt;em&gt;web&lt;/em&gt; de la rama &lt;em&gt;master&lt;/em&gt;. Añadir un subdirectorio &lt;em&gt;public&lt;/em&gt; en &lt;em&gt;web&lt;/em&gt;, asociado a la rama &lt;em&gt;gh-pages&lt;/em&gt;. El contenido se modifica en la rama máster, y cuando se hace un commit &lt;em&gt;&amp;lsquo;especial&amp;rsquo;&lt;/em&gt;, se despliega:
+&lt;li&gt;Mover el subdirectorio &lt;em&gt;_hugo&lt;/em&gt; de la rama &lt;em&gt;gh-pages&lt;/em&gt; al subdirectorio &lt;em&gt;web&lt;/em&gt; de la rama &lt;em&gt;master&lt;/em&gt;. Añadir un subdirectorio &lt;em&gt;public&lt;/em&gt; en &lt;em&gt;web&lt;/em&gt;, asociado a la rama &lt;em&gt;gh-pages&lt;/em&gt;. El contenido se modifica en la rama máster, y cuando se hace un commit &lt;em&gt;&amp;lsquo;especial&amp;rsquo;&lt;/em&gt; (¿&lt;em&gt;hook&lt;/em&gt;?), se despliega:
 
 &lt;ul&gt;
 &lt;li&gt;Se elimina el contenido existente en &lt;em&gt;public&lt;/em&gt; (salvo &lt;em&gt;.git/&lt;/em&gt;, naturalmente).&lt;/li&gt;
 &lt;li&gt;Se ejecuta Hugo sobre &lt;em&gt;_hugo&lt;/em&gt; para exportar en &lt;em&gt;public&lt;/em&gt;.&lt;/li&gt;
 &lt;li&gt;Se hace commit en &lt;em&gt;public&lt;/em&gt;, que es en realidad la rama &lt;em&gt;gh-pages&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Tutoriales
+
+&lt;ul&gt;
+&lt;li&gt;Cómo editar el contenido en la wiki
+web&lt;/li&gt;
+&lt;li&gt;Cómo transferir el contenido de la wiki a la web&lt;/li&gt;
+&lt;li&gt;Cómo hacer deploy de la web. ¿Quién puede hacerlo?&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
