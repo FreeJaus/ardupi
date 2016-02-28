@@ -2,7 +2,7 @@
 categories: [ nb-refs ]
 
 title: "Entorno de trabajo"
-keywords: git cvs repositorio wiki hugo
+keywords: arduino atmel avr git vcs repositorio wiki arm linux markdown hugo
 
 publishdate: 2016-01-01
 date: 2016-01-01
@@ -97,45 +97,58 @@ Aunque el IDE oficial de Arduino permite programar fácilmente las placas y prob
 
 # Control de versiones del contenido
 
-La ventaja principal y más evidente de un sistema de control de versiones (*Version Control System -VCS-*) es que nos permite tener una única copia de un proyecto, con la seguridad de poder hacer cambios y volver en cualquier momento a un estado anterior, si es que nos equivocamos. En otras palabras, evitamos tener varias carpetas con nombres como 'trabajo_final', 'trabajo_final2', 'trabajo_finalB', 'trabajo_definitivo', 'trabajo_finalfinal'... Esta es una característica que encontramos en Dropbox o Google Drive, por ejemplo, donde se guardan versiones de nuestros ficheros cada vez que los modificamos. Algunos procesadores de texto también incluyen ciertas funcionalidades similares.
+La ventaja principal y más evidente de un [sistema de control de versiones](https://en.wikipedia.org/wiki/Version_control) (*Version Control System -VCS-*) es que nos permite tener una única copia de un proyecto, con la seguridad de poder hacer cambios y volver en cualquier momento a un estado anterior, si es que nos equivocamos. En otras palabras, evitamos tener varias carpetas con nombres como 'trabajo_final', 'trabajo_final2', 'trabajo_finalB', 'trabajo_definitivo', 'trabajo_finalfinal'... Esta es una característica que encontramos en Dropbox o Google Drive, por ejemplo, donde se guardan versiones de nuestros ficheros cada vez que los modificamos. Algunos procesadores de texto también incluyen ciertas funcionalidades similares.
 
 Más allá, un buen VCS no trata los ficheros como binarios, guardando una copia nueva cada vez que se modifica el fichero. En su lugar, analiza el contenido y guarda únicamente las diferencias, que normalmente ocupan mucho menos. De esta forma no sólo se optimiza el espacio de almacenamiento, sino que se reducen significativamente los tiempos de transferencia. Al mismo tiempo, siempre y cuando el contenido de los ficheros sea accesible (por su formato), el sistema es capaz de gestionar y comprimir la información.
 
 Como resultado de poder analizar el contenido, el VCS puede comparar e identificar las diferencias entre dos versiones del mismo fichero que hayan sido modificadas por personas diferentes (o en momentos diferentes) e identificar los cambios entran en conflicto entre sí. Si no es así, se unen automáticamente. Si hay conflicto, se indica dónde se ha dado y cuáles son los ficheros y líneas afectados.
 
-Las características anteriores hacen prácticamente imprescindible el uso de un VCS cuando se trabaja habitualmente desde varios equipos, o cuando varias personas colaboran en la edición de los mismos ficheros. Por ello, hay un amplio abanico de VCS, tanto libres como propietarios. De entre ellos, [git](https://git-scm.com/), desarrollado por [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds)
-
-https://www.youtube.com/watch?v=4XpnKHJAok8
-
-http://bitbloq.bq.com/#/unsupported/desktop
-http://www.educoteca.com/bitbloq.html
-https://microsoft.hackster.io/en-US
-https://gohugo.io/tutorials/github-pages-blog/
+Las características anteriores hacen prácticamente imprescindible el uso de un VCS cuando se trabaja habitualmente desde varios equipos, o cuando varias personas colaboran en la edición de los mismos ficheros. Por ello, hay un [amplio abanico](https://en.wikipedia.org/wiki/Comparison_of_version_control_software) de VCS, tanto libres como propietarios.
 
 ## Git
- 
-No binarios
- 
-- [git --distributed-is-the-new-centralized](https://git-scm.com/): página oficial del proyecto.
-- [tryGit](https://try.github.io): tutorial interactivo de 15 minutos para conocer los comandos básicos de git desde terminal.
-- Tanto en GNU/Linux como en [Windows](https://git-for-windows.github.io/), se proveen las herramientas `git-gui` (Git GUI) y `gitk` (Repository -> Visualize * History). 
-- Existen [GUIs alternativas](https://git-scm.com/downloads/guis), gratuitas y de pago. [GitHub Desktop](https://desktop.github.com/) (disponible para Windows y Mac) ofrece una integración completa de credenciales (generación y adición de claves).
+
+De entre ellos, [git](https://git-scm.com/), desarrollado por [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), es el más utilizado. En [esta](https://www.youtube.com/watch?v=4XpnKHJAok8) charla de 2007 en Google, el autor presentó el proyecto y valoró sus características en comparación con otros sistemas de control de versiones, como Subversion (SVN), Bazaar, BitKeeper... Se podría resumir, con su estilo característico, en que git hace bien todo lo que el resto llevaban años queriendo conseguir: trabajar sin tener conexión a internet, poder hacer ramas/branches y unirlas, unir varios proyectos en uno, etc. En cierta forma, no le falta razón, porque git es muy potente y hace muy fáciles operaciones relativamente complejas. Sin embargo, su naturaleza distribuida y el hecho de ser principalmente una herramienta de terminal, hacen que el primer paso genere cierta reticencia. Algunas limitaciones, como la imposibilidad de descargar, modificar y enviar a un servidor sólo un subconjunto de fichero de un proyecto, puede crear cierta frustración inicial.
+
+Aún así, el tiempo invertido merece la pena, ya que es un estandar de facto en las comunidades de software y hardware libre, y también en muchas empresas. Por suerte, además, hay disponible en la red todo tipo de información, tutoriales, ejercicios y ejemplos. Por ejemplo, [tryGit](https://try.github.io) es un tutorial interactivo de 15 minutos para conocer los comandos básicos de git desde terminal. Tanto en GNU/Linux como en [Windows](https://git-for-windows.github.io/), se proveen las herramientas `git-gui` (Git GUI) y `gitk` (Repository -> Visualize * History). Adicionalmente, existen [GUIs alternativas](https://git-scm.com/downloads/guis), gratuitas y de pago. Por ejemplo, [GitHub Desktop](https://desktop.github.com/) (disponible para Windows y Mac) ofrece una integración completa de credenciales (generación y adición de claves) con GitHub.
+
+*NOTA: git es un sistema de control de versiones libre y multiplataforma que se puede utilizar en cualquier equipo. GitHub, como se explicará más adelante, es una forja que ofrece espacio web para alojar repositorios de git, además de wikis, alojamiento web, etc. A pesar del nombre, y aunque generalmente utilizamos GitHub como servidor central en el que sincronizar el contenido, es importante entender que son proyectos claramente diferenciados e independientes. No es necesaria una cuenta en GitHub para usar git, y no es necesario usar git para colaborar en GitHub.*
+
+Siendo un sistema tan complejo, es recomendable adquirir las nociones básicas e ir investigando nuevas posibilidades de la herramienta en función de las necesidades. Generalmente suele haber varias formas de realizar tareas complejas, y la solución más adecuada depende del flujo de trabajo concreto que se quiera seguir.
 
 # Documentación
 
+- Wiki (en GitHub o wiki.freejaus.com)
+- Markdown
+  - Extensión para Firefox
+  - Exportar a PDF
+  - Convertir a LaTeX
+- Plantillas
+  - GEA
+  - TFG
+  - Evento/Actividad
+
 # Difusión
  
-# GitHub
+- Webs estáticas en GitHub (freejaus.github.io [forja.freejaus.com] y una por repositorio -*gh-pages*-)
+  - HTML + CSS
+  - Markdown + Hugo (Golang)
+  - Jekyll (Ruby)
+- news.freejaus.com (Wordpress)
+- Twitter, Youtube, Vimeo...
+- Ikasletxea
+- ¿? Telegram
  
-  - Además de la gestión de código fuente mediante Git, GitHub ofrece recursos para facilitar la gestión y documentación de los proyectos:
-  
-    - Para la documentación se utiliza una sintaxis basada en [Markdown](https://es.wikipedia.org/wiki/Markdown), pero con ciertas particularidades. En [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) hay una referencia de la sintaxis utilizada en Github.
-	
-	  - El contenido del fichero `REAMDE.md` en la raíz del repositorio se muestra en la página principal del proyecto.
-	  - Se facilita una wiki, accesible a través de `github.com/<user|organization>/<repo>/wiki` compuesta por múltiples ficheros `.md`. Además de la posibilidad de editar el contenido a través de la web, en ["Adding and editing wiki pages locally"](https://help.github.com/articles/adding-and-editing-wiki-pages-locally/) hay instrucciones sobre cómo hacer un `git clone` de la wiki, y sobre el formato a utilizar a la hora de editar o crear ficheros.
-  
-  - Se dispone de un gestor de tareas/bugs, accesible a través de `github.com/<user|organization>/<repo>/issues`. En [Mastering Issues](https://guides.github.com/features/issues/) hay una lectura de 10 minutos sobre su uso.
+# Forja
+ 
+Se denomina [forja](https://en.wikipedia.org/wiki/Forge_%28software%29) a una plataforma que ofrece servicios integrados para facilitar el desarrollo colaborativo de software. Suelen incluir, al menos, alojamiento de repositorios de código mediante algún sistema de control de versiones, y alojamiento web. Además es habitual encontrar gestores de tareas, gestores de lanzamiento de ediciones, listas de correo o foros, wikis, etc. Las más conocidas son posiblemente [SourceForge](https://en.wikipedia.org/wiki/SourceForge), [Google Code](https://en.wikipedia.org/wiki/Google_Code#Project_hosting) y [GitHub](https://en.wikipedia.org/wiki/GitHub), pero la lista es [extensa](https://en.wikipedia.org/wiki/Comparison_of_source_code_hosting_facilities). 
+ 
+## GitHub
+ 
+Además de la gestión de código fuente mediante Git, GitHub ofrece recursos para facilitar la gestión y documentación de los proyectos:
 
-  - Se provee espacio para almacenar una web estática en HTML + CSS, accesible a través de `<user|organization>.github.io`. Al igual que en el caso de la wiki, el contenido de ésta se gestiona como un repositorio más, tal como se explica en [Getting Started with GitHub pages](https://guides.github.com/features/pages/). Adicionalmente, ya que la página GitHub lo utiliza, se soporta el uso de [Jekyll](https://jekyllrb.com/), un generador de contenido estático con estructura tipo blog, escrito en [Ruby](https://www.ruby-lang.org). El artículo [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages/) ofrece más información al respecto.
-  
-  - En [GitHub Guides](https://guides.github.com/) hay más guías para comprender el flujo de colaboración promovido en GitHub (basado en 'forks' y peticiones de 'pull').
+- Para la documentación se utiliza una sintaxis basada en [Markdown](https://es.wikipedia.org/wiki/Markdown), pero con ciertas particularidades. En [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) hay una referencia de la sintaxis utilizada en Github.
+     - El contenido del fichero `REAMDE.md` en la raíz del repositorio se muestra en la página principal del proyecto.
+	 - Se facilita una wiki, accesible a través de `github.com/<user|organization>/<repo>/wiki` compuesta por múltiples ficheros `.md`. Además de la posibilidad de editar el contenido a través de la web, en ["Adding and editing wiki pages locally"](https://help.github.com/articles/adding-and-editing-wiki-pages-locally/) hay instrucciones sobre cómo hacer un `git clone` de la wiki, y sobre el formato a utilizar a la hora de editar o crear ficheros.
+- Se dispone de un gestor de tareas/bugs, accesible a través de `github.com/<user|organization>/<repo>/issues`. En [Mastering Issues](https://guides.github.com/features/issues/) hay una lectura de 10 minutos sobre su uso.
+- Se provee espacio para almacenar una web estática en HTML + CSS, accesible a través de `<user|organization>.github.io/<repo>`. Al igual que en el caso de la wiki, el contenido de ésta se gestiona como un repositorio más, tal como se explica en [Getting Started with GitHub pages](https://guides.github.com/features/pages/). Se pueden utilizar generadores de contenido estático para facilitar la generación de la página estática, como por ejemplo, [Jekyll](https://jekyllrb.com/) (escrito en [Ruby](https://www.ruby-lang.org)) o [Hugo](https://gohugo.io) (escrito en [Go](https://golang.org/)). Los artículos [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages/) y [Hosting on GitHub Pages](https://gohugo.io/tutorials/github-pages-blog/) ofrecen más información al respecto.
+- En [GitHub Guides](https://guides.github.com/) hay más guías para comprender el flujo de colaboración promovido en GitHub (basado en 'forks' y peticiones de 'pull').
