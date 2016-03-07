@@ -5,118 +5,25 @@
     <link>http://freejaus.github.io/ardupi/notebook/</link>
     <description>Recent content in Notebooks on FreeJaus - Ardupi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Jan 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://freejaus.github.io/ardupi/notebook/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>1er Taller 2016: Arduino</title>
-      <link>http://freejaus.github.io/ardupi/notebook/events/1taller/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <title>Sitemap</title>
+      <link>http://freejaus.github.io/ardupi/notebook/sitemap/</link>
+      <pubDate>Thu, 21 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://freejaus.github.io/ardupi/notebook/events/1taller/</guid>
-      <description>&lt;p&gt;Podemos ir pensando en fechas y personas interesadas para la celebración del primer taller de Arduino.&lt;/p&gt;
-</description>
+      <guid>http://freejaus.github.io/ardupi/notebook/sitemap/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Comunicación</title>
-      <link>http://freejaus.github.io/ardupi/notebook/tuts/com/</link>
+      <title>Cuaderno de anotaciones</title>
+      <link>http://freejaus.github.io/ardupi/notebook/overview/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://freejaus.github.io/ardupi/notebook/tuts/com/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;¿Qué es una antena?&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=y1Bke3750WE&#34;&gt;Arduino EMF Detector&lt;/a&gt;, para entender el efecto de la radiación electromagnética en un cable suelto.
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;315/433MHz&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;nRF24L01&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;HC-05, HC-06, HM-10, HM-11&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;ESP8266&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.pjrc.com/teensy/td_libs_VirtualWire.html&#34;&gt;VirtualWire&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ECG de bajo coste</title>
-      <link>http://freejaus.github.io/ardupi/notebook/tfgs/ecg/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://freejaus.github.io/ardupi/notebook/tfgs/ecg/</guid>
-      <description>
-
-&lt;p&gt;Esta es una prueba para ver como se visualizan las listas:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Un elemento (0)
-
-&lt;ul&gt;
-&lt;li&gt;Otro de segundo nivel (+2)
-
-&lt;ul&gt;
-&lt;li&gt;Y de tercero (+3)
-
-&lt;ul&gt;
-&lt;li&gt;Y cuarto (+4)
-
-&lt;ul&gt;
-&lt;li&gt;Y quinto (+4)
-
-&lt;ul&gt;
-&lt;li&gt;Hasta el infinito (+4)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Y vuelta al segundo (0+2)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Y al primero (0)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;También podemos ver código en línea, &lt;code&gt;como éste&lt;/code&gt;, o en bloque:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Así se muestra el código
-que puede tener
-varias
-líneas
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;También se puede espaciar (4), sin indicar explícitamente el inicio y final del bloque.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;título-primer-nivel:2ed55c63a4ca07031b68c2eddb9a63c4&#34;&gt;Título primer nivel&lt;/h1&gt;
-
-&lt;h2 id=&#34;de-segundo-nivel:2ed55c63a4ca07031b68c2eddb9a63c4&#34;&gt;De segundo nivel&lt;/h2&gt;
-
-&lt;h3 id=&#34;de-tercero:2ed55c63a4ca07031b68c2eddb9a63c4&#34;&gt;De tercero&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Esta&lt;/th&gt;
-&lt;th&gt;es&lt;/th&gt;
-&lt;th&gt;una&lt;/th&gt;
-&lt;th&gt;tabla&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Con&lt;/td&gt;
-&lt;td&gt;una&lt;/td&gt;
-&lt;td&gt;línea de&lt;/td&gt;
-&lt;td&gt;contenido&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+      <guid>http://freejaus.github.io/ardupi/notebook/overview/</guid>
+      <description>&lt;p&gt;Contenido general del cuaderno de anotaciones&lt;/p&gt;
 </description>
     </item>
     
@@ -161,8 +68,7 @@ líneas
 
 &lt;ul&gt;
 &lt;li&gt;Galileo&lt;/li&gt;
-&lt;li&gt;Arduino 101
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Arduino 101&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Gizmo&lt;/p&gt;&lt;/li&gt;
@@ -364,39 +270,179 @@ Tomamos Arduino como referencia porque la curva de aprendizaje inicial es muy te
     </item>
     
     <item>
-      <title>Medidor de energía IOT</title>
-      <link>http://freejaus.github.io/ardupi/notebook/tfgs/iotpower/</link>
+      <title>Mini DeskBot</title>
+      <link>http://freejaus.github.io/ardupi/notebook/tfg/minideskbot/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://freejaus.github.io/ardupi/notebook/tfgs/iotpower/</guid>
-      <description></description>
+      <guid>http://freejaus.github.io/ardupi/notebook/tfg/minideskbot/</guid>
+      <description>
+
+&lt;h1 id=&#34;descripción:49d75e44eed843184de8ba8403e365fc&#34;&gt;Descripción&lt;/h1&gt;
+
+&lt;p&gt;De un lector/grabador de CD/DVD se puede obtener lo siguiente (&lt;a href=&#34;http://www.die4laser.com/dvd-rec/DissectionofaDVDwriter.htm&#34;&gt;Dissection of a DVD writer&lt;/a&gt;):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Motor de corriente continua (para extraer e introducir la bandeja)&lt;/li&gt;
+&lt;li&gt;Motor brushless (para girar el disco)&lt;/li&gt;
+&lt;li&gt;Motor paso a paso (para mover el cabezal óptico)&lt;/li&gt;
+&lt;li&gt;Dos ejes que soportan el cabezal óptico, y un husillo unido al motor paso a paso.&lt;/li&gt;
+&lt;li&gt;Uno o varios diodos láser (IR o rojos)&lt;/li&gt;
+&lt;li&gt;Conectores y circuitos integrados (drivers)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Con dos juegos de ejes, husillos, y motores paso a paso, se puede construir una pequeña máquina CNC de dos grados de libertad. La superficie de trabajo de aproximadamente 40x40mm permite gravar la superficie de varios materiales mediante uno o varios diodos láser. Con la potencia suficiente, podrían cortarse piezas no muy gruesas.&lt;/p&gt;
+
+&lt;p&gt;Para construir la máquina los pasos a realizar son los siguientes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Desmontar dos unidades ópticas de 5 &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt;&amp;rdquo;, de las que al menos una debe ser grabadora. Conservar:
+
+&lt;ul&gt;
+&lt;li&gt;La caja externa metálica (base y tapa) de una de las unidades.&lt;/li&gt;
+&lt;li&gt;La pieza de metal que sostiene los dos ejes, el motor paso a paso, el husillo y el carro.&lt;/li&gt;
+&lt;li&gt;El motor de continua, el brushless y los respectivos drivers se pueden guardar para otros proyectos, aunque no son necesarios en este.&lt;/li&gt;
+&lt;li&gt;Diodo láser:&lt;/li&gt;
+&lt;li&gt;Se puede desmontar por completo uno de los carros y conservar prácticamente intacto el grabador. Más adelante se indica cómo modificarlo.&lt;/li&gt;
+&lt;li&gt;Se pueden desmontar ambos carros por completo y guardar por separado los diodos láser y las lentes.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Con la ayuda de una herramienta rotatoria y discos de corte, eliminar los salientes del o los carros (una vez retiradas todas las piezas electrónicas y las lentes). El objetivo es reducir la altura mismos, para aprovechar mejor el eje Z.&lt;/li&gt;
+&lt;li&gt;Con la herramienta rotatoria, cortar la protuberancia en la base de la caja metálica.&lt;/li&gt;
+&lt;li&gt;Medir las dimensiones de los dos juegos y calcular la disposición óptima para aprovechar la superificie de trabajo.&lt;/li&gt;
+&lt;li&gt;Diseñar un cabezal para soportar un rotulador.&lt;/li&gt;
+&lt;li&gt;Diseñar las patas y cualquiera otra pieza auxiliar que se utilice en el montaje. Si fuera necesario, imprimirlas en 3D.&lt;/li&gt;
+&lt;li&gt;Marcar sobre la caja externa:
+
+&lt;ul&gt;
+&lt;li&gt;Los ocho orificios para sujetar las dos piezas.&lt;/li&gt;
+&lt;li&gt;Los cuatro orificios para sujetar las patas.&lt;/li&gt;
+&lt;li&gt;Si fuera necesario, marcar una ventana en la parte superior, y otra por cada motor que se coloque contra la base.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Cortar las ventanas y taladrar los orificios.&lt;/li&gt;
+&lt;li&gt;Atornillar los separadores y montar las piezas y patas.&lt;/li&gt;
+&lt;li&gt;Diseñar el circuito de potencia (dos motores y láser) y montarlo en una protoboard.&lt;/li&gt;
+&lt;li&gt;Comprobar el funcionamiento con un Arduino como controlador y un rotulador como cabezal.&lt;/li&gt;
+&lt;li&gt;Diseñar y fabricar el PCB de potencia con componentes SMD. Considerar la introducción de un attiny/atmega48 en la placa (separando masas de potencia y señal), o diseñar un soporte para utilizar una placa ya montaja (Nano, Pro Micro&amp;hellip;).&lt;/li&gt;
+&lt;li&gt;Verificar que el funcionamiento sigue siendo correcto.&lt;/li&gt;
+&lt;li&gt;Diseñar un cabezal para soportar un diodo láser:
+
+&lt;ul&gt;
+&lt;li&gt;Adquirir el soporte con lente incluida y reutilizar uno de los diodos rojos extraidos de las unidades ópticas.&lt;/li&gt;
+&lt;li&gt;Utilizar el carro prácticamente intacto, y diseñar un separador para ajustar el enfoque.&lt;/li&gt;
+&lt;li&gt;Diseñar y fabricar un soporte con las lentes extraidas de las unidades ópticas.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.instructables.com/id/Home-Made-Collimator/?ALLSTEPS&#34;&gt;Instructables - Home Made Collimator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;justificación:49d75e44eed843184de8ba8403e365fc&#34;&gt;Justificación&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ejemplo mínimo para la introducción en el mundo del CNC.&lt;/li&gt;
+&lt;li&gt;Bajísimo coste&lt;/li&gt;
+&lt;li&gt;Componentes fácilmente accesibles&lt;/li&gt;
+&lt;li&gt;Se puede alimentar con un cargador de móvil&lt;/li&gt;
+&lt;li&gt;Desde una estructura reutilizando la caja externa de metal, hasta un diseño hecho a medida con una impresora 3D o en madera.&lt;/li&gt;
+&lt;li&gt;Hay multiples diseños disponibles en la red con variaciones interesantes:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://funofdiy.blogspot.com.es/2013/10/a-raspberry-pi-controlled-mini-laser.html&#34;&gt;funofdiy.blogspot.com - A Raspberry Pi controlled mini CNC Laser engraver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hackaday.com/2013/09/12/fail-of-the-week-laser-cutter-that-makes-jagged-edges/&#34;&gt;hackaday.com - Fail of the week: Laser cutter that makes jagged edges&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.instructables.com/id/MicroSlice-A-tiny-Arduino-laser-cutter/&#34;&gt;instructables.com - MicroSlice: a tiny Arduino laser cutter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;otros-datos-de-interés:49d75e44eed843184de8ba8403e365fc&#34;&gt;Otros datos de interés:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Puede realizar de forma individual o grupal, ya que permite trabajar las siguientes áreas:
+
+&lt;ul&gt;
+&lt;li&gt;Mecánica/Informática:
+
+&lt;ul&gt;
+&lt;li&gt;Diseño CAD/CAM parametrizado y animado (OpenSCAD + FreeCAD + Python)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Electrónica/Informática:
+
+&lt;ul&gt;
+&lt;li&gt;Diseño y fabricación de PCBs.&lt;/li&gt;
+&lt;li&gt;Regulación automática y control.&lt;/li&gt;
+&lt;li&gt;Programación de microcontroladores.&lt;/li&gt;
+&lt;li&gt;Control de motores paso a paso.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Impresión 3D.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Se utilizará como base para tomar decisiones en el diseño de DeskBot.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://forums.modretro.com/viewtopic.php?f=3&amp;amp;t=10121&#34;&gt;http://forums.modretro.com/viewtopic.php?f=3&amp;amp;t=10121&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;¿Para qué sirve el estabilizador magnético?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
-      <title>Regulador de posición de un bola sobre raíl</title>
-      <link>http://freejaus.github.io/ardupi/notebook/tfgs/ballbeam/</link>
+      <title>Pandoc</title>
+      <link>http://freejaus.github.io/ardupi/notebook/refs/pandoc/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://freejaus.github.io/ardupi/notebook/tfgs/ballbeam/</guid>
-      <description></description>
+      <guid>http://freejaus.github.io/ardupi/notebook/refs/pandoc/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://tomp.io/phd-thesis-template-markdown.html&#34;&gt;http://tomp.io/phd-thesis-template-markdown.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://pandoc.org/README.html&#34;&gt;http://pandoc.org/README.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://users.soe.ucsc.edu/~ivo/_posts/2015-03-12-repeatable-paper-generation-with-docker-and-pandoc.html&#34;&gt;https://users.soe.ucsc.edu/~ivo/_posts/2015-03-12-repeatable-paper-generation-with-docker-and-pandoc.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vrthra/markdown-ieee-pdf&#34;&gt;https://github.com/vrthra/markdown-ieee-pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cscorley/ieee-pandoc-template&#34;&gt;https://github.com/cscorley/ieee-pandoc-template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jgm/pandoc/wiki/Pandoc-vs-Multimarkdown#features-in-mmd-but-not-pandoc&#34;&gt;https://github.com/jgm/pandoc/wiki/Pandoc-vs-Multimarkdown#features-in-mmd-but-not-pandoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tompollard/phd_thesis_markdown&#34;&gt;https://github.com/tompollard/phd_thesis_markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/carnby/pandoc-thesis&#34;&gt;https://github.com/carnby/pandoc-thesis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
-      <title>Reguladores PID</title>
-      <link>http://freejaus.github.io/ardupi/notebook/tuts/pid/</link>
+      <title>Persistance Of Vision</title>
+      <link>http://freejaus.github.io/ardupi/notebook/thing/pov/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://freejaus.github.io/ardupi/notebook/tuts/pid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Timers</title>
-      <link>http://freejaus.github.io/ardupi/notebook/tuts/timers/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://freejaus.github.io/ardupi/notebook/tuts/timers/</guid>
-      <description></description>
+      <guid>http://freejaus.github.io/ardupi/notebook/thing/pov/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/2hASOre63Nk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://es.wikipedia.org/wiki/Persistencia_de_la_visi%C3%B3n&#34;&gt;https://es.wikipedia.org/wiki/Persistencia_de_la_visi%C3%B3n&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Persistence_of_vision&#34;&gt;https://en.wikipedia.org/wiki/Persistence_of_vision&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;LED matrix
+
+&lt;ul&gt;
+&lt;li&gt;Acher&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Propeller (aprovechando el motor brushless de un lector de CD/DVD)
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.instructables.com/id/Propeller-Clock/&#34;&gt;http://www.instructables.com/id/Propeller-Clock/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.330ohms.com/blogs/blog/85008964-arduino-propeller-clock-reloj&#34;&gt;https://www.330ohms.com/blogs/blog/85008964-arduino-propeller-clock-reloj&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.pyroelectro.com/projects/pyro_propeller_clock_pov/&#34;&gt;http://www.pyroelectro.com/projects/pyro_propeller_clock_pov/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -457,20 +503,21 @@ web&lt;/li&gt;
     </item>
     
     <item>
-      <title>Eventos</title>
-      <link>http://freejaus.github.io/ardupi/notebook/events/overview/</link>
+      <title>Propuestas de Things</title>
+      <link>http://freejaus.github.io/ardupi/notebook/thing/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://freejaus.github.io/ardupi/notebook/events/overview/</guid>
-      <description></description>
+      <guid>http://freejaus.github.io/ardupi/notebook/thing/overview/</guid>
+      <description>&lt;p&gt;Aquí pueden verse los términos de referencia de algunas propuestas de Things&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Propuestas de Trabajos Fin de Grado</title>
-      <link>http://freejaus.github.io/ardupi/notebook/props/overview/</link>
+      <link>http://freejaus.github.io/ardupi/notebook/tfg/ind/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://freejaus.github.io/ardupi/notebook/props/overview/</guid>
+      <guid>http://freejaus.github.io/ardupi/notebook/tfg/ind/</guid>
       <description>&lt;p&gt;Aquí pueden verse los términos de referencia de algunas propuestas de Trabajos Fin de Grado&lt;/p&gt;
 </description>
     </item>
@@ -485,16 +532,6 @@ web&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/geaarduino/&#34;&gt;https://sites.google.com/site/geaarduino/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/&#34;&gt;Hugo - Hosting on GitHub Pages&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trabajos Fin de Grado en curso</title>
-      <link>http://freejaus.github.io/ardupi/notebook/tfgs/overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://freejaus.github.io/ardupi/notebook/tfgs/overview/</guid>
-      <description>&lt;p&gt;Estos son algunos de los Trabajos Fin de Grado que se encuentran actualmente en curso:&lt;/p&gt;
 </description>
     </item>
     

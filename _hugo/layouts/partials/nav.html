@@ -25,7 +25,7 @@
 	    
       <ul class="nav navbar-nav navbar-right">
 		{{ range .Site.Menus.topbar }}
-	      <li><a class="page-scroll" href="{{.URL}}">{{.Name}}</a></li>
+	      <li><a class="page-scroll" href="{{$.Site.BaseURL}}{{.URL}}">{{.Name}}</a></li>
 	    {{end}}
 <!--
         <li class="dropdown">

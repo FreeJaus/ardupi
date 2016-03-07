@@ -156,11 +156,11 @@ section h3.section-subheading {
 }
 
 
-#portfolio .portfolio-item .portfolio-link  .talleres{
+#portfolio .portfolio-item .portfolio-link  .tfg{
   background: rgba(255,107,107,.9);	
 }
 
-#portfolio .portfolio-item .portfolio-link  .repositorios{
+#portfolio .portfolio-item .portfolio-link  .thing{
   background: rgba(184,217,70,.9);	
 }
 
@@ -209,11 +209,11 @@ section h3.section-subheading {
   text-decoration: none;
 }
 
-#portfolio .portfolio-item a.portfolio-caption:hover  .tool{
+#portfolio .portfolio-item a.portfolio-caption:hover  .thing{
   color: rgba(130,214,66,1);
 }
 
-#portfolio .portfolio-item a.portfolio-caption:hover  .ip-core{
+#portfolio .portfolio-item a.portfolio-caption:hover  .tfg{
   color: rgba(226,89,31,1);	
 }
 

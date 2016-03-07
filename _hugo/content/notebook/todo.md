@@ -6,9 +6,6 @@ menu:
     pre: "list-alt"
     weight: -0
 
-categories: [ "Notebook" ]
-tags: [ "todo" ]
-
 title: "ToDo"
 keywords: todo
 

@@ -14,6 +14,37 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+.topbar {
+  background: transparent;
+  border: 0;
+}
+
+.topbar .nav li a {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #000;
+}
+
+.topbar .nav li a:hover {
+  color: #b8d946;
+}
+
+.form-group .form-control {
+  background: transparent;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+#main-content {
+    padding-top: 45px;
+    line-height: 1.5;
+}
+
+/********/
+
 img.navbar-logo {
   max-width: 100px;
   max-height: 20px;

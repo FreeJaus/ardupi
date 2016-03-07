@@ -49,8 +49,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;Galileo&lt;/li&gt;
-&lt;li&gt;Arduino 101
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Arduino 101&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Gizmo&lt;/p&gt;&lt;/li&gt;
@@ -248,6 +247,25 @@ Tomamos Arduino como referencia porque la curva de aprendizaje inicial es muy te
       
       <guid>http://freejaus.github.io/ardupi/notebook/refs/pir/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/FreeJaus/ardupi/wiki/Unbrick-FTDI&#34;&gt;https://github.com/FreeJaus/ardupi/wiki/Unbrick-FTDI&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pandoc</title>
+      <link>http://freejaus.github.io/ardupi/notebook/refs/pandoc/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/refs/pandoc/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://tomp.io/phd-thesis-template-markdown.html&#34;&gt;http://tomp.io/phd-thesis-template-markdown.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://pandoc.org/README.html&#34;&gt;http://pandoc.org/README.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://users.soe.ucsc.edu/~ivo/_posts/2015-03-12-repeatable-paper-generation-with-docker-and-pandoc.html&#34;&gt;https://users.soe.ucsc.edu/~ivo/_posts/2015-03-12-repeatable-paper-generation-with-docker-and-pandoc.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vrthra/markdown-ieee-pdf&#34;&gt;https://github.com/vrthra/markdown-ieee-pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cscorley/ieee-pandoc-template&#34;&gt;https://github.com/cscorley/ieee-pandoc-template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jgm/pandoc/wiki/Pandoc-vs-Multimarkdown#features-in-mmd-but-not-pandoc&#34;&gt;https://github.com/jgm/pandoc/wiki/Pandoc-vs-Multimarkdown#features-in-mmd-but-not-pandoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tompollard/phd_thesis_markdown&#34;&gt;https://github.com/tompollard/phd_thesis_markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/carnby/pandoc-thesis&#34;&gt;https://github.com/carnby/pandoc-thesis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

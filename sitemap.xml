@@ -8,37 +8,32 @@
   </url>
   
   <url>
-    <loc>http://freejaus.github.io/ardupi/sitemap/</loc>
+    <loc>http://freejaus.github.io/ardupi/notebook/sitemap/</loc>
     <lastmod>2016-01-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://freejaus.github.io/ardupi/projects/balancin/</loc>
+    <loc>http://freejaus.github.io/ardupi/tfg/template/</loc>
     <lastmod>2016-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://freejaus.github.io/ardupi/projects/ballbeam/</loc>
-    <lastmod>2016-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://freejaus.github.io/ardupi/projects/rcvehicles/</loc>
-    <lastmod>2016-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://freejaus.github.io/ardupi/notebook/events/1taller/</loc>
+    <loc>http://freejaus.github.io/ardupi/event/1taller/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://freejaus.github.io/ardupi/notebook/tfgs/ballbeam/</loc>
+    <loc>http://freejaus.github.io/ardupi/tfg/balancin/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://freejaus.github.io/ardupi/notebook/tuts/com/</loc>
+    <loc>http://freejaus.github.io/ardupi/tfg/ballbeam/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://freejaus.github.io/ardupi/tut/com/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,12 +48,12 @@
   </url>
   
   <url>
-    <loc>http://freejaus.github.io/ardupi/notebook/tfgs/iotpower/</loc>
+    <loc>http://freejaus.github.io/ardupi/tfg/iotpower/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://freejaus.github.io/ardupi/notebook/tfgs/ecg/</loc>
+    <loc>http://freejaus.github.io/ardupi/tfg/ecg/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,12 +63,37 @@
   </url>
   
   <url>
-    <loc>http://freejaus.github.io/ardupi/notebook/tuts/pid/</loc>
+    <loc>http://freejaus.github.io/ardupi/notebook/tfg/minideskbot/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://freejaus.github.io/ardupi/notebook/tuts/timers/</loc>
+    <loc>http://freejaus.github.io/ardupi/notebook/overview/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://freejaus.github.io/ardupi/notebook/thing/pov/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://freejaus.github.io/ardupi/thing/pov/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://freejaus.github.io/ardupi/notebook/refs/pandoc/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://freejaus.github.io/ardupi/tut/pid/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://freejaus.github.io/ardupi/tut/timers/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -83,11 +103,15 @@
   </url>
   
   <url>
-    <loc>http://freejaus.github.io/ardupi/notebook/events/overview/</loc>
+    <loc>http://freejaus.github.io/ardupi/event/overview/</loc>
   </url>
   
   <url>
-    <loc>http://freejaus.github.io/ardupi/notebook/props/overview/</loc>
+    <loc>http://freejaus.github.io/ardupi/notebook/thing/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>http://freejaus.github.io/ardupi/notebook/tfg/ind/</loc>
   </url>
   
   <url>
@@ -95,11 +119,7 @@
   </url>
   
   <url>
-    <loc>http://freejaus.github.io/ardupi/notebook/tfgs/overview/</loc>
-  </url>
-  
-  <url>
-    <loc>http://freejaus.github.io/ardupi/notebook/tuts/overview/</loc>
+    <loc>http://freejaus.github.io/ardupi/tut/overview/</loc>
   </url>
   
 </urlset>

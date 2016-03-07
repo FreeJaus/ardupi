@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nb Thing on FreeJaus - Ardupi</title>
+    <link>http://freejaus.github.io/ardupi/categories/nb-thing/</link>
+    <description>Recent content in Nb Thing on FreeJaus - Ardupi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://freejaus.github.io/ardupi/categories/nb-thing/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Persistance Of Vision</title>
+      <link>http://freejaus.github.io/ardupi/notebook/thing/pov/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/thing/pov/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/2hASOre63Nk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://es.wikipedia.org/wiki/Persistencia_de_la_visi%C3%B3n&#34;&gt;https://es.wikipedia.org/wiki/Persistencia_de_la_visi%C3%B3n&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Persistence_of_vision&#34;&gt;https://en.wikipedia.org/wiki/Persistence_of_vision&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;LED matrix
+
+&lt;ul&gt;
+&lt;li&gt;Acher&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Propeller (aprovechando el motor brushless de un lector de CD/DVD)
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.instructables.com/id/Propeller-Clock/&#34;&gt;http://www.instructables.com/id/Propeller-Clock/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.330ohms.com/blogs/blog/85008964-arduino-propeller-clock-reloj&#34;&gt;https://www.330ohms.com/blogs/blog/85008964-arduino-propeller-clock-reloj&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.pyroelectro.com/projects/pyro_propeller_clock_pov/&#34;&gt;http://www.pyroelectro.com/projects/pyro_propeller_clock_pov/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,23 +1,9 @@
-{{if isset .Params "view"}} {{ .Render .Params.view}}
-{{else}}
 <!DOCTYPE html>
 <html lang="en">
   <head>
     {{ partial "head.html" . }}
   </head>
   <body>
-    {{ partial "nb/nav.html" . }}
-    {{ partial "nb/sidebar.html" . }}
-    <div id="container" class="">
-      <div id="main-content">
-        <!-- <div class="panel-header"> </div> -->
-        <div class="panel-body">
-		  DEFAULT SINGLE
-          {{ .Content }}
-        </div>
-      </div>
-    </div>
-    {{ partial "js.html" . }}
+    DEFAULT SINGLE
   </body>
 </html>
-{{end}}

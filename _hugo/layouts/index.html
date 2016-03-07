@@ -48,10 +48,10 @@
 
     {{ partial "index/portfolio.html" . }}
     {{ partial "index/about.html" . }}
-<!--    {{ partial "index/team.html" . }}
-    {{ partial "index/clients.html" . }}
-    {{ partial "index/footer.html" . }}
-    {{ partial "index/modals.html" . }} -->
+	{{ "<!--index team.html-->" | safeHTML }}
+    {{ "<!--index clients.html-->" | safeHTML }}
+    {{ "<!--index footer.html-->" | safeHTML }}
+    {{ "<!--index modals.html-->" | safeHTML }}
     {{ partial "js.html" . }}
   </body>
 </html>
