@@ -1,0 +1,156 @@
+publishdir: "../public"
+title: "FreeJaus - Ardupi"
+baseurl: "http://freejaus.github.io/ardupi/"
+canonifyurls: true
+
+params:
+  brand: "ArduPi"
+  description: "Repositorio de conocimiento colectivo y canal de coordinación en torno a los ecosistemas Arduino, Raspberry Pi..."
+  author: "FreeJaus - La Casilla"
+  static: "cdn"
+
+#! COVER
+  cover: # background is 'static/img/header-bg.jpg'
+    subtitle: "Repositorio de conocimiento colectivo y canal de coordinación en torno a los ecosistemas Arduino, Raspberry Pi..."
+    buttonText: "Más..."
+
+#! SERVICES
+  services:
+    title: "Qué hacemos"
+    subtitle: "Este espacio es un punto de encuntro y una herramienta colaborativa para todas aquellas personas que se encuentran desarrollando sus Trabajos Fin de Grado (o pensando en ello) haciendo uso de las plataformas Arduino y/o Raspberry Pi, o similares. Sirve, también, como repositorio de conocimiento colectivo y como canal para la coordinación de actividades tipo talleres, demostraciones, elaboración de tutoriales, etc."
+    list:
+      - name: "event"
+        icon: "fa-cubes"
+        title: "Talleres"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - name: "tut"
+        icon: "fa-graduation-cap"
+        title: "Tutoriales"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - name: "notebook/tfg"
+        icon: "fa-cogs"
+        title: "Repositorios"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#! PORTFOLIO
+
+  portfolio:
+    title: "Proyectos"
+    subtitle: "Lorem **ipsum** dolor sit amet consectetur."
+
+#! ABOUT
+  about:
+    title: "Sobre "
+    subtitle: "Lorem ipsum dolor sit amet consectetur."
+    endpoint: "Be part<br>of our<br>story!"
+
+    # The events will be listed from the top to the bottom
+    # All images are stored under 'static/img/about'
+    events:
+      - title: "Our Humble Beginnings"
+        img: "1.jpg"
+        date: "Enero 2016"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Our Humble Beginnings"
+        img: "3.jpg"
+        date: "Febrero 2016"
+        title: "Our Humble Beginnings"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Our Humble Beginnings"
+        img: "2.jpg"
+        date: "Marzo 2016"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+
+#		[params.portfolio.modal]
+#            client = "Client"
+#            date = "Date"
+#            category = "Category"
+#            buttonText = "Close project"
+
+#! TOPBAR
+
+menu:
+  topbar:
+    - name: "Qué hacemos"
+      subtitle: "Lorem ipsum dolor sit amet consectetur."
+      url: "#services"
+      weight: -200
+    - name: "Proyectos"
+      subtitle: "Lorem **ipsum** dolor sit amet consectetur."
+      url: "#portfolio"
+      weight: -180
+    - name: "Ruta"
+      subtitle: "Lorem ipsum dolor sit amet consectetur."
+      url: "#about"
+      weight: -160
+    - name: "Notas"
+      subtitle: "Lorem ipsum dolor sit amet consectetur."
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+      url: "/notebook/"
+      weight: -140
+
+#	# Team section
+#	[params.team]
+#      title = "Our team"
+#	  subtitle = "Lorem ipsum dolor sit amet consectetur."
+#	  description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+#
+#	  # All team member's pictures are stored under 'static/img/team'.
+#	  [[params.team.members]]
+#        img = "1.png"
+#        name = "Name"
+#        position = "Position"
+#        social = [ ["fa-twitter", "#"], ["fa-linkedin", "#"] ]
+#
+#      [[params.team.members]]
+#        img = "2.png"
+#        name = "Name"
+#        position = "Position"
+#        social = [ ["fa-twitter", "#"], ["fa-linkedin", "#"] ]
+#
+#      [[params.team.members]]
+#        img = "3.png"
+#        name = "Name"
+#        position = "Position"
+#        social = [ ["fa-twitter", "#"], ["fa-linkedin", "#"] ]
+#
+#	# Client section. All the clients' logos are stored under 'static/img/logos'.
+#	[[params.clients]]
+#	  logo = "envato.jpg"
+#	  link = "#"
+#	[[params.clients]]
+#	  logo = "designmodo.jpg"
+#	  link = "#"
+#	[[params.clients]]
+#	  logo = "themeforest.jpg"
+#	  link = "#"
+#	[[params.clients]]
+#	  logo = "creative-market.jpg"
+#	  link = "#"
+#
+#	# Footer section
+#	[params.footer]
+#		copyright = "Published under the Apache License 2.0."
+#		[[params.footer.social]]
+#			icon = "fa-twitter"
+#			link = "#"
+#		[[params.footer.social]]
+#			icon = "fa-linkedin"
+#			link = "#"
+#		[[params.footer.quicklinks]]
+#			text = "Privacy Policy"
+#			link = "#"
+#		[[params.footer.quicklinks]]
+#			text = "Terms of Use"
+#			link = "#"
+#	
+#[taxonomies]
+#  tag = "tags"
+#  category = "categories"
+#
+#[[menu.notebook]]
+#  name = "Get full content"
+#  pre = "download"
+#  url = ""
+#  identifier = "nb-down"
+#  weight = -200

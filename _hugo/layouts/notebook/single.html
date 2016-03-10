@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{ partial "head.html" . }}
+	{{ "<!-- Custom CSS -->" | safeHTML }}
+    <link href="{{.Site.BaseURL}}css/fj-nb.css" rel="stylesheet">
+  </head>
+  <body>
+    {{ partial "nb/nav.html" . }}
+    {{ partial "nb/sidebar.html" . }}
+    <div id="container" class="">
+      <div id="main-content">
+        <!-- <div class="panel-header"> </div> -->
+        {{if isset .Params "view"}} {{ .Render .Params.view}}
+	    {{else}} {{ .Render "default"}} {{end}}
+      </div>
+    </div>
+    {{ partial "js.html" . }}
+  </body>
+</html>

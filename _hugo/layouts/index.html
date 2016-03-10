@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-UK{{ end }}">
+  <head>
+    {{ partial "head.html" . }}
+	{{ "<!-- Custom CSS -->" | safeHTML }}
+    <link href="{{.Site.BaseURL}}css/fj-index.css" rel="stylesheet">
+  </head>
+  <body id="page-top" class="index">
+    {{ partial "nav.html" . }}
+
+	{{ "<!-- Cover -->" | safeHTML }}
+    <cover-box>
+      <div class="cover-text">
+          <div class="cover-lead">{{if isset .Site.Params.cover "title"}}{{ with .Site.Params.cover.title }}{{ . }}{{ end }}{{else}}¡Bienvenido a <span style="font-family: 'Righteous'; text-transform: none;">{{.Site.Title}}</span>!{{end}}</div>
+          <div class="cover-subtitle">{{ with .Site.Params.cover.subtitle }}{{ . }}{{ end }}</div>
+          <a href="#services" class="page-scroll btn">{{ with .Site.Params.cover.buttonText }}{{ . }}{{ end }}</a>
+      </div>
+    </cover-box>
+
+    {{ "<!-- Services -->" | safeHTML }}
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">{{ with .Site.Params.services.title }}{{ . }}{{ end }}</h2>
+            <h3 class="section-subheading text-muted">{{ with .Site.Params.services.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+          </div>
+        </div>
+
+          <div class="row text-center">
+            {{ range .Site.Params.services.list }}
+              <div class="col-md-4 portfolio-item">
+                <a href="{{ .name }}" class="portfolio-link">
+                  <span class="fa-stack fa-5x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+                <div class="portfolio-caption">
+                  <h4>{{ .title }}</h4>
+                  <p class="text-muted">{{ .description | markdownify }}</p>
+                </div>
+              </div>
+            {{ end }}
+          </div>
+      </div>
+    </section>
+
+    {{ partial "index/portfolio.html" . }}
+    {{ partial "index/about.html" . }}
+	{{ "<!--index team.html-->" | safeHTML }}
+    {{ "<!--index clients.html-->" | safeHTML }}
+    {{ "<!--index footer.html-->" | safeHTML }}
+    {{ "<!--index modals.html-->" | safeHTML }}
+    {{ partial "js.html" . }}
+  </body>
+</html>
