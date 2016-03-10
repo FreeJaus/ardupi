@@ -1,5 +1,4 @@
 ---
-linktitle: "1er taller 2016"
 title: "1er Taller 2016: Arduino"
 keywords: 
 
