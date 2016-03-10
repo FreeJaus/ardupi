@@ -3,4 +3,4 @@ overview: true
 title: Eventos
 ---
 
-Contenido general de la sección Eventos
+Podemos ir pensando en fechas y personas interesadas para la celebración del primer taller conjunto de Arduino.

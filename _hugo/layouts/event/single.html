@@ -10,7 +10,40 @@
 	<div id="container" class="">
 	  <div id="main-content">
 	    <h1>Evento</h1>
-	    <h2>{{.Title}}</h2>
+		<h2>{{.Params.lin}}</h2>
+		<ul>
+		  <li>Denominación: {{if isset .Params "den"}}{{.Params.den}}{{else}}{{.Title}}{{end}}</li>
+		  <li>Tipo: {{.Params.tipo}}</li>
+		  <li>GEAs:
+		    <ul>
+			  {{range .Params.geas}}
+			    <li>{{.den}}{{with .nota}}: {{.}}{{end}}</li>
+			  {{end}}
+			</ul>
+		  </li>
+		  <li>Dinamización:
+			<ul>
+			  {{range .Params.din}}
+			    <li>{{.nick}}{{with .ehu}} ({{.}}){{end}}{{with .github}} [@{{.}}]{{end}}</li>
+			  {{end}}
+			</ul>
+		  </li>
+		  <li>Lugar:
+		    <ul>
+			{{range .Params.lugar}}
+			  <li>{{.aula}} [{{.dir}}]</li>
+			{{end}}
+			</ul>
+		  </li>
+		  <li>Formato: {{.Params.formato}}</li>
+		  <li>Sesiones:
+		    <ul>
+			{{range .Params.sesion}}
+		      <li>{{.fecha}}: {{.asistencia}}</li>
+			{{end}}
+		    </ul>
+		  </li>
+		</ul>
 		{{.Content}}
 	  </div>
 	</div>

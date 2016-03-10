@@ -1,14 +1,47 @@
 ---
-title: "1er Taller 2016: Arduino"
+lin: Formación/Investigación
+title: "Diseño y estructura de programación"
 keywords: 
 
-publishdate: 2016-01-01
-date: 2016-01-01
+publishdate: 2016-02-23
+date: 2016-03-10
+
+#den:
+tipo: Seminario
+geas:
+ - den: "-"
+din:
+ - nick: enekogomez
+   github: enekogomez
+   ehu: egomezXXX
+ - nick: erasmo
+   github:
+   ehu:
+lugar:
+ - aula: Seminario 2.3
+   dir: EUITI
+ - aula: 7i27 (Asoc. FreeJaus)
+   dir: EUITI
+formato: Taller (120')
+sesion:
+ - fecha: 2016Feb23
+   asistencia: 10
+ - fecha: 2016Feb25
+   asistencia: 7
+ - fecha: 2016Mar1
+   asistencia: 7
+ - fecha: 2016Mar3
+   asistencia: 5
 ---
 
-Se realizaron los días 23 y 25 de febrero y 1 y 3 de marzo.
+- **Objetivos**:
+  - Generales:
+     - 
+  - Primera sesión:
+     - 
+  - Segunda sesión:
+     - 
 
-La asistencia el 23: 10 personas.
-la asistencia el 25: 7 personas.
-La asistencia el 1:  7 personas.
-La asistencia el 3: 5 personas.
+---
+
+Descripción de la actividad, referencias, imágenes/fotografías, documentación, actas, etc.

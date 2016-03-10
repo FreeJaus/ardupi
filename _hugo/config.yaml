@@ -7,7 +7,7 @@ params:
   brand: "ArduPi"
   description: "Repositorio de conocimiento colectivo y canal de coordinación en torno a los ecosistemas Arduino, Raspberry Pi..."
   author: "FreeJaus - La Casilla"
-  static: "cdn"
+  static: "local"
 
 #! COVER
   cover: # background is 'static/img/header-bg.jpg'
