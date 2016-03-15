@@ -43,6 +43,40 @@
     </item>
     
     <item>
+      <title>Taller de células solares</title>
+      <link>http://freejaus.github.io/ardupi/event/celulassolares/</link>
+      <pubDate>Thu, 10 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/event/celulassolares/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Objetivos&lt;/strong&gt;:
+
+&lt;ul&gt;
+&lt;li&gt;Generales:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Primera sesión:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Segunda sesión:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Descripción de la actividad, referencias, imágenes/fotografías, documentación, actas, etc.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Sitemap</title>
       <link>http://freejaus.github.io/ardupi/notebook/sitemap/</link>
       <pubDate>Thu, 21 Jan 2016 00:00:00 +0000</pubDate>
@@ -106,6 +140,30 @@
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.pjrc.com/teensy/td_libs_VirtualWire.html&#34;&gt;VirtualWire&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://freejaus.github.io/ardupi/notebook/refs/docker/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/refs/docker/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://docs.docker.com/engine/installation/linux/fedora/&#34;&gt;https://docs.docker.com/engine/installation/linux/fedora/&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo dnf install docker
+
+sudo systemctl start docker  #Para iniciarlo en la sesión
+sudo systemctl enable docker #Para iniciarlo al arrancar
+
+sudo docker info
+sudo docker run hello-world
+
+sudo groupadd docker         #Para no tener que utilizar sudo
+sudo usermod -aG docker user
+
+
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
@@ -342,6 +400,131 @@ Tomamos Arduino como referencia porque la curva de aprendizaje inicial es muy te
     </item>
     
     <item>
+      <title>Hugo</title>
+      <link>http://freejaus.github.io/ardupi/notebook/refs/hugo/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/notebook/refs/hugo/</guid>
+      <description>
+
+&lt;p&gt;git bash
+mingw
+msys&lt;/p&gt;
+
+&lt;p&gt;GitHub provee espacio de alojamiento para páginas web estáticas, lo que quiere decir que no se pueden utilizar lenguajes como PHP, Ruby o Python para generar el contenido de forma dinámica. Sin embargo, no es necesario editar a mano todo el contenido utilizando HTML, CSS y JavaScript. Existen programas denominados &lt;em&gt;generadores&lt;/em&gt; de páginas estáticas que, partiendo de contenido marcado (típicamente Markdown), aplican plantillas para facilitar la tarea de creación de las páginas en HTML. Estos permiten alojar en GitHub páginas de cierta complejidad con poco esfuerzo y en un tiempo muy reducido. Incluso pueden incluirse foros, vídeos y formularios. No obstante, en este artículo vamos a centrarnos en los aspectos básicos.&lt;/p&gt;
+
+&lt;p&gt;Los generadores de páginas estáticas más conocidos, aunque no los únicos, son [Jekyll]() (basado en Ruby) y [Hugo]() (basado en Golang). Ambos proveen funcionalidades similares, y muchas plantillas (generalmente de Bootstrap) están adaptadas a los dos. En FreeJaus utilizamos &lt;em&gt;Hugo&lt;/em&gt; principalmente, pero en algunos repositorios es posible encontrar fuentes para ambos generadores.&lt;/p&gt;
+
+&lt;h1 id=&#34;estructura-del-proyecto:32ab7241d48fcc174c877413a917f8cf&#34;&gt;Estructura del proyecto&lt;/h1&gt;
+
+&lt;p&gt;En los repositorios en que se utiliza &lt;em&gt;Hugo&lt;/em&gt; para generar la página web, hay una carpeta &lt;code&gt;_hugo&lt;/code&gt; en la rama (&lt;em&gt;branch&lt;/em&gt;) &lt;code&gt;master&lt;/code&gt;. La estructura de la misma es la esperada por el programa, tal como se indica &lt;a href=&#34;https://gohugo.io/overview/source-directory/&#34;&gt;aquí&lt;/a&gt;. Como no se utilizan todas posibilidades que ofrece &lt;em&gt;Hugo&lt;/em&gt;, es habitual encontrar sólo algunos de los directorios:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[repositorio/_hugo]
+
+&lt;ul&gt;
+&lt;li&gt;[archetypes]&lt;/li&gt;
+&lt;li&gt;[content]
+
+&lt;ul&gt;
+&lt;li&gt;[seccion]
+
+&lt;ul&gt;
+&lt;li&gt;post1.md&lt;/li&gt;
+&lt;li&gt;post2.md&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;[layouts]
+
+&lt;ul&gt;
+&lt;li&gt;index.html&lt;/li&gt;
+&lt;li&gt;[_default]&lt;/li&gt;
+&lt;li&gt;[partials]&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;[static]&lt;/li&gt;
+&lt;li&gt;config.yaml&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;cómo-obtener-hugo:32ab7241d48fcc174c877413a917f8cf&#34;&gt;Cómo obtener Hugo&lt;/h1&gt;
+
+&lt;p&gt;Se pueden descargar los binarios del apartado &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;releases&lt;/a&gt; de la página &lt;a href=&#34;https://github.com/spf13/hugo/&#34;&gt;github.com/spf13/hugo&lt;/a&gt;. Hay versiones de 32 y 64 bits para arquitecturas x86 y ARM y sistemas Linux, Windows, BSD (OpenBSD, NetBSD, FreeBSD, Darwin, Dragonfly)&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Alternativamente se puede compilar Hugo desde las fuentes. Como &lt;em&gt;Hugo&lt;/em&gt; está escrito en Go, y se distribuye como un paquete, hay que instalar &lt;a href=&#34;https://golang.org/&#34;&gt;golang&lt;/a&gt;. Una vez hecho, se establece el directorio de trabajo y se descargar y compila el paquete:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd ~
+mkdir gowork
+cd gowork
+export GOPATH=$(pwd)
+go install -v github.com/spf13/hugo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;El binario resultante estará en &lt;code&gt;$GOPATH/bin/&lt;/code&gt;. Valiéndonos de las posibilidades de compilación cruzada de &lt;em&gt;Go&lt;/em&gt;, se pueden generar binarios para otras arquitecturas.&lt;/p&gt;
+
+&lt;h1 id=&#34;escoger-un-tema:32ab7241d48fcc174c877413a917f8cf&#34;&gt;Escoger un tema&lt;/h1&gt;
+
+&lt;p&gt;Hugo utiliza temas para generar el sitio web a partir del contenido escrito en Markdown. Se puede definir un único tema en los subdirectorios &lt;code&gt;layouts&lt;/code&gt; y &lt;code&gt;static&lt;/code&gt;, pero es más habitual utilizar el subdirectorio &lt;code&gt;themes&lt;/code&gt; y crear un directorio por tema. En &lt;a href=&#34;https://gohugo.io/themes/overview/&#34;&gt;gohugo.io/themes/overview&lt;/a&gt; se explica cómo funcionan los temas, cómo instalarlos, utilizarlos y modificarlos. Asimismo, en &lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;themes.gohugo.io&lt;/a&gt; hay un catálogo de temas, que pueden descargarse a través de la página o directamente del repositorio &lt;a href=&#34;https://github.com/spf13/hugoThemes&#34;&gt;github.com/spf13/hugoThemes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;También hay disponibles temas en páginas de terceros. &lt;a href=&#34;http://themes.gohugo.io/blackburn/&#34;&gt;Blakcburn&lt;/a&gt;, por ejemplo, está en el repositorio anterior y en &lt;a href=&#34;https://github.com/yoshiharuyamashita/blackburn&#34;&gt;github.com/yoshiharuyamashita/blackburn&lt;/a&gt;. Para utilizarlo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd repositorio/_hugo
+mkdir themes
+cd themes
+git clone https://github.com/yoshiharuyamashita/blackburn.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Cada plantilla espera que el contenido esté organizado en un orden determinado. Del mismo modo, espera que en el fichero de configuración haya unos campos determinados. Si no se siguen los patrones esperados, es posible que parte o todo el contenido no se muestre, o lo haga parcialmente. Para conocerlos, es importante leer la documentación de quien ha diseñado la plantilla.&lt;/p&gt;
+
+&lt;h1 id=&#34;servidor-local:32ab7241d48fcc174c877413a917f8cf&#34;&gt;Servidor local&lt;/h1&gt;
+
+&lt;p&gt;Puesto que &lt;em&gt;Go&lt;/em&gt; dispone de librerías integradas para desplegar servicios web, &lt;em&gt;Hugo&lt;/em&gt; permite &lt;a href=&#34;https://gohugo.io/overview/usage/&#34;&gt;probar&lt;/a&gt; en tiempo real el resultado de la página, antes de generar los ficheros finales. Para ello, deberemos ejecutar el binario desde la carpeta donde se encuentra el fichero de configuración, con el argumento &lt;code&gt;serve&lt;/code&gt; o &lt;code&gt;server&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd repositorio/_hugo
+$GOPATH/bin/hugo -t TEMA server
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Se mostrará en la terminal la URL local, normalmente &lt;code&gt;localhost:1313&lt;/code&gt;, que introduciremos en el navegador para ver la página. Si modificamos cualquier fichero, &lt;em&gt;Hugo&lt;/em&gt; regenerará las páginas afecatadas y actualizará el navegador. Debemos tener en cuenta que en caso de indicar en el fichero de configuración una dirección base del tipo &lt;code&gt;nombre.dominio/seccion&lt;/code&gt;, deberemos introducir &lt;code&gt;localhost:1313/seccion&lt;/code&gt; en el navegador.&lt;/p&gt;
+
+&lt;h1 id=&#34;publicación:32ab7241d48fcc174c877413a917f8cf&#34;&gt;Publicación&lt;/h1&gt;
+
+&lt;p&gt;Cuando el resultado sea satisfactorio y se desee actualizar la página, se ejecutará &lt;em&gt;Hugo&lt;/em&gt; sin el argumento &lt;code&gt;server&lt;/code&gt;. Como resultado, se generarán todas las páginas en HTML en el directorio &lt;code&gt;public&lt;/code&gt; (o el que se haya indicado en el fichero de configuración). En otras palabras, sólo deberemos copiar el contenido de &lt;code&gt;public&lt;/code&gt; a la ubicación del servidor web. En el caso de los repositorios de GitHub, esta ubicación es la rama (&lt;em&gt;branch&lt;/em&gt;) &lt;code&gt;gh-pages&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;En primer lugar, moveremos &lt;code&gt;public&lt;/code&gt; temporalmente fuera del repositorio:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd repositorio
+mv _hugo/public ../
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Si no tenemos la rama &lt;code&gt;gh-pages&lt;/code&gt; en nuestro equipo (podemos comprobarlo mediante &lt;code&gt;git branch&lt;/code&gt;), la añadiremos y actualizaremos:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd repositorio
+git fetch
+git checkout --orphan gh-pages
+git rm -rf .
+git pull -u origin gh-pages
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Si ya la tenemos añadida, simplemente cambiaremos de rama y actualizaremos:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd repositorio
+git checkout gh-pages
+git fetch
+git pull
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Para renovar el contenido, borraremos todo lo anterior, añadiremos lo nuevo, añadiremos todo y haremos un &lt;code&gt;commit&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rm -rf ./*
+mv ../public/* ./
+git add ./*
+git commit -am &amp;quot;Pagina actualizada&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Esperaremos unos segundos y actualizaremos el navegador: &lt;code&gt;freejaus.github.io/repositorio&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Medidor de energía IOT</title>
       <link>http://freejaus.github.io/ardupi/tfg/iotpower/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
@@ -552,64 +735,6 @@ líneas
 &lt;li&gt;&lt;a href=&#34;http://forums.modretro.com/viewtopic.php?f=3&amp;amp;t=10121&#34;&gt;http://forums.modretro.com/viewtopic.php?f=3&amp;amp;t=10121&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;¿Para qué sirve el estabilizador magnético?&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cuaderno de anotaciones</title>
-      <link>http://freejaus.github.io/ardupi/notebook/overview/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://freejaus.github.io/ardupi/notebook/overview/</guid>
-      <description>&lt;p&gt;Contenido general del cuaderno de anotaciones&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Persistance Of Vision</title>
-      <link>http://freejaus.github.io/ardupi/notebook/thing/pov/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://freejaus.github.io/ardupi/notebook/thing/pov/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/2hASOre63Nk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://es.wikipedia.org/wiki/Persistencia_de_la_visi%C3%B3n&#34;&gt;https://es.wikipedia.org/wiki/Persistencia_de_la_visi%C3%B3n&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Persistence_of_vision&#34;&gt;https://en.wikipedia.org/wiki/Persistence_of_vision&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;LED matrix
-
-&lt;ul&gt;
-&lt;li&gt;Acher&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Propeller (aprovechando el motor brushless de un lector de CD/DVD)
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.instructables.com/id/Propeller-Clock/&#34;&gt;http://www.instructables.com/id/Propeller-Clock/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.330ohms.com/blogs/blog/85008964-arduino-propeller-clock-reloj&#34;&gt;https://www.330ohms.com/blogs/blog/85008964-arduino-propeller-clock-reloj&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.pyroelectro.com/projects/pyro_propeller_clock_pov/&#34;&gt;http://www.pyroelectro.com/projects/pyro_propeller_clock_pov/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Persistance Of Vision</title>
-      <link>http://freejaus.github.io/ardupi/thing/pov/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://freejaus.github.io/ardupi/thing/pov/</guid>
-      <description>&lt;p&gt;POV content&lt;/p&gt;
 </description>
     </item>
     

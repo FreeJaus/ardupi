@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>http://freejaus.github.io/ardupi/event/celulassolares/</loc>
+    <lastmod>2016-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://freejaus.github.io/ardupi/notebook/sitemap/</loc>
     <lastmod>2016-01-21T00:00:00+00:00</lastmod>
   </url>
@@ -38,12 +43,22 @@
   </url>
   
   <url>
+    <loc>http://freejaus.github.io/ardupi/notebook/refs/docker/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://freejaus.github.io/ardupi/notebook/refs/env/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://freejaus.github.io/ardupi/notebook/refs/golang/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://freejaus.github.io/ardupi/notebook/refs/hugo/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   

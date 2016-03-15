@@ -33,9 +33,9 @@
 <meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png">
 <meta name="msapplication-config" content="/favicon/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
-  <title>FreeJaus - Ardupi - Referencias</title>
-  <meta content="FreeJaus - Ardupi - Referencias" property="og:title">
-  <meta content="" name="keywords">
+  <title>FreeJaus - Ardupi - Docker</title>
+  <meta content="FreeJaus - Ardupi - Docker" property="og:title">
+  <meta content="docker, container, deployment, cluster, swarm" name="keywords">
 
   <!-- Bootstrap and Font Awesome CSS -->
   
@@ -72,19 +72,19 @@
   </span>
 
   <span style="float: right; text-align: right; font-size: 10px; padding-top: 5px; padding-right: 10px;">
-    <div title="published 0001/01/01 00:00">
-      <span>Monday, 1 Jan 0001</span>
+    <div title="published 2016/01/01 00:00">
+      <span>Friday, 1 Jan 2016</span>
       <i class="fa fa-calendar-check-o"></i>
     </div>
     <div title="last updated">
-      <span>0001/01/01 00:00</span>
+      <span>2016/01/01 00:00</span>
       <i class="fa fa-calendar-plus-o"></i>
     </div>
   </span>
 
   <span style="width: 100%; text-align: center;">
-    <div style="font-size: 16px; font-weight: bold;"><a href="#page-top">Notebook - Referencias</a></div>
-    <div style="font-size: 10px; font-style: italic"></div>
+    <div style="font-size: 16px; font-weight: bold;"><a href="#page-top">Notebook - Docker</a></div>
+    <div style="font-size: 10px; font-style: italic">docker, container, deployment, cluster, swarm</div>
   </span>
 
   <!-- /.container-fluid -->
@@ -150,10 +150,39 @@
       
         <li class="sub-menu active">
           <a class="" href="http://freejaus.github.io/ardupi/notebook/refs/list/">
-            <span class="menu-arrow fa fa-angle-right"></span>
+            <span class="menu-arrow fa fa-angle-down"></span>
             <i class="fa fa-book"></i>
             <span>Referencias</span>
           </a>
+		  
+            <ul class="sub open">
+              
+              
+                <li class="active">
+                  <a href="http://freejaus.github.io/ardupi/notebook/refs/docker/"><i class="fa fa-caret-right"></i>Docker</a>
+                </li>
+              
+                <li class="">
+                  <a href="http://freejaus.github.io/ardupi/notebook/refs/env/"><i class="fa fa-caret-right"></i>Entorno de trabajo</a>
+                </li>
+              
+                <li class="">
+                  <a href="http://freejaus.github.io/ardupi/notebook/refs/golang/"><i class="fa fa-caret-right"></i>Go(lang)</a>
+                </li>
+              
+                <li class="">
+                  <a href="http://freejaus.github.io/ardupi/notebook/refs/hugo/"><i class="fa fa-caret-right"></i>Hugo</a>
+                </li>
+              
+                <li class="">
+                  <a href="http://freejaus.github.io/ardupi/notebook/refs/pir/"><i class="fa fa-caret-right"></i>Marcas, diseños, piratería y open source</a>
+                </li>
+              
+                <li class="">
+                  <a href="http://freejaus.github.io/ardupi/notebook/refs/pandoc/"><i class="fa fa-caret-right"></i>Pandoc</a>
+                </li>
+              
+            </ul>
 		  
         </li>
       
@@ -178,67 +207,41 @@
     <div id="container" class="">
       <div id="main-content">
         
-         <div class="panel-body">
-  <ul class="sum-list">
-    
-      <li class="sum-box">
-	    <div>
-	      <a class="sum-title" href="http://freejaus.github.io/ardupi/notebook/refs/docker/">Docker</a>
-	      <span class="sum-keywords">docker, container, deployment, cluster, swarm</span>
-	    <div>
-	    <div class="sum-summary">https://docs.docker.com/engine/installation/linux/fedora/ sudo dnf install docker sudo systemctl start docker #Para iniciarlo en la sesión sudo systemctl enable docker #Para iniciarlo al arrancar sudo docker info sudo docker run hello-world sudo groupadd docker #Para no tener que utilizar sudo sudo usermod -aG docker user</div>
-      </li>
-    
-      <li class="sum-box">
-	    <div>
-	      <a class="sum-title" href="http://freejaus.github.io/ardupi/notebook/refs/env/">Entorno de trabajo</a>
-	      <span class="sum-keywords">arduino, atmel, avr, git, vcs, repositorio, wiki, arm, linux, markdown, hugo</span>
-	    <div>
-	    <div class="sum-summary">En este apartado se reúnen referencias relacionadas con las herramientas utilizadas de forma transversal en prácticamente todos los proyectos. Se agrupan en función del tipo de tarea para la que se utilizan: Desarrollo y diseño Esquemas, diagramas, PCBs y simulaciones Fritzing para diseñar montajes, esquemas e incluso PCBs. 123circuits Microprocesadores ¿En que se diferencian un microprocesador y un microcontrolador (ambos de 32 bits)? ARM (mbed.com) Raspberry Pi Banana Pi Orange Pi Galileo BragleBone OLinuXino pcDuino Intel Galileo Arduino 101 Gizmo ODROID Fox SBC Zynq: MicroZed, ZYBO Parallela Residualmente se puede ejecutar Windows IoT http://www.eetimes.com/document.asp?doc_id=1328008 Microcontroladores Como puede intuirse por el nombre, en FreeJaus - ArduPi se utilizan principalmente las placas del ecosistema Arduino (basadas en productos de Atmel) como plataforma para los diseños basados en microcontrolador, o uC.</div>
-      </li>
-    
-      <li class="sum-box">
-	    <div>
-	      <a class="sum-title" href="http://freejaus.github.io/ardupi/notebook/refs/golang/">Go(lang)</a>
-	      <span class="sum-keywords">golang, tour, doc</span>
-	    <div>
-	    <div class="sum-summary">https://go-tour-es.appspot.com https://gobyexample.com/ github.com/golang/ lint go/wiki/ Projects CodeReviewComent SliceTricks golang.org/ ref/spec cmd/vet golang.org/doc/ effective_go code blog.golang.org/ gos-declaration-syntax go-maps-in-action https://github.com/chai2010/notepadplus-go</div>
-      </li>
-    
-      <li class="sum-box">
-	    <div>
-	      <a class="sum-title" href="http://freejaus.github.io/ardupi/notebook/refs/hugo/">Hugo</a>
-	      <span class="sum-keywords">hugo, static, site, generator, golang, tour, doc</span>
-	    <div>
-	    <div class="sum-summary">git bash mingw msys GitHub provee espacio de alojamiento para páginas web estáticas, lo que quiere decir que no se pueden utilizar lenguajes como PHP, Ruby o Python para generar el contenido de forma dinámica. Sin embargo, no es necesario editar a mano todo el contenido utilizando HTML, CSS y JavaScript. Existen programas denominados generadores de páginas estáticas que, partiendo de contenido marcado (típicamente Markdown), aplican plantillas para facilitar la tarea de creación de las páginas en HTML.</div>
-      </li>
-    
-      <li class="sum-box">
-	    <div>
-	      <a class="sum-title" href="http://freejaus.github.io/ardupi/notebook/refs/pir/">Marcas, diseños, piratería y open source</a>
-	      <span class="sum-keywords"></span>
-	    <div>
-	    <div class="sum-summary">https://github.com/FreeJaus/ardupi/wiki/Unbrick-FTDI</div>
-      </li>
-    
-      <li class="sum-box">
-	    <div>
-	      <a class="sum-title" href="http://freejaus.github.io/ardupi/notebook/refs/pandoc/">Pandoc</a>
-	      <span class="sum-keywords">pandoc, markdown, latex</span>
-	    <div>
-	    <div class="sum-summary">http://tomp.io/phd-thesis-template-markdown.html http://pandoc.org/README.html https://users.soe.ucsc.edu/~ivo/_posts/2015-03-12-repeatable-paper-generation-with-docker-and-pandoc.html https://github.com/vrthra/markdown-ieee-pdf https://github.com/cscorley/ieee-pandoc-template https://github.com/jgm/pandoc/wiki/Pandoc-vs-Multimarkdown#features-in-mmd-but-not-pandoc https://github.com/tompollard/phd_thesis_markdown https://github.com/carnby/pandoc-thesis</div>
-      </li>
-    
-  </ul>
-<hr />
+         
 
-<ul>
-<li><a href="https://sites.google.com/site/geaarduino/">https://sites.google.com/site/geaarduino/</a></li>
-<li><a href="https://gohugo.io/tutorials/github-pages-blog/">Hugo - Hosting on GitHub Pages</a></li>
-</ul>
+  
+  
+  
+  
+    
+    
+  
+
+
+
+
+<div class="panel-body">
+  <p><a href="https://docs.docker.com/engine/installation/linux/fedora/">https://docs.docker.com/engine/installation/linux/fedora/</a></p>
+
+<pre><code>sudo dnf install docker
+
+sudo systemctl start docker  #Para iniciarlo en la sesión
+sudo systemctl enable docker #Para iniciarlo al arrancar
+
+sudo docker info
+sudo docker run hello-world
+
+sudo groupadd docker         #Para no tener que utilizar sudo
+sudo usermod -aG docker user
+
+
+</code></pre>
 
 </div>
-	    
+
+
+  <a href="http://freejaus.github.io/ardupi/notebook/refs/env/"><div class="panel-nav" style="margin-top: -10px;"><i class="fa fa-angle-double-down"></i></div></a>
+ 
       </div>
     </div>
     

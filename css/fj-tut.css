@@ -1,0 +1,24 @@
+table {
+  text-align: center;
+}
+
+td, th {
+  padding: 2px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: none;
+}
+
+h2 {
+  padding-left: 20px;
+}
+
+h3 {
+  padding-left: 40px;
+}
+
+h4 {
+  font-style: italic;
+  padding-left: 60px;
+}
