@@ -12,7 +12,9 @@ git bash
 mingw
 msys
 
-GitHub provee espacio de alojamiento para páginas web estáticas, lo que quiere decir que no se pueden utilizar lenguajes como PHP, Ruby o Python para generar el contenido de forma dinámica. Sin embargo, no es necesario editar a mano todo el contenido utilizando HTML, CSS y JavaScript. Existen programas denominados *generadores* de páginas estáticas que, partiendo de contenido marcado (típicamente Markdown), aplican plantillas para facilitar la tarea de creación de las páginas en HTML. Estos permiten alojar en GitHub páginas de cierta complejidad con poco esfuerzo y en un tiempo muy reducido. Incluso pueden incluirse foros, vídeos y formularios. No obstante, en este artículo vamos a centrarnos en los aspectos básicos.
+La mayoría de las páginas que visitamos hoy en día están basadas en gestores de contenidos (*Content Management System -CMS-*). Algunos de los más conocidos son WordPress, Drupal o Joomla. Estos están escritos 
+
+GitHub provee espacio de alojamiento para páginas web estáticas, lo que quiere decir que no se pueden utilizar gestores de contenidos como WordPress o Drupal (escritos en lenguajes como PHP, Ruby o Python para generar el contenido de forma dinámica. Sin embargo, no es necesario editar a mano todo el contenido utilizando HTML, CSS y JavaScript. Existen programas denominados *generadores* de páginas estáticas que, partiendo de contenido marcado (típicamente Markdown), aplican plantillas para facilitar la tarea de creación de las páginas en HTML. Estos permiten alojar en GitHub páginas de cierta complejidad con poco esfuerzo y en un tiempo muy reducido. Incluso pueden incluirse foros, vídeos y formularios. No obstante, en este artículo vamos a centrarnos en los aspectos básicos.
 
 Los generadores de páginas estáticas más conocidos, aunque no los únicos, son [Jekyll]() (basado en Ruby) y [Hugo]() (basado en Golang). Ambos proveen funcionalidades similares, y muchas plantillas (generalmente de Bootstrap) están adaptadas a los dos. En FreeJaus utilizamos *Hugo* principalmente, pero en algunos repositorios es posible encontrar fuentes para ambos generadores.
 
@@ -48,6 +50,8 @@ go install -v github.com/spf13/hugo
 ```
 
 El binario resultante estará en `$GOPATH/bin/`. Valiéndonos de las posibilidades de compilación cruzada de *Go*, se pueden generar binarios para otras arquitecturas.
+
+PROBLEMA LIBRERÍA BITBUCKET QUE UTILIZA MERCURIAL Y DESDE WINDOWS NO SE PUEDE HACER PULL
 
 # Escoger un tema
 
