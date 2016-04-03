@@ -8,11 +8,15 @@ publishdate: 2016-01-01
 date: 2016-01-01
 ---
 
+<!--
 git bash
 mingw
 msys
 
 La mayoría de las páginas que visitamos hoy en día están basadas en gestores de contenidos (*Content Management System -CMS-*). Algunos de los más conocidos son WordPress, Drupal o Joomla. Estos están escritos 
+-->
+
+- [Hugo - Hosting on GitHub Pages](https://gohugo.io/tutorials/github-pages-blog/)
 
 GitHub provee espacio de alojamiento para páginas web estáticas, lo que quiere decir que no se pueden utilizar gestores de contenidos como WordPress o Drupal (escritos en lenguajes como PHP, Ruby o Python para generar el contenido de forma dinámica. Sin embargo, no es necesario editar a mano todo el contenido utilizando HTML, CSS y JavaScript. Existen programas denominados *generadores* de páginas estáticas que, partiendo de contenido marcado (típicamente Markdown), aplican plantillas para facilitar la tarea de creación de las páginas en HTML. Estos permiten alojar en GitHub páginas de cierta complejidad con poco esfuerzo y en un tiempo muy reducido. Incluso pueden incluirse foros, vídeos y formularios. No obstante, en este artículo vamos a centrarnos en los aspectos básicos.
 

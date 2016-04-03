@@ -13,4 +13,3 @@ title: Referencias
 ---
 
 - https://sites.google.com/site/geaarduino/
-- [Hugo - Hosting on GitHub Pages](https://gohugo.io/tutorials/github-pages-blog/)
