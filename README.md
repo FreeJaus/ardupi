@@ -14,5 +14,5 @@ Projects combining Arduino & Raspberry Pi
 * [Parallella](http://www.parallella.org/board/)
 
 ## OS
-
+* [RetroPie](https://github.com/RetroPie), basado en [Raspbian](https://www.raspbian.org/). Se trata de un SO enfocado a crear una maquina recreativa capaz de emular distintos sistemas: Nintendo, Sony, MAME32...
 * [ArkOS](https://arkos.io/what-is-arkos/), basado en [Arch Linux ARM](http://archlinuxarm.org/)
