@@ -1,0 +1,19 @@
+os: linux
+dist: trusty
+sudo: required
+services: docker
+language: minimal
+install: skip
+addons:
+  apt:
+    packages:
+      - docker-ce
+script: "./build.sh"
+
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script: DEPLOY=true ./build.sh
+    on:
+      repo: FreeJaus/ardupi
+      branch: master

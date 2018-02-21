@@ -2,6 +2,7 @@ publishdir: "../public"
 title: "FreeJaus - Ardupi"
 baseurl: "http://freejaus.github.io/ardupi/"
 canonifyurls: true
+enableGitInfo: true
 
 params:
   brand: "ArduPi"
@@ -143,7 +144,7 @@ menu:
 #		[[params.footer.quicklinks]]
 #			text = "Terms of Use"
 #			link = "#"
-#	
+#
 #[taxonomies]
 #  tag = "tags"
 #  category = "categories"

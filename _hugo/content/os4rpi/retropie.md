@@ -1,3 +1,7 @@
+---
+title: "RetroPie - Manual de instalacion y configuracion"
+---
+
 #Introduccion
 
 ##¿Que es RetroPie? (Imagen para Tarjeta SD)
@@ -78,7 +82,7 @@ Si los links estan caidos, visitar la pagina de descargas [aqui](https://github.
  - Rpi 1/Zero= 1 raspberry when the pi boots up
 
  - Rpi 2/Rpi 3= 4 raspberries when the pi boots up
-	
+
 Si obtienes un error *Illegal Instruction* cuando arranca, has elegido la imagen erronea.
 
 ##Instalar la imagen de RetroPie en la SD
@@ -95,7 +99,7 @@ Si estas actualizando desde una version anterior de Retropie, ve [aqui](https://
 
 ##Arranque y deteccion de mando(s)
 
-Cuando el sistema arranquue por primera vez, veras una pantalla similar a esta: 
+Cuando el sistema arranquue por primera vez, veras una pantalla similar a esta:
 
 ![](https://cloud.githubusercontent.com/assets/10035308/9140482/cf42f25c-3cee-11e5-8f91-c1fc1c57175c.png)
 
@@ -137,7 +141,7 @@ Con la caracteristica de chrome de añadir a la ventana de 'homescreen', puedes 
 Con solo 3 clicks, la aplicacion web para gamepads se convierte en una aplicacion standalone.
 
 
-![](https://raw.githubusercontent.com/miroof/node-virtual-gamepads/resources/screenshots/standalone_step1.png)![](https://raw.githubusercontent.com/miroof/node-virtual-gamepads/resources/screenshots/standalone_step2.png)	
+![](https://raw.githubusercontent.com/miroof/node-virtual-gamepads/resources/screenshots/standalone_step1.png)![](https://raw.githubusercontent.com/miroof/node-virtual-gamepads/resources/screenshots/standalone_step2.png)
 
 Entonces se generara un shortcut (acceso directo) a la aplicacion sin tener que abrir el navegador.
 
@@ -248,7 +252,7 @@ sudo raspi-config
 
 Si se desea utilizar la conexion wifi para realizar las actualizaciones o enviar las ROMs a la RaspBerry Pi deberemos abrir el menu "RetroPie" y en el, configuracion WiFi.
 
-![](https://cloud.githubusercontent.com/assets/10035308/12865761/adc9f5c6-cc72-11e5-9b02-9e98b90bbd98.png) 
+![](https://cloud.githubusercontent.com/assets/10035308/12865761/adc9f5c6-cc72-11e5-9b02-9e98b90bbd98.png)
 
 Se abrira el siguiente menu:
 
@@ -262,7 +266,7 @@ Para mas configuraciones wifi visitar [esta](https://github.com/RetroPie/RetroPi
 
 ##Actualizar RetroPie
 
-Nos dirigiremos al menu RetroPie dentro de Emulation Station. 
+Nos dirigiremos al menu RetroPie dentro de Emulation Station.
 
 Tambien se puede acceder desde la terminal con
 
@@ -304,7 +308,7 @@ Debido a las restricciones de CopyRight's/Propiedad Intelectual no es posible fa
 2. una vez formateado. Crea una carpeta llamada **retropie** en tu unidad USB
 3. conectalo a la RaspBerry y espera a que el led indicador (del Pen-Drive) deje de parpadear
 4. añade las roms a sus respectivas carpetas (dentro de retropie/roms) Ej. copiamos Crash.iso a /retropie/roms/psx (el nombre del emulador destino)
-5. conectamos de nuevo a la RaspBerry 
+5. conectamos de nuevo a la RaspBerry
 6. esperamos a que el led del Pen-Drive deje de parpadear
 7. refrescamos Emulation Station eligiendo esa opcion en el menu start
 
@@ -477,7 +481,7 @@ Accede al **RetroPie Setup Script** y navega a **Setup/ Configuration >>> Xbox /
 + Pulsa el pequeño boton de 'Wireless' en la parte superior del mando
 + Repite el proceso para cada controlador
 + Los controladores deben estar encendidos antes del arranque de la RaspBerry para funcionar correctamente
- + Prueba el dia 12/03/16. En los casos en los que el controlador esta emparejado con el 'Wireless Receiver', solo es necesario disponer de dicho controlador conectado a la RaspBerry Pi. 
+ + Prueba el dia 12/03/16. En los casos en los que el controlador esta emparejado con el 'Wireless Receiver', solo es necesario disponer de dicho controlador conectado a la RaspBerry Pi.
 
 ####Configuracion manual de los botones
 
@@ -527,11 +531,3 @@ No es posible proveer las BIOS de los emuladores. **Y no es legal utilizar emula
 Para ciertos emuladores es necesario añadir archivos de BIOS diferentes por cada region (Ej. Europa, USA, Asia)
 
 Sera necesario ubicar los archivos de BIOS de las roms en ```/home/pi/RetroPie/BIOS```
-
-
-
-
-
-
-	
-
