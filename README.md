@@ -1,3 +1,1 @@
-- Each `prj_*` directory contains the resources of a different project.
-- Images and PDF files are found in `img` and `pdf`, respectively.
-- Documentation (markdown) sources are found in `_hugo/content`. See [freejaus.github.io/ardupi](http://freejaus.github.io/ardupi).
+Markdown sources to generate [freejaus.github.io/ardupi](http://freejaus.github.io/ardupi) with [hugo](https://github.com/gohugoio/hugo).
