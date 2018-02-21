@@ -2,9 +2,9 @@
 title: "RetroPie - Manual de instalacion y configuracion"
 ---
 
-#Introduccion
+# Introduccion
 
-##¿Que es RetroPie? (Imagen para Tarjeta SD)
+## ¿Que es RetroPie? (Imagen para Tarjeta SD)
 
 La [imagen para SD de RetroPie](http://blog.petrockblock.com/retropie/retropie-downloads/) contiene un sistema ready-to-use que provee una instalacion completa de todos los sistemas y funciones que estan soportadas por [el script de instalacion de RetroPie](http://blog.petrockblock.com/2012/07/22/retropie-setup-an-initialization-script-for-retroarch-on-the-raspberry-pi/)
 
@@ -14,8 +14,9 @@ La [imagen para SD de RetroPie](http://blog.petrockblock.com/retropie/retropie-d
 - Sistema de comparticion SAMBA dispoible para copiar las ROMs a traves de la conexion de red
 - Demonio USB para copiar las ROMs a traves de un pen-drive
 
-##Sistemas/Emuladores soportados
+## Sistemas/Emuladores soportados
 
+```
 The RetroPie SD-card includes emulators for a whole range of gaming history. Some of these systems are:
 
     Amiga (UAE4ALL)
@@ -51,11 +52,13 @@ The RetroPie SD-card includes emulators for a whole range of gaming history. Som
     Playstation 1 (RetroArch/PCSX ReARMed)
     Super Nintendo Entertainment System (RetroArch/Pocket SNES, snes9x-rpi)
     Sinclair ZX Spectrum (Fuse, FBZX)
+```
 
 Una lista de todos los sistemas por orden cronologico de aparicion puede encontrarse [aqui](http://blog.petrockblock.com/arcade-systems-game-consoles-and-home-computers-in-retropie/).
 
-#Instalacion
-##Componentes necesarios/recomendados
+# Instalacion
+
+## Componentes necesarios/recomendados
 
 - Raspberry Pi (A, A+, B, B+, 2, Zero, or 3) - para obtener el mejor rendimientos usar la Raspberry Pi 3.
 - Caja Raspberry Pi (opcional pero recomendado)
@@ -68,36 +71,34 @@ Una lista de todos los sistemas por orden cronologico de aparicion puede encontr
 - Teclado y raton por USB (tambien es posible acceso por SSH en caso de no disponer)
 - Mando de consola (DIY o de cualquier consola. Soporta enlace por bluetooth a mandos de PS3 y por el adaptador wireless de microsoft para mandos X360)
 
-##SD Images
+## SD Images
+
 A dia 16/03/2016 hay disponibles dos versiones de RetroPie 3.6. Una version para los modelos RaspBerry Pi 1/Zero (Modelos A, A+,B,B+) y otra version para las RaspBerry Pi 2/3. Descarga la imagene correspondiente:
 
-[Raspberry Pi 1 / Zero](https://github.com/RetroPie/RetroPie-Setup/releases/download/3.6/retropie-v3.6-rpi1.img.gz)
+- [Raspberry Pi 1 / Zero](https://github.com/RetroPie/RetroPie-Setup/releases/download/3.6/retropie-v3.6-rpi1.img.gz)
+- [Raspberry Pi 2 / Raspberry Pi 3](https://github.com/RetroPie/RetroPie-Setup/releases/download/3.6/retropie-v3.6-rpi2.img.gz)
 
-[Raspberry Pi 2 / Raspberry Pi 3](https://github.com/RetroPie/RetroPie-Setup/releases/download/3.6/retropie-v3.6-rpi2.img.gz)
-
-Si los links estan caidos, visitar la pagina de descargas [aqui](https://github.com/RetroPie/RetroPie-Setup/releases)
+Si los links estan caidos, visitar la pagina de descargas [aqui](https://github.com/RetroPie/RetroPie-Setup/releases).
 
 - Si no estas seguro de que modelo de RaspBerry tienes:
-
- - Rpi 1/Zero= 1 raspberry when the pi boots up
-
- - Rpi 2/Rpi 3= 4 raspberries when the pi boots up
+  - Rpi 1/Zero = 1 raspberry when the pi boots up
+  - Rpi 2/Rpi 3 = 4 raspberries when the pi boots up
 
 Si obtienes un error *Illegal Instruction* cuando arranca, has elegido la imagen erronea.
 
-##Instalar la imagen de RetroPie en la SD
+## Instalar la imagen de RetroPie en la SD
 
 Para instalar la imagen SD RetroPie 3.6 en tu tarjeta MicroSD (puede que necesites un adaptador para conectarla a tu PC).
 
-   1. Para Windows puedes utilizar un programa llamado [Win32Imager](http://sourceforge.net/projects/win32diskimager/)
-   2. Para Mac puedes utilizar [Apple Pi Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
-   3. Para Linux puedes usar el comando "dd" o [UnetBootin](https://unetbootin.github.io/)
+1. Para Windows puedes utilizar un programa llamado [Win32Imager](http://sourceforge.net/projects/win32diskimager/)
+2. Para Mac puedes utilizar [Apple Pi Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
+3. Para Linux puedes usar el comando "dd" o [UnetBootin](https://unetbootin.github.io/)
 
 Si estas actualizando desde una version anterior de Retropie, ve [aqui](https://github.com/RetroPie/RetroPie-Setup/wiki/Updating-RetroPie)
 
-#Primeras configuraciones
+# Primeras configuraciones
 
-##Arranque y deteccion de mando(s)
+## Arranque y deteccion de mando(s)
 
 Cuando el sistema arranquue por primera vez, veras una pantalla similar a esta:
 
@@ -108,9 +109,9 @@ Manten pulsado cualquier boton de tu mando/teclado durante unos segundos para qu
 ![](https://cloud.githubusercontent.com/assets/10035308/9140518/0263b9c8-3cef-11e5-922f-42f790f3be91.png)
 
 La configuracion creada para RetroArch, se almacena en:
-```bash
-/opt/retropie/configs/all/retroarch-joypads
 
+``` bash
+/opt/retropie/configs/all/retroarch-joypads
 ```
 
 Para configurar un segundo controlador, sera necesario que lo hagamos desde el menu de Emulation Station por lo que hablaremos de ello mas adelante.
@@ -123,16 +124,17 @@ Como esquemas a tener en cuenta, como guia para la configuracion de los controla
 
 ![](https://cloud.githubusercontent.com/assets/10035308/7111199/e29365ec-e179-11e4-87b4-f00685661d7e.png)
 
-###Utilizar el SmartPhone como mando a distancia (Experimental: 22/03/2016)
+### Utilizar el SmartPhone como mando a distancia (Experimental: 22/03/2016)
+
 Este proyecyo es el resultado del duro trabajo de Miroof: https://github.com/miroof/node-virtual-gamepads
 
 Instalable desde el menu de aplicaciones experimentales del script de instalacion (Setup-Script)(puede que solo funcione a partir de la RaspBerry 2)
 
-####Utilizacion
+#### Utilizacion
 
 Una vez que la aplicacion nodejs es lanzada, solo tienees que conectar tu gamepad accediendo con tu dispositivo a la misma red local y conectandote a la direccion http://node_server_adress (ej. la direccion de tu RaspBerry Pi) en tu navegador (se recomienda utilizar Chrome Mobile).
 
-###Uso como aplicacion para SmartPhone (Chrome for Android)
+### Uso como aplicacion para SmartPhone (Chrome for Android)
 
 Nota: tienes que configurar el gamepad virtual para EmulationStation ANTES de que crees la configuracion para la aplicacion en tu SmartPhone. En caso contrario, no funcionara la configuracion de entrada de EmulationStation (Input Configuration).
 
@@ -140,14 +142,13 @@ Con la caracteristica de chrome de añadir a la ventana de 'homescreen', puedes 
 
 Con solo 3 clicks, la aplicacion web para gamepads se convierte en una aplicacion standalone.
 
-
 ![](https://raw.githubusercontent.com/miroof/node-virtual-gamepads/resources/screenshots/standalone_step1.png)![](https://raw.githubusercontent.com/miroof/node-virtual-gamepads/resources/screenshots/standalone_step2.png)
 
 Entonces se generara un shortcut (acceso directo) a la aplicacion sin tener que abrir el navegador.
 
 ![](https://raw.githubusercontent.com/miroof/node-virtual-gamepads/resources/screenshots/standalone_step3.png)![](https://raw.githubusercontent.com/miroof/node-virtual-gamepads/resources/screenshots/standalone_step4.png)
 
-###Funcionamiento de la aplicacion
+### Funcionamiento de la aplicacion
 
 Debido a que es dificil acertar al diseño/adaptacion de un mando convencional en una pantalla tactil, la zona de pulsacion de cada boton se ha aumentado. El boton LT ha sido ubicado en el centro en lugar de la izquierda para disponer de mas control sobre el pad de direccion.
 
@@ -159,7 +160,7 @@ Necesitaras configurar tu controlador con Emulation Station y RetroArch como si 
 
 Tambien se puede instalar manualmente utilizando el siguiente script:
 
-```bash
+``` bash
 ### Install Node.js
 
 sudo apt-get update && sudo apt-get upgrade
@@ -183,8 +184,9 @@ sudo pm2 startup
 sudo pm2 save
 ```
 
-###Configuracion del control en Emulation Station
-####/opt/retropie/configs/all/retroarch-joypads/Virtualgamepad.cfg
+### Configuracion del control en Emulation Station
+
+#### `/opt/retropie/configs/all/retroarch-joypads/Virtualgamepad.cfg`
 
 ```
 input_device = "Virtual gamepad"
@@ -211,8 +213,7 @@ input_left_axis = "-0"
 input_state_slot_decrease_axis = "-0"
 ```
 
-
-###Hot-Keys por defecto
+### Hot-Keys por defecto
 
 Las hotkeys te permiten acceder a ciertas funciones del sistema tales como guardar, cargar y salir de los emuladores. La siguiente tabla muestra la combinacion por defecto de dichos botones. De forma predeterminada, la hotkey es el select, de forma que tienes que mantenerlo junto a otro boton para ejecutar un comando.
 
@@ -226,11 +227,11 @@ Las hotkeys te permiten acceder a ciertas funciones del sistema tales como guard
 |Select + X |RGUI Menu|
 |Select + B |Reset|
 
-##Expandir el sistema de ficheros
+## Expandir el sistema de ficheros
 
 Si tu tarjeta es de mas de 4GB es necesario expandir el sistema raiz de archivos para que sea posible utilizar todo el almacenamiento disponible en la tarjeta SD
 
-- Desde el menu de EmulationStation
+### Desde el menu de EmulationStation
 
 Nos dirigimos a la seccion RetroPie y dentro de esta vamos a **Raspberry Pi configuration tool RASPI-CONFIG**
 
@@ -238,17 +239,17 @@ Nos dirigimos a la seccion RetroPie y dentro de esta vamos a **Raspberry Pi conf
 
 Una vez dentro seleccionamos la opcion **expand filesystem**. Al terminar nos pedira si queremos reiniciar. Reiniciamos.
 
-- Desde la terminal de Raspbian
+### Desde la terminal de Raspbian
 
 Accedemos a la terminal pulsando F4 en el teclado en cualquier parte del menu de Emulation Station.
 
 Se abrira una ventana de terminal. Tecleamos:
 
-```bash
+``` bash
 sudo raspi-config
 ```
 
-##Configuracion Wifi
+## Configuracion Wifi
 
 Si se desea utilizar la conexion wifi para realizar las actualizaciones o enviar las ROMs a la RaspBerry Pi deberemos abrir el menu "RetroPie" y en el, configuracion WiFi.
 
@@ -264,7 +265,7 @@ Es necesario recordar la direccion IP para poder conectarnos a la RaspBerry medi
 
 Para mas configuraciones wifi visitar [esta](https://github.com/RetroPie/RetroPie-Setup/wiki/Wifi) pagina
 
-##Actualizar RetroPie
+## Actualizar RetroPie
 
 Nos dirigiremos al menu RetroPie dentro de Emulation Station.
 
@@ -275,7 +276,7 @@ cd RetroPie-Setup
 sudo ./retropie_setup.sh
 ```
 
-###Utilizando el Scrip de instalacion de RetroPie
+### Utilizando el Scrip de instalacion de RetroPie
 
 ![](/home/josu/Escritorio/e3f20a02-d957-11e5-9b10-3e3dc7da2bac.png)
 
@@ -292,17 +293,17 @@ Lo primero y **mas importante** es actualizar el script de instalacion con los u
 7. **Update RetroPie-Setup script**: Actualiza la informacion desde GitHub para disponer de los ultimos instaladores y las ultimas actualizaciones para los emuladores
 8. **Perform Reboot**: Reinicia el sistema RaspBerry Pi
 
-###Ultima imagen SD
+### Ultima imagen SD
 
 En caso de que tengas problemas actualizando el sistema. Coge los archivos de tu sistema RetroPie y copialos en la ultima imagen disponible del sistema. De esta forma no perderas informacion.
 
-##Transfiriendo ROMs
+## Transfiriendo ROMs
 
 Debido a las restricciones de CopyRight's/Propiedad Intelectual no es posible facilitar ROMs. Y deben de ser obtenidas por el usuario. SOLO PUEDES TENER ROMs DE JUEGOS QUE HAS COMPRADO.
 
-###Metodos principales para transferir ROMs
+### Metodos principales para transferir ROMs
 
-####USB
+#### USB
 
 1. asegurate de que tu Pen-Drive esta formateado en FAT32
 2. una vez formateado. Crea una carpeta llamada **retropie** en tu unidad USB
@@ -312,7 +313,7 @@ Debido a las restricciones de CopyRight's/Propiedad Intelectual no es posible fa
 6. esperamos a que el led del Pen-Drive deje de parpadear
 7. refrescamos Emulation Station eligiendo esa opcion en el menu start
 
-#####FTP (precisa conexion local al menos entre el PC y la RaspBerry)
+##### FTP (precisa conexion local al menos entre el PC y la RaspBerry)
 
 1. asegurate de que tu RaspBerry y tu PC se encuentran en la misma red (estan conectados, bien por cable o por Wifi al mismo enrutador)
 2. en caso de encontrarnos en windows podemos usar [WinSCP](https://winscp.net/eng/download.php) o [FileZilla](https://filezilla-project.org/), para Mac podemos usar [Cyberduck](https://cyberduck.io/?l=en) y en linux [FileZilla](https://filezilla-project.org/).
@@ -321,44 +322,42 @@ Como nombre de usuario usaremos **pi** y como contraseña **retropie**, el servi
 
 Si se quieren modificar mas archivos, sera necesario que hagamos login con el usuario **root**. Primero tendremos que habilitar el usuo de la contraseña para root, mas informacion [aqui](https://github.com/RetroPie/RetroPie-Setup/wiki/FAQ#why-cant-i-ssh-as-root-anymore).
 
-####Samba-Share (necesita de conexion local al menos)
+#### Samba-Share (necesita de conexion local al menos)
 
 1. Si nos encontramos en Windows, en cualquier carpeta nos dirigimos a la barra de direcciones y tecleamos **\\retrope**. Tamien podemos acceder con la IP de nuestra RaspBerry.
 2. Si estamos en MAC OS X. Abrimos finder y seleccionamos "Ir"  en el menu y "Conectar al servidor". Escribimos **smb://retropie** y elegimos "Conectar"
 
-##Haciendo un BackUp (Opcion 1 - La imagen ocupa lo mismo que la capacidad maxima de la tarjeta)
+## Haciendo un BackUp (Opcion 1 - La imagen ocupa lo mismo que la capacidad maxima de la tarjeta)
 
 Puedes crear una imagen de tu tarjeta SD actual con Win32DiskImager.
 
-+ Conecta tu SD a tu PC
-+ Abre Win32DiskImager como administrador (boton derecho, abrir como administrdor)
+- Conecta tu SD a tu PC
+- Abre Win32DiskImager como administrador (boton derecho, abrir como administrdor)
 
 ![](/home/josu/Escritorio/admin.png)
 
-+ Selecciona la letra de unidad correspondiente a la tarjeta SD
-+ Selecciona un lugar donde guardar la imagen. Crearemos un archivo llamado **backup.img**
+- Selecciona la letra de unidad correspondiente a la tarjeta SD
+- Selecciona un lugar donde guardar la imagen. Crearemos un archivo llamado **backup.img**
 
 ![](/home/josu/Escritorio/imagen.png)
 
-+ Clickamos sobre **read** para crear el backup.
+- Clickamos sobre **read** para crear el backup.
 
 Ten en cuenta que siempre creara un backup del tamaño total de almacenamiento de la tarjeta SD. Es decir, si tu tarjeta es de 64GB siempre creara un backup de 64GB.
 
 En caso de no querer que esto ocurra. Nos dirigimos a la siguiente opcion.
 
-##Haciendo un Backup (Opcion 2 - Solo guardamos lo que necesitamos)
+## Haciendo un Backup (Opcion 2 - Solo guardamos lo que necesitamos)
 
 Si no queremos guardar una imagen SD del sistema completo. Podemos conectarnos mediante SAMBA y copiar las carpetas **bios, configs y roms**.
 
 ![](/home/josu/Escritorio/backup.png)
 
-##Haciendo un BackUp (Mac OS X)
+## Haciendo un BackUp (Mac OS X)
 
+Abrimos una ventana de terminal y escribimos `diskutil list`. Una lista de todos los discos duros y de las particiones sera mostrada. Buscamos la particion con nombre **boot**. El relacionado **/dev/disk** es tu tarjeta SD. Escribe: `sudo dd if=/dev/disk* of=backup.img bs=1m` para escribir una imagen en tu drectorio de usuario.
 
-Abrimos una ventana de terminal y escribimos``` diskutil list```. Una lista de todos los discos duros y de las particiones sera mostrada. Buscamos la particion con nombre **boot**. El relacionado **/dev/disk** es tu tarjeta SD. Escribe:```sudo dd if=/dev/disk* of=backup.img bs=1m
-``` para escribir una imagen en tu drectorio de usuario.
-
-##Conectando por SHH
+## Conectando por SHH
 
 Puedes conectarte a la RaspBerry Pi con un cliente SSH, uno recomendable/conocido es Putty.
 
@@ -371,14 +370,14 @@ Cuando arranques Putty por primera vez, podras loguearte con los siguientes cred
 
 Tambien se puede utilizar la direccion Ip de la RaspBerry para poder acceder, en lugar de utilizar **retropie**.
 
-###Login por defecto
+### Login por defecto
 
 usuario: **pi**
 contraseña: **root**
 
 Mira [aqui](https://github.com/RetroPie/RetroPie-Setup/wiki/FAQ#why-cant-i-ssh-as-root-anymore) si quieres hacer login como root
 
-###Algunos comandos utiles para la terminal
+### Algunos comandos utiles para la terminal
 
 **reboot** ```sudo reboot -h now``` (Solicitara la password del usuario administrador o de un usuario con permisos administrativos)
 **shutdown** ```sudo shutdown -h now```
@@ -390,11 +389,11 @@ Mira [aqui](https://github.com/RetroPie/RetroPie-Setup/wiki/FAQ#why-cant-i-ssh-a
 **cambia el propietario de una carpeta y todos sus archivos al usuario Pi** ```sudo chown -R pi:pi /ruta/de/la/carpeta```
 **hacer ejecutable un shellScript (.sh)** ```sudo chmod +x archivodeshell.sh```
 
-#Problemas tras la instalacion
+# Problemas tras la instalacion
 
-##Problemas con HDMI/Audio a traves de HDMI
+## Problemas con HDMI/Audio a traves de HDMI
 
-###La RaspBerry no envia sonido a traves de HDMI.
+### La RaspBerry no envia sonido a traves de HDMI.
 
 En algunos casos, detecta que el televisor donde se esta mostrando el contenido no tiene altavoces. Es decir, lo dectecta en modo monitor de PC. Si hemos probado con otros televisiones y suena; o no tenemos posibilidad de probar con otro TV:
 
@@ -406,7 +405,7 @@ Reiniciamos la raspberry con el comando **sudo reboot -h now**
 
 En caso de que siga sin emitir sonido a traves de HDMI tendremos que revisar otras opciones. Y volveremos a comentar la linea anteriormente mencionada.
 
-###La RaspBerry no funciona por HDMI
+### La RaspBerry no funciona por HDMI
 
 Una vez comprobemos que tanto el cable como el TV funcionan bien (comprobar entre si, mediante prueba cruzada con otros equipos) procederemos a forzar el arranque del sistema con HDMI, a pesar de que la RaspBerry no detecte ninguno conectado.
 
@@ -416,7 +415,7 @@ Nos dirigimos a la carpeta **/boot/configs.txt** y descomentamos **hdmi_force_ho
 
 Reiniciamos la raspberry con el comando **sudo reboot -h now**
 
-##Ciertos juegos/emuladores funcionan muy lento
+## Ciertos juegos/emuladores funcionan muy lento
 
 De [ToadKing](http://www.raspberrypi.org/phpBB3/viewtopic.php?p=137827#p137827):
 
@@ -432,44 +431,47 @@ Para la mayoria de [estos cores](http://www.youtube.com/watch?v=rm3IuXeIfaw) deb
 **reicast**: Debido a la limitada potencia de procesado algunos juegos nunca funcionaran a velocidad normal en la RaspBerry Pi 2.
 **ppsspp**: Debido a la limitada potencia de procesado algunos juegos nunca funcionaran a velocidad normal en la RaspBerry Pi 2.
 
-###Mejoras generales en RetroArch
+### Mejoras generales en RetroArch
 
-En caso de querer aplicar las mejoras para todos los sistemas que utilicen RetroArch nos dirigimos a la ruta``/opt/retropie/configs/all/retroarch.cfg `` y editamos el archivo con nano (nano /opt/retropie/configs/all/retroarch.cfg).
+En caso de querer aplicar las mejoras para todos los sistemas que utilicen RetroArch nos dirigimos a la ruta `/opt/retropie/configs/all/retroarch.cfg` y editamos el archivo con nano (nano /opt/retropie/configs/all/retroarch.cfg).
 
-Modificamos la opcion correspondiente para que concuerde con ``video_threaded = true``.
+Modificamos la opcion correspondiente para que concuerde con `video_threaded = true`.
 
-En caso de querer aplicar esa configuracion unicamente para un emulador, tendremos que editar el archivo correspondiente al sistema que queramos. De la siguiente forma ```/opt/retropie/configs/NOMBREDELSISTEMA/retroarch.cfg```
+En caso de querer aplicar esa configuracion unicamente para un emulador, tendremos que editar el archivo correspondiente al sistema que queramos. De la siguiente forma `/opt/retropie/configs/NOMBREDELSISTEMA/retroarch.cfg`.
 
 Donde el nombre del sistema es atari2600, snes...
 
-###Overclocking en la comunidad RaspBerry Pi (foro)
+### Overclocking en la comunidad RaspBerry Pi (foro)
 Hay un hilo acerca del overclocling en la RPi en el foro oficial de la fundacion. Puedes encontrarlo [aqui](http://www.raspberrypi.org/phpBB3/viewtopic.php?f=29&t=6201)
 
-###Overclocking con RetroPie Setup
+### Overclocking con RetroPie Setup
 En el menu 'Setup' puedes encontrar la opcion para cambiar las frecuencias de ARM y SDRAM. Ten en cuenta que los cambios tendran efecto despues de reiniciar la RaspBerry.
 
-###Overclocking con raspi-config
-Puedes overclockear tu RaspBerry sin comprometer su garantia con el script oficial de raspi-config. Puede ser iniciado con ``sudo raspi-config``
+### Overclocking con raspi-config
+Puedes overclockear tu RaspBerry sin comprometer su garantia con el script oficial de raspi-config. Puede ser iniciado con `sudo raspi-config`
 
-##La configuracion de RetroArch (para los emuladores) y los juegos no se guardan una vez reiniciado el sistema
+## La configuracion de RetroArch (para los emuladores) y los juegos no se guardan una vez reiniciado el sistema
 Debido a los permisos del sistema de archivos no es posible que se guarden las partidas al iniciar la RaspBerry Pi.Para solucionarlo, procederemos de la siguiente forma.
 
-```bash
+``` bash
 cd
 sudo chown -R pi /home/pi/RetroPi
 ```
 
 Reiniciamos y RetroArch ya sera capaz de guardar las partidas
-##Configuracion avanzada de mandos
-###Configurar un mando de la XBOX 360
-####Configuracion automatica
+
+## Configuracion avanzada de mandos
+
+### Configurar un mando de la XBOX 360
+
+#### Configuracion automatica
 
 Accede al **RetroPie Setup Script** y navega a **Setup/ Configuration >>> Xbox / Xbox 360 gamepad driver**
 
 ![](https://cloud.githubusercontent.com/assets/10035308/12218229/d397607e-b6d6-11e5-8a99-f3106d60425a.png)
 
-**Enable xboxdrv**: Esto instalara el driver y añadira una configuracion de arranque en ```/etc/rc.local```
-**Disable xboxdrv**: Esto desinstalara el driver y quitara la configuracion de arranque en ```/etc/rc.local```
+**Enable xboxdrv**: Esto instalara el driver y añadira una configuracion de arranque en `/etc/rc.local`
+**Disable xboxdrv**: Esto desinstalara el driver y quitara la configuracion de arranque en `/etc/rc.local`
 **Set Number of Controllers To Enable**: El numero por defecto de gamepads/mandos es 2 (Si tienes mas de dos mandos/gamepads es necesario que indiques cuantos antes de lanzar *enable xboxdrv*)
 **Set Analog Stick Deadzone**: numeros bajos = mas sensible, numeros altos = menos sensible
 **Set dwc_otg.speed=1 in /boot/config.txt**: Puede ayudar en caso de que el controlador este dando problemas.
@@ -483,11 +485,11 @@ Accede al **RetroPie Setup Script** y navega a **Setup/ Configuration >>> Xbox /
 + Los controladores deben estar encendidos antes del arranque de la RaspBerry para funcionar correctamente
  + Prueba el dia 12/03/16. En los casos en los que el controlador esta emparejado con el 'Wireless Receiver', solo es necesario disponer de dicho controlador conectado a la RaspBerry Pi.
 
-####Configuracion manual de los botones
+#### Configuracion manual de los botones
 
 En caso de querer modificar algun boton manualmente:
 
-Editaremos el fichero ```/home/pi/RetroPie/configs/all/retroarch.cfg``` (nano /home/pi/RetroPie/configs/all/retroarch.cfg)
+Editaremos el fichero `retroarch.cfg` (`nano /home/pi/RetroPie/configs/all/retroarch.cfg`).
 
 ```
 #Player 1
@@ -523,11 +525,12 @@ input_player2_left_btn = 2
 input_player2_right_btn = 3
 ```
 
-##Algunos emuladores no funcionan debido a que falta un archivo de BIOS
+## Algunos emuladores no funcionan debido a que falta un archivo de BIOS
+
 En el caso de ciertos emuladores (Ej. PSP, Game Boy Advance, PSX) es necesario un arhivo de BIOS que se encargue de "entender" las imagenes de los juegos.
 
 No es posible proveer las BIOS de los emuladores. **Y no es legal utilizar emuladores ni juegos de sistemas que no posees**
 
 Para ciertos emuladores es necesario añadir archivos de BIOS diferentes por cada region (Ej. Europa, USA, Asia)
 
-Sera necesario ubicar los archivos de BIOS de las roms en ```/home/pi/RetroPie/BIOS```
+Sera necesario ubicar los archivos de BIOS de las roms en `/home/pi/RetroPie/BIOS`.
