@@ -1,13 +1,7 @@
 ---
-categories: [ nb-rc ]
-
 title: Sesiones
-keywords:
-
-publishdate: 2016-01-01
-date: 2015-11-20
 ---
- 
+
 # SESIÓN 1
 
 - Montar todas las piezas del chasis y la carrocería.
@@ -37,7 +31,7 @@ Servo drive, steer;
 void setup() {
   drive.attach(4);
   steer.attach(5);
-  
+
 }
 
 void loop() {
@@ -77,7 +71,7 @@ void setup() {
 
 void loop() {
   serialsend(); //!
-  
+
   bool btn=button();
   if (conf) {
     if ((conf-5)>0) {

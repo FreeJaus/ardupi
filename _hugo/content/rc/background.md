@@ -1,11 +1,5 @@
 ---
-categories: [ nb-rc ]
-
 title: Background
-keywords:
-
-publishdate: 2016-01-01
-date: 2015-11-20
 ---
 
 - Leyes de Ohm y Kirchhoff

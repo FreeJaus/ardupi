@@ -1,11 +1,5 @@
 ---
-categories: [ nb-rc ]
-
 title: Referencias
-keywords:
-
-publishdate: 2016-01-01
-date: 2015-11-20
 ---
 
 - Sesión 0:
@@ -20,9 +14,9 @@ date: 2015-11-20
   - [arduino.cc/en/Reference/EEPROM](https://www.arduino.cc/en/Reference/EEPROM)
      - [EEPROM Put](https://www.arduino.cc/en/Tutorial/EEPROMPut)
 	 - [EEPROM Get](https://www.arduino.cc/en/Reference/EEPROMGet)
-  
+
   EEPROM
- 
+
 https://www.pjrc.com/teensy/td_libs_VirtualWire.html
 http://www.airspayce.com/mikem/arduino/VirtualWire.pdf
 http://www.airspayce.com/mikem/arduino/VirtualWire/

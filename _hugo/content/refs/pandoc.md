@@ -1,11 +1,6 @@
 ---
-categories: [ nb-refs ]
-
 title: "Pandoc"
 keywords: pandoc markdown latex
-
-publishdate: 2016-01-01
-date: 2016-01-01
 ---
 
 - http://tomp.io/phd-thesis-template-markdown.html

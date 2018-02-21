@@ -1,12 +1,6 @@
 ---
-menu:
-  notebook:
-    name: "Vehículos RC"
-    identifier: "nb-rc"
-    pre: "automobile"
-    weight: -180
-
-title: Taller de vehículos de radio control
+linktitle: "Vehículos RC"
+title: "Taller de vehículos de radio control"
 ---
 
 # [[FreeJaus](https://github.com/FreeJaus)] Formación
@@ -16,8 +10,8 @@ title: Taller de vehículos de radio control
 - **Título de la actividad**: Vehículos RC
 - **Tipo**: Taller
 - **GEAs**: [ArduPi](https://github.com/FreeJaus/ardupi)
-- **Dinamización**: u.mc, m.mc, z.gb 
- 
+- **Dinamización**: u.mc, m.mc, z.gb
+
 ---
 
 - **Lugar**: Gazteleku Urduliz
@@ -25,16 +19,16 @@ title: Taller de vehículos de radio control
 - **Sesiones**:
   1. 201Xxxx00: Montaje del chasis y la dirección con las piezas del kit. Desmontaje del vehículo averiado.
   2. 2016Feb28: Montaje de los componentes eléctricos/electrónicos.
-   
+
 ---
 
 - **Objetivos**:
   - Generales:
-     - 
+     -
   - Primera sesión:
-     - 
+     -
   - Segunda sesión:
-     - 
+     -
 
 ---	 
 
@@ -43,9 +37,9 @@ Existen muchos tipos de vehículos de radio control: coches, camiones, helicópt
 - Chasis/carrocería/fuselaje: estructura principal del vehículo que condiciona el tipo, el tamaño y la funcionalidad. En su diseño o elección se deben tener en cuenta los materiales y el entorno donde se va a utilizar. Debe tener espacio suficiente y adecuado para alojar el resto de componentes requeridos para el funcionamiento. Se debe estudiar el tipo de movimiento y la potencia necesaria en cada mecanismo accionado por un motor.
 - Motores: las máquinas utilizadas para propulsión pueden dividirse *grosso modo* entre las que funcionan con combustibles (gasolina, propano, Jet-A1...) y los modelos eléctricos. En lo que respecta a otros accionamientos (como la dirección en un automóvil o los alerones/elevadores de un avión), todos son eléctricos. En cada caso, deben tenerse en cuenta los requisitos de la carrocería/fuselaje para escoger la solución más adecuada en lo que respecta a potencia/consumo.
 - Electrónica: la función principal de la unidad electrónica es transformar las órdenes recibidas del mando, en señales adecuadas para controlar cada uno de los accionamientos. Por ello, un aspecto principal es la transformación de la potencia recibida de una batería o alternador. Los requisitos de computación dependerán del número de accionamientos, de la complejidad de los mismos, y de los sensores que se incluyan en el vehículo.
-- Comunicación: la diferencia más significativa con respecto a los modelos reales es que no pueden ser manejados desde el interior (por razones evidentes). Por lo tanto, se requiere de un sistema de comunicación entre el usuario y el vehículo. Éste puede ser una pareja de cables trenzados, aunque limita el movimiento al alcance del mismo. La solución más extendida, y la que da nombre a estos vehículos, es el uso de emisores y receptores de ondas de radio (radiofrecuencia o RF). El número de cánales (señales que pueden transmitirse simultáneamente) dependerá del número de accionamientos y otros controles incluidos. 
+- Comunicación: la diferencia más significativa con respecto a los modelos reales es que no pueden ser manejados desde el interior (por razones evidentes). Por lo tanto, se requiere de un sistema de comunicación entre el usuario y el vehículo. Éste puede ser una pareja de cables trenzados, aunque limita el movimiento al alcance del mismo. La solución más extendida, y la que da nombre a estos vehículos, es el uso de emisores y receptores de ondas de radio (radiofrecuencia o RF). El número de cánales (señales que pueden transmitirse simultáneamente) dependerá del número de accionamientos y otros controles incluidos.
 
-De la exposición anterior se puede concluir que estos *jueguetes* para niños y mayores aúnan todos los aspectos tecnológicos y de ingeniería sobre los que se sustenta nuestra sociedad. Por un lado, permiten conocer y aplicar los fundamentos de la mecánica (estructuras, amortiguadores y engranjes), la dinámica de fluídos, los materiales, la electricidad (máquinas y potencia), la electrónica (analógica y digital) y las comunicaciones (por cable y RF). La variedad de motores y sensores que pueden integrarse en un vehículo radio control, permiten adquirir conocimientos para entender la composición de prácticamente cualquier máquina de consumo o de uso industrial (o un modelo simplificado, al menos).  Por otro, dan pie a tratar cuestiones de actualidad por su impacto social, como lo son el (ab)uso de combustibles y las energías renovables, la seguridad en las comunicaciones, o los límites de la *inteligencia artificial*. 
+De la exposición anterior se puede concluir que estos *jueguetes* para niños y mayores aúnan todos los aspectos tecnológicos y de ingeniería sobre los que se sustenta nuestra sociedad. Por un lado, permiten conocer y aplicar los fundamentos de la mecánica (estructuras, amortiguadores y engranjes), la dinámica de fluídos, los materiales, la electricidad (máquinas y potencia), la electrónica (analógica y digital) y las comunicaciones (por cable y RF). La variedad de motores y sensores que pueden integrarse en un vehículo radio control, permiten adquirir conocimientos para entender la composición de prácticamente cualquier máquina de consumo o de uso industrial (o un modelo simplificado, al menos).  Por otro, dan pie a tratar cuestiones de actualidad por su impacto social, como lo son el (ab)uso de combustibles y las energías renovables, la seguridad en las comunicaciones, o los límites de la *inteligencia artificial*.
 
 Los vehículos RC son un producto de masas, especialmente con el auge que están teniendo los *drones* estos últimos años. Sin embargo, un aspecto más interesante como elemento didáctico es que existe una amplía tradición de fabricación casera (*Do It Yourself -DIY-*), que en los más entusiastas supone la fabricación prácticamente íntegra de las piezas que componen los modelos. Como resultado, existe un mercado muy amplio de piezas, respuestos y accesorios. Tanto es así, que algunos productos son resultado de desarrollos realizados por la comunidad. Asimismo, en la red hay muchísima información sobre cada aspecto, sea mecánico, electrónico o de comunicaciones; desde qué baterías escoger hasta cómo cablear la bobina de un motor para modificar su comportamiento. Más relevante aún es que, algunos productos comerciales que están teniendo su auge estos últimos años basan su funcionamiento en componentes comercializados inicialmente para vehículos RC. Este es el caso, por ejemplo, de las bicicletas o los monopatines motorizados. En el extremo, el mismo diseño de motores es el utilizado en los coches eléctricos.
 

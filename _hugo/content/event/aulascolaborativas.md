@@ -1,10 +1,7 @@
 ---
 lin: Formación/Investigación
 title: "Diseño y estructura de programación"
-keywords: 
-
-publishdate: 2016-02-23
-date: 2016-03-10
+keywords:
 
 #den:
 tipo: Seminario
@@ -36,11 +33,11 @@ sesion:
 
 - **Objetivos**:
   - Generales:
-     - 
+     -
   - Primera sesión:
-     - 
+     -
   - Segunda sesión:
-     - 
+     -
 
 ---
 

@@ -1,11 +1,6 @@
 ---
-categories: [ nb-refs ]
-
 title: "Entorno de trabajo"
 keywords: arduino atmel avr git vcs repositorio wiki arm linux markdown hugo
-
-publishdate: 2016-01-01
-date: 2016-01-01
 ---
 
 En este apartado se reúnen referencias relacionadas con las herramientas utilizadas de forma transversal en prácticamente todos los proyectos. Se agrupan en función del tipo de tarea para la que se utilizan:
@@ -33,7 +28,7 @@ En este apartado se reúnen referencias relacionadas con las herramientas utiliz
 - Intel
   - Galileo
   - Arduino 101
-  
+
 - Gizmo
 - ODROID
 - Fox SBC
@@ -54,7 +49,7 @@ El resultado inicial fue la reinvención de la rueda, ya que la red se llenó de
 
 *NOTA: desde 2015, los fundadores utilizan la marca [Genuino](https://www.arduino.cc/en/Main/GenuinoBrand) fuera de los EEUU. Ver [Marcas, diseños, piratería y open source](/notebook/refs/pir) para más información.*
 
-Por lo anterior, como estudiantes de ingenierías industriales e informática, nuestro interés por los sistemas basados en microcontroladores se extiende a todos los fabricantes y modelos, desde los flujos de trabajo más rápidos y automatizados, hasta los complejos y detallados. 
+Por lo anterior, como estudiantes de ingenierías industriales e informática, nuestro interés por los sistemas basados en microcontroladores se extiende a todos los fabricantes y modelos, desde los flujos de trabajo más rápidos y automatizados, hasta los complejos y detallados.
 Tomamos Arduino como referencia porque la curva de aprendizaje inicial es muy tendida, pero entendemos que debemos mirar más allá y más atrás del *hype*. Bebemos de fuentes libres y publicamos abiertamente el contenido generado, y también nos identificamos con la cultura hacker, y tratamos de entender qué hacen los sistemas y cómo lo hacen.
 
 Desde este punto de vista, aunque se utilizan nombres propios para referirse a diseños de placa concretos en el ecosistema Arduino, la mayoría son prácticamente el mismo circuito con variaciones en lo que respecta a la forma, el tipo de conectores utilizados, o el empaquetado del microcontrolador. Los componentes comunes son:
@@ -128,7 +123,7 @@ Siendo un sistema tan complejo, es recomendable adquirir las nociones básicas e
   - Evento/Actividad
 
 # Difusión
- 
+
 - Webs estáticas en GitHub (freejaus.github.io [forja.freejaus.com] y una por repositorio -*gh-pages*-)
   - HTML + CSS
   - Markdown + Hugo (Golang)
@@ -137,13 +132,13 @@ Siendo un sistema tan complejo, es recomendable adquirir las nociones básicas e
 - Twitter, Youtube, Vimeo...
 - Ikasletxea
 - ¿? Telegram
- 
+
 # Forja
- 
-Se denomina [forja](https://en.wikipedia.org/wiki/Forge_%28software%29) a una plataforma que ofrece servicios integrados para facilitar el desarrollo colaborativo de software. Suelen incluir, al menos, alojamiento de repositorios de código mediante algún sistema de control de versiones, y alojamiento web. Además es habitual encontrar gestores de tareas, gestores de lanzamiento de ediciones, listas de correo o foros, wikis, etc. Las más conocidas son posiblemente [SourceForge](https://en.wikipedia.org/wiki/SourceForge), [Google Code](https://en.wikipedia.org/wiki/Google_Code#Project_hosting) y [GitHub](https://en.wikipedia.org/wiki/GitHub), pero la lista es [extensa](https://en.wikipedia.org/wiki/Comparison_of_source_code_hosting_facilities). 
- 
+
+Se denomina [forja](https://en.wikipedia.org/wiki/Forge_%28software%29) a una plataforma que ofrece servicios integrados para facilitar el desarrollo colaborativo de software. Suelen incluir, al menos, alojamiento de repositorios de código mediante algún sistema de control de versiones, y alojamiento web. Además es habitual encontrar gestores de tareas, gestores de lanzamiento de ediciones, listas de correo o foros, wikis, etc. Las más conocidas son posiblemente [SourceForge](https://en.wikipedia.org/wiki/SourceForge), [Google Code](https://en.wikipedia.org/wiki/Google_Code#Project_hosting) y [GitHub](https://en.wikipedia.org/wiki/GitHub), pero la lista es [extensa](https://en.wikipedia.org/wiki/Comparison_of_source_code_hosting_facilities).
+
 ## GitHub
- 
+
 Además de la gestión de código fuente mediante Git, GitHub ofrece recursos para facilitar la gestión y documentación de los proyectos:
 
 - Para la documentación se utiliza una sintaxis basada en [Markdown](https://es.wikipedia.org/wiki/Markdown), pero con ciertas particularidades. En [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) hay una referencia de la sintaxis utilizada en Github.

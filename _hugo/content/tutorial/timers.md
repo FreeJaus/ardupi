@@ -2,9 +2,6 @@
 title: "Timers"
 keywords: timer
 
-publishdate: 2016-01-01
-date: 2016-01-01
-
 coord:
  - nick: Joseba SdM
    ehu: joseba.sainzdemurieta
@@ -140,7 +137,7 @@ Los diferentes modos de funcionamiento del `Timer/Counter 3` se determinan a tra
 | 0 | 0 | 0 | 1 | PWM, Phase Correct 8 | 0x00FF | TOP | BOTTOM |
 | 0 | 0 | 1 | 0 | PWM, Phase Correct 9 | 0x01FF | TOP | BOTTOM |
 | 0 | 0 | 1 | 1 | PWM, Phase Correct 10 | 0x03FF | TOP | BOTTOM |
-| 0 | 1 | 0 | 0 | CTC | OCR3A | Inmediato | MAX | 
+| 0 | 1 | 0 | 0 | CTC | OCR3A | Inmediato | MAX |
 | 0 | 1 | 0 | 1 | Fast PWM, 8 bit | 0x00FF | BOTTOM | TOP |
 | 0 | 1 | 1 | 0 | Fast PWM, 9 bit | 0x01FF | BOTTOM | TOP |
 | 0 | 1 | 1 | 1 | Fast PWM, 10 bit | 0x03FF | BOTTOM | TOP |
@@ -150,8 +147,8 @@ Los diferentes modos de funcionamiento del `Timer/Counter 3` se determinan a tra
 | 1 | 0 | 1 | 1 | PWM Phase Correct | OCR3A | TOP | BOTTOM |
 | 1 | 1 | 0 | 0 | CTC | ICR3 | Inmediato | MAX |
 | 1 | 1 | 0 | 1 | (Reserved) | - | - | - |
-| 1 | 1 | 1 | 0 | Fast PWM | ICR3 | BOTTOM | TOP | 
-| 1 | 1 | 1 | 1 | Fast PWM | OCR3A | BOTTOM | TOP | 
+| 1 | 1 | 1 | 0 | Fast PWM | ICR3 | BOTTOM | TOP |
+| 1 | 1 | 1 | 1 | Fast PWM | OCR3A | BOTTOM | TOP |
 
 ### Comportamiento de los pines de salida `OC3A`, `OC3B` y `OC3C` asociados al `Timer 3`:
 
@@ -171,7 +168,7 @@ MODO NO PWM
 MODO FAST PWM
 
 | COM3X1 | COM3X0 | |
-|---|---|---|	
+|---|---|---|
 | 0 | 0 | Salidas OC3A/OC3B/OC3C desconectadas |
 | 0 | 1 | La salidas OC3A bascula cuando se alcanza la comparación. OC3B y OC3C desconectadas |
 | 1 | 0 | Las salidas OC3A/OC3B/OC3C se ponen a `0` cuando se alcanza la comparación y se ponen a `1` al alcanzar el límite inferior BOTTOM |
@@ -211,7 +208,7 @@ Así, los tiempos máximos de desbordamiento los conseguiremos cuando la cuenta 
     PS=1024 -> T=65536·62,5ns·1024=4,194s
 
 # Ejemplos
-	
+
 Vamos a ver algunos ejemplos relacionados con este modo de funcionamiento:
 
 ## Ejemplo 1. Ejecución de un programa controlada por tiempo.
@@ -231,7 +228,7 @@ A continuación, calculamos desde que valor deberá iniciar el contaje el `Timer
 Este será el valor de precarga o preset del `Timer 3`. Cada vez que se desborde, volveremos a cargarle este valor de inicio de contaje para que el siguiente desbordamiento vuelva a producirse a los `100ms`.
 
 El programa quedaría de la siguiente forma:
- 
+
 ```
 /*--------------------------------------------------------------------------------
   Este programa realiza una lectura del canal analógico 0

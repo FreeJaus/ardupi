@@ -1,10 +1,7 @@
 ---
 lin: Formación
 title: "Taller de células solares"
-keywords: 
-
-publishdate: 2016-02-23
-date: 2016-03-10
+keywords:
 
 #den:
 tipo: Taller
@@ -25,11 +22,11 @@ sesion:
 
 - **Objetivos**:
   - Generales:
-     - 
+     -
   - Primera sesión:
-     - 
+     -
   - Segunda sesión:
-     - 
+     -
 
 ---
 

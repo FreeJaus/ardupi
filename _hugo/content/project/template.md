@@ -1,14 +1,9 @@
 ---
 draft: true
-categories: [ nb-tfg ]
-view: prop
 
-linktitle: "Prop. TFG Temp."
-title: "Plantilla Propuesta de Trabajo Fin de Grado"
-keywords: 
-
-publishdate: 2016-01-01
-date: 2016-01-04
+linktitle: "Prop. Thing Temp."
+title: "Plantilla Propuesta de Thing"
+keywords:
 
 por:
  - name: "Nombre Apellido (nick)"
@@ -19,12 +14,12 @@ por:
    email: "a[en]b[p]com"
    tel: "ext"
    group: "PDI/Alumnado/Otro [Dpto./Titulación/Indicar]"
-   
+
 fechas:
  det: "true/false"
  init: "2000/00(/00)"
  end: "2000/00(/00)"
- 
+
 areas: [ "Electrónica analógica" , "Electrónica digital" , "Automatización con PLC" , "Programación microcontroladores" , "Arduino" , "FPGAs" , "Control de motores" , "Regulación automática" , "Diseño CAD" , "Diseño electrónico" , "Programación en ___" , "Radiofrecuencia" , "Programación web" , "Matlab" , "Labview" , "AutoCAD" , "OrCAD" ]
 
 ---

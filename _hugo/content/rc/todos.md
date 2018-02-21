@@ -1,11 +1,5 @@
 ---
-categories: [ nb-rc ]
-
 title: ToDos
-keywords:
-
-publishdate: 2016-01-01
-date: 2015-11-20
 ---
 
 - Comunicación
@@ -35,5 +29,5 @@ date: 2015-11-20
 - Impresora 3D.
   - Diseñar y construir un mando.
   - Diseñar y construir un vehículo.
-  
+
 - Resucitar algunos de los nuestros

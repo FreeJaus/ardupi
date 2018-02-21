@@ -1,11 +1,6 @@
 ---
-categories: [ nb-refs ]
-
 title: "Hugo"
 keywords: hugo static site generator golang tour doc
-
-publishdate: 2016-01-01
-date: 2016-01-01
 ---
 
 <!--
@@ -13,7 +8,7 @@ git bash
 mingw
 msys
 
-La mayoría de las páginas que visitamos hoy en día están basadas en gestores de contenidos (*Content Management System -CMS-*). Algunos de los más conocidos son WordPress, Drupal o Joomla. Estos están escritos 
+La mayoría de las páginas que visitamos hoy en día están basadas en gestores de contenidos (*Content Management System -CMS-*). Algunos de los más conocidos son WordPress, Drupal o Joomla. Estos están escritos
 -->
 
 - [Hugo - Hosting on GitHub Pages](https://gohugo.io/tutorials/github-pages-blog/)
@@ -38,7 +33,7 @@ En los repositorios en que se utiliza *Hugo* para generar la página web, hay un
 	 - [partials]
   - [static]
   - config.yaml
-  
+
 # Cómo obtener Hugo
 
 Se pueden descargar los binarios del apartado [releases](https://github.com/spf13/hugo/releases) de la página [github.com/spf13/hugo](https://github.com/spf13/hugo/). Hay versiones de 32 y 64 bits para arquitecturas x86 y ARM y sistemas Linux, Windows, BSD (OpenBSD, NetBSD, FreeBSD, Darwin, Dragonfly)...

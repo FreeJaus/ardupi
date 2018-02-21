@@ -4,10 +4,7 @@ view: prop
 
 linktitle: "Mini DeskBot"
 title: "Mini DeskBot"
-keywords: 
-
-publishdate: 2016-01-01
-date: 2016-01-01
+keywords:
 
 por:
  - name: "1138-4EB"
@@ -18,12 +15,12 @@ por:
    email:
    tel:
    group: "PDI [ISA]"
-   
+
 fechas:
  det: true
  init: "2016/03"
  end: "2016/05"
- 
+
 areas: [ "Electrónica analógica" , "Electrónica digital" , "Programación microcontroladores" , "Arduino" , "Control de motores paso a paso" , "Regulación automática" , "Diseño electrónico" , "Diseño CAD" , "Diseño CAM" , "Programación en C" , "Programación en GCODE" , Inscape , Fritzing , CNC]
 
 ---

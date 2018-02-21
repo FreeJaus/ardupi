@@ -1,16 +1,15 @@
 ---
+draft: true
+
 lin: Formación/Investigación/Transferencia
 title: "[Plantilla] Título que se muestra en la cabecera"
-keywords: 
-
-publishdate: 2016-01-01
-date: 2016-01-01
+keywords:
 
 den: "Denominación de la actividad"
 tipo: "Seminario/Taller/Charla/..."
 geas:
  - den: "Waves/WebMod/..."
-   nota: "Cualquier anotación que se quiera realizar" 
+   nota: "Cualquier anotación que se quiera realizar"
 din:
  - nick: "Nombre/Nick/alias"
    ehu: "LDAP de la UPV/EHU"
@@ -26,11 +25,11 @@ sesion:
 
 - **Objetivos**:
   - Generales:
-     - 
+     -
   - Primera sesión:
-     - 
+     -
   - Segunda sesión:
-     - 
+     -
 
 ---
 

@@ -1,11 +1,5 @@
 ---
-categories: [ nb-rc ]
-
 title: Tareas realizadas
-keywords:
-
-publishdate: 2016-01-01
-date: 2015-11-20
 ---
 
 - Se han adquirido las piezas necesarias para construir un coche en una tienda especializada en vehículos RC. Se ha escogido un coche por ser el vehículo más fácil de manejar, y debido a las limitaciones para utilizar vehículos voladores en zonas urbanas.
