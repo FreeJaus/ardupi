@@ -1,0 +1,6 @@
+- `servo_dc/`: sketch to control dc (PWM) and servo motors (1-2ms).
+- `pid_int/`: PID control with interrupts and TimerOne.
+- `libs/`
+  - `PID_fj`: adapted v1.0.1 of [br3ttb/Arduino-PID-Library](https://github.com/br3ttb/Arduino-PID-Library)
+  - `TimerOne-r11`: [gcode:arduino-timerone](https://code.google.com/archive/p/arduino-timerone/) [ [r11](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/arduino-timerone/TimerOne-r11.zip)]
+- `pid_int_serial_graph.m`: octave/matlab script to plot the setpoint, control signal and controlled signal values sent through serial port by `pid_int`.
