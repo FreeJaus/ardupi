@@ -112,12 +112,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://freejaus.github.io/ardupi/project/rc/bom/</guid>
-      <description> ATtiny816 (datasheet): 8KB Flash, 512B SRAM and 128 bytes of EEPROM ATtiny1616 (datasheet): 16 KB Flash, 2 KB SRAM and 128 bytes of EEPROM
- 20-pin
- VQFN 3x3 SOIC300  NRF24L01: 2 (power) + 5 (4 SPI + CE) [ + IRQ ]
- Joystick: 2 (power) + 2 (analog) + 1
- btn/switch matrix:
- 4&amp;gt;x&amp;gt;0: x x&amp;gt;4: ceil(sqrt(x)*2)   </description>
+      <description>ATtiny816 (datasheet): 8KB Flash, 512B SRAM and 128 bytes of EEPROM ATtiny1616 (datasheet): 16 KB Flash, 2 KB SRAM and 128 bytes of EEPROM  Pin count  USB: 2 (power) + 2 (D+ and D-) NRF24L01: 2 (power) + 5 (4 SPI + CE) [ + IRQ ] Joystick: 2 (power) + 2 (analog) + 1 Servo: 2 (power) + 1 (PWM) Encoder: 2 (power) + 2 (A and B) btn/switch matrix:  4&amp;gt;x&amp;gt;0: x x&amp;gt;4: ceil(sqrt(x)*2)   Nunchuk 14/SOIC150mil (ATTINY814 or ATTINY1614)</description>
     </item>
     
     <item>
