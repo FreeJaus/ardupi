@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://freejaus.github.io/ardupi/project/rc/bom/</loc>
+    <lastmod>2018-02-23T16:47:28+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://freejaus.github.io/ardupi/categories/</loc>
     <priority>0</priority>
   </url>
@@ -45,7 +50,7 @@
   
   <url>
     <loc>http://freejaus.github.io/ardupi/project/rc/tools/</loc>
-    <lastmod>2018-02-21T22:31:19+01:00</lastmod>
+    <lastmod>2018-02-23T16:47:28+01:00</lastmod>
   </url>
   
   <url>
@@ -95,13 +100,13 @@
   </url>
   
   <url>
-    <loc>http://freejaus.github.io/ardupi/project/rc/bom/</loc>
-    <lastmod>2018-02-23T03:06:46+01:00</lastmod>
+    <loc>http://freejaus.github.io/ardupi/project/rc/</loc>
+    <lastmod>2018-02-23T16:47:28+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://freejaus.github.io/ardupi/project/rc/refs/</loc>
-    <lastmod>2018-02-21T22:31:19+01:00</lastmod>
+    <lastmod>2018-02-23T16:47:28+01:00</lastmod>
   </url>
   
   <url>
@@ -122,6 +127,11 @@
   <url>
     <loc>http://freejaus.github.io/ardupi/sitemap/</loc>
     <lastmod>2018-02-21T22:31:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://freejaus.github.io/ardupi/project/rc/soft/</loc>
+    <lastmod>2018-02-23T16:47:28+01:00</lastmod>
   </url>
   
   <url>
@@ -156,11 +166,6 @@
   
   <url>
     <loc>http://freejaus.github.io/ardupi/tutorial/</loc>
-    <lastmod>2018-02-21T22:31:19+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://freejaus.github.io/ardupi/project/rc/</loc>
     <lastmod>2018-02-21T22:31:19+01:00</lastmod>
   </url>
   
