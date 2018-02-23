@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutoriales on FreeJaus - Ardupi</title>
+    <link>http://freejaus.github.io/ardupi/tutorial/</link>
+    <description>Recent content in Tutoriales on FreeJaus - Ardupi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 21 Feb 2018 22:31:19 +0100</lastBuildDate>
+    
+	<atom:link href="http://freejaus.github.io/ardupi/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comunicación</title>
+      <link>http://freejaus.github.io/ardupi/tutorial/com/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/tutorial/com/</guid>
+      <description> ¿Qué es una antena?
+ Arduino EMF Detector, para entender el efecto de la radiación electromagnética en un cable suelto.  315/433MHz
+ nRF24L01
+ HC-05, HC-06, HM-10, HM-11
+ ESP8266
+ VirtualWire
+  </description>
+    </item>
+    
+    <item>
+      <title>Timers</title>
+      <link>http://freejaus.github.io/ardupi/tutorial/timers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/tutorial/timers/</guid>
+      <description>Los temporizadores, también llamados timers o timers/counters, son unos periféricos de los que disponen la práctica totalidad de microcontroladores que se emplean para implementar diversas funciones relacionadas con el tiempo o con el contaje. En realidad, estos periféricos son contadores. Cuando lo que están contando es una frecuencia fija derivada del cristal oscilador del microcontrolador, se denominan timers y, cuando lo que están contando es un evento (flanco de subida o flanco de bajada) en una patilla del microcontrolador, se denominan contadores.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Propuestas de proyectos on FreeJaus - Ardupi</title>
+    <link>http://freejaus.github.io/ardupi/project/</link>
+    <description>Recent content in Propuestas de proyectos on FreeJaus - Ardupi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 21 Feb 2018 22:31:19 +0100</lastBuildDate>
+    
+	<atom:link href="http://freejaus.github.io/ardupi/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Persistance Of Vision</title>
+      <link>http://freejaus.github.io/ardupi/project/pov/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/project/pov/</guid>
+      <description>    https://es.wikipedia.org/wiki/Persistencia_de_la_visi%C3%B3n https://en.wikipedia.org/wiki/Persistence_of_vision   LED matrix  Acher  Propeller (aprovechando el motor brushless de un lector de CD/DVD)  http://www.instructables.com/id/Propeller-Clock/ https://www.330ohms.com/blogs/blog/85008964-arduino-propeller-clock-reloj http://www.pyroelectro.com/projects/pyro_propeller_clock_pov/   </description>
+    </item>
+    
+    <item>
+      <title>Plantilla Propuesta de Thing</title>
+      <link>http://freejaus.github.io/ardupi/project/template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/project/template/</guid>
+      <description> Descripción Justificación Otros datos de interés:  ¿Individual o en grupo? ¿Es continuación de algún proyecto anterior? ¿Es parte de algún proyecto de mayor alcance? ¿Existe alguna empresa u organización implicada? ¿Se cuenta con presupuesto para realizarlo? &amp;hellip;  </description>
+    </item>
+    
+  </channel>
+</rss>

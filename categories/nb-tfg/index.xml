@@ -5,126 +5,18 @@
     <link>http://freejaus.github.io/ardupi/categories/nb-tfg/</link>
     <description>Recent content in Nb Tfg on FreeJaus - Ardupi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://freejaus.github.io/ardupi/categories/nb-tfg/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://freejaus.github.io/ardupi/categories/nb-tfg/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Mini DeskBot</title>
-      <link>http://freejaus.github.io/ardupi/notebook/tfg/minideskbot/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <link>http://freejaus.github.io/ardupi/tfg/minideskbot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://freejaus.github.io/ardupi/notebook/tfg/minideskbot/</guid>
-      <description>
-
-&lt;h1 id=&#34;descripción:49d75e44eed843184de8ba8403e365fc&#34;&gt;Descripción&lt;/h1&gt;
-
-&lt;p&gt;De un lector/grabador de CD/DVD se puede obtener lo siguiente (&lt;a href=&#34;http://www.die4laser.com/dvd-rec/DissectionofaDVDwriter.htm&#34;&gt;Dissection of a DVD writer&lt;/a&gt;):&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Motor de corriente continua (para extraer e introducir la bandeja)&lt;/li&gt;
-&lt;li&gt;Motor brushless (para girar el disco)&lt;/li&gt;
-&lt;li&gt;Motor paso a paso (para mover el cabezal óptico)&lt;/li&gt;
-&lt;li&gt;Dos ejes que soportan el cabezal óptico, y un husillo unido al motor paso a paso.&lt;/li&gt;
-&lt;li&gt;Uno o varios diodos láser (IR o rojos)&lt;/li&gt;
-&lt;li&gt;Conectores y circuitos integrados (drivers)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Con dos juegos de ejes, husillos, y motores paso a paso, se puede construir una pequeña máquina CNC de dos grados de libertad. La superficie de trabajo de aproximadamente 40x40mm permite gravar la superficie de varios materiales mediante uno o varios diodos láser. Con la potencia suficiente, podrían cortarse piezas no muy gruesas.&lt;/p&gt;
-
-&lt;p&gt;Para construir la máquina los pasos a realizar son los siguientes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Desmontar dos unidades ópticas de 5 &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt;&amp;rdquo;, de las que al menos una debe ser grabadora. Conservar:
-
-&lt;ul&gt;
-&lt;li&gt;La caja externa metálica (base y tapa) de una de las unidades.&lt;/li&gt;
-&lt;li&gt;La pieza de metal que sostiene los dos ejes, el motor paso a paso, el husillo y el carro.&lt;/li&gt;
-&lt;li&gt;El motor de continua, el brushless y los respectivos drivers se pueden guardar para otros proyectos, aunque no son necesarios en este.&lt;/li&gt;
-&lt;li&gt;Diodo láser:&lt;/li&gt;
-&lt;li&gt;Se puede desmontar por completo uno de los carros y conservar prácticamente intacto el grabador. Más adelante se indica cómo modificarlo.&lt;/li&gt;
-&lt;li&gt;Se pueden desmontar ambos carros por completo y guardar por separado los diodos láser y las lentes.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Con la ayuda de una herramienta rotatoria y discos de corte, eliminar los salientes del o los carros (una vez retiradas todas las piezas electrónicas y las lentes). El objetivo es reducir la altura mismos, para aprovechar mejor el eje Z.&lt;/li&gt;
-&lt;li&gt;Con la herramienta rotatoria, cortar la protuberancia en la base de la caja metálica.&lt;/li&gt;
-&lt;li&gt;Medir las dimensiones de los dos juegos y calcular la disposición óptima para aprovechar la superificie de trabajo.&lt;/li&gt;
-&lt;li&gt;Diseñar un cabezal para soportar un rotulador.&lt;/li&gt;
-&lt;li&gt;Diseñar las patas y cualquiera otra pieza auxiliar que se utilice en el montaje. Si fuera necesario, imprimirlas en 3D.&lt;/li&gt;
-&lt;li&gt;Marcar sobre la caja externa:
-
-&lt;ul&gt;
-&lt;li&gt;Los ocho orificios para sujetar las dos piezas.&lt;/li&gt;
-&lt;li&gt;Los cuatro orificios para sujetar las patas.&lt;/li&gt;
-&lt;li&gt;Si fuera necesario, marcar una ventana en la parte superior, y otra por cada motor que se coloque contra la base.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Cortar las ventanas y taladrar los orificios.&lt;/li&gt;
-&lt;li&gt;Atornillar los separadores y montar las piezas y patas.&lt;/li&gt;
-&lt;li&gt;Diseñar el circuito de potencia (dos motores y láser) y montarlo en una protoboard.&lt;/li&gt;
-&lt;li&gt;Comprobar el funcionamiento con un Arduino como controlador y un rotulador como cabezal.&lt;/li&gt;
-&lt;li&gt;Diseñar y fabricar el PCB de potencia con componentes SMD. Considerar la introducción de un attiny/atmega48 en la placa (separando masas de potencia y señal), o diseñar un soporte para utilizar una placa ya montaja (Nano, Pro Micro&amp;hellip;).&lt;/li&gt;
-&lt;li&gt;Verificar que el funcionamiento sigue siendo correcto.&lt;/li&gt;
-&lt;li&gt;Diseñar un cabezal para soportar un diodo láser:
-
-&lt;ul&gt;
-&lt;li&gt;Adquirir el soporte con lente incluida y reutilizar uno de los diodos rojos extraidos de las unidades ópticas.&lt;/li&gt;
-&lt;li&gt;Utilizar el carro prácticamente intacto, y diseñar un separador para ajustar el enfoque.&lt;/li&gt;
-&lt;li&gt;Diseñar y fabricar un soporte con las lentes extraidas de las unidades ópticas.
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.instructables.com/id/Home-Made-Collimator/?ALLSTEPS&#34;&gt;Instructables - Home Made Collimator&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;justificación:49d75e44eed843184de8ba8403e365fc&#34;&gt;Justificación&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ejemplo mínimo para la introducción en el mundo del CNC.&lt;/li&gt;
-&lt;li&gt;Bajísimo coste&lt;/li&gt;
-&lt;li&gt;Componentes fácilmente accesibles&lt;/li&gt;
-&lt;li&gt;Se puede alimentar con un cargador de móvil&lt;/li&gt;
-&lt;li&gt;Desde una estructura reutilizando la caja externa de metal, hasta un diseño hecho a medida con una impresora 3D o en madera.&lt;/li&gt;
-&lt;li&gt;Hay multiples diseños disponibles en la red con variaciones interesantes:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://funofdiy.blogspot.com.es/2013/10/a-raspberry-pi-controlled-mini-laser.html&#34;&gt;funofdiy.blogspot.com - A Raspberry Pi controlled mini CNC Laser engraver&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://hackaday.com/2013/09/12/fail-of-the-week-laser-cutter-that-makes-jagged-edges/&#34;&gt;hackaday.com - Fail of the week: Laser cutter that makes jagged edges&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.instructables.com/id/MicroSlice-A-tiny-Arduino-laser-cutter/&#34;&gt;instructables.com - MicroSlice: a tiny Arduino laser cutter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;otros-datos-de-interés:49d75e44eed843184de8ba8403e365fc&#34;&gt;Otros datos de interés:&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Puede realizar de forma individual o grupal, ya que permite trabajar las siguientes áreas:
-
-&lt;ul&gt;
-&lt;li&gt;Mecánica/Informática:
-
-&lt;ul&gt;
-&lt;li&gt;Diseño CAD/CAM parametrizado y animado (OpenSCAD + FreeCAD + Python)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Electrónica/Informática:
-
-&lt;ul&gt;
-&lt;li&gt;Diseño y fabricación de PCBs.&lt;/li&gt;
-&lt;li&gt;Regulación automática y control.&lt;/li&gt;
-&lt;li&gt;Programación de microcontroladores.&lt;/li&gt;
-&lt;li&gt;Control de motores paso a paso.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Impresión 3D.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Se utilizará como base para tomar decisiones en el diseño de DeskBot.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://forums.modretro.com/viewtopic.php?f=3&amp;amp;t=10121&#34;&gt;http://forums.modretro.com/viewtopic.php?f=3&amp;amp;t=10121&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;¿Para qué sirve el estabilizador magnético?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://freejaus.github.io/ardupi/tfg/minideskbot/</guid>
+      <description>Descripción De un lector/grabador de CD/DVD se puede obtener lo siguiente (Dissection of a DVD writer):
+ Motor de corriente continua (para extraer e introducir la bandeja) Motor brushless (para girar el disco) Motor paso a paso (para mover el cabezal óptico) Dos ejes que soportan el cabezal óptico, y un husillo unido al motor paso a paso. Uno o varios diodos láser (IR o rojos) Conectores y circuitos integrados (drivers)  Con dos juegos de ejes, husillos, y motores paso a paso, se puede construir una pequeña máquina CNC de dos grados de libertad.</description>
     </item>
     
   </channel>

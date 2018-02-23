@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Taller de vehículos de radio control on FreeJaus - Ardupi</title>
+    <link>http://freejaus.github.io/ardupi/project/rc/</link>
+    <description>Recent content in Taller de vehículos de radio control on FreeJaus - Ardupi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 21 Feb 2018 22:31:19 +0100</lastBuildDate>
+    
+	<atom:link href="http://freejaus.github.io/ardupi/project/rc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Background</title>
+      <link>http://freejaus.github.io/ardupi/project/rc/background/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/project/rc/background/</guid>
+      <description> Leyes de Ohm y Kirchhoff Consumo/alimentación/potencia Motores eléctricos  Corriente continua (DC, Brushed)  Servomotor  Corriente alterna  Paso a paso Síncrono (Brushless) Asíncrono   Microcontroladores Comunicación  Síncrona/Asíncrona Half/Full Duplex   </description>
+    </item>
+    
+    <item>
+      <title>Herramientas</title>
+      <link>http://freejaus.github.io/ardupi/project/rc/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/project/rc/tools/</guid>
+      <description> fritzing 123circuits  </description>
+    </item>
+    
+    <item>
+      <title>Radio Control (RC)</title>
+      <link>http://freejaus.github.io/ardupi/project/rc/bom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/project/rc/bom/</guid>
+      <description> ATtiny816 (datasheet): 8KB Flash, 512B SRAM and 128 bytes of EEPROM ATtiny1616 (datasheet): 16 KB Flash, 2 KB SRAM and 128 bytes of EEPROM
+ 20-pin
+ VQFN 3x3 SOIC300  NRF24L01: 2 (power) + 5 (4 SPI + CE) [ + IRQ ]
+ Joystick: 2 (power) + 2 (analog) + 1
+ btn/switch matrix:
+ 4&amp;gt;x&amp;gt;0: x x&amp;gt;4: ceil(sqrt(x)*2)   </description>
+    </item>
+    
+    <item>
+      <title>Referencias</title>
+      <link>http://freejaus.github.io/ardupi/project/rc/refs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/project/rc/refs/</guid>
+      <description>Sesión 0:  https://www.arduino.cc/en/Guide/HomePage https://www.arduino.cc/en/Main/ArduinoBoardLeonardo http://www.atmel.com/devices/atmega32u4.aspx http://www.atmel.com/Images/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf  Sesión 2:  arduino.cc/en/Reference/Servo arduino.cc/en/Reference/HomePage: delay, int, boolean, analogRead, map, array, const, pinMode, Serial, if, abs, digitalRead&amp;hellip; http://playground.arduino.cc/Learning/Memory arduino.cc/en/Reference/EEPROM  EEPROM Put EEPROM Get    EEPROM
+https://www.pjrc.com/teensy/td_libs_VirtualWire.html http://www.airspayce.com/mikem/arduino/VirtualWire.pdf http://www.airspayce.com/mikem/arduino/VirtualWire/ http://robologs.net/2015/02/10/tutorial-de-arduino-y-de-radiofrecuencia-con-virtualwire/
+http://www.airspayce.com/mikem/arduino/RadioHead/</description>
+    </item>
+    
+    <item>
+      <title>Sesiones</title>
+      <link>http://freejaus.github.io/ardupi/project/rc/sesiones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/project/rc/sesiones/</guid>
+      <description>SESIÓN 1  Montar todas las piezas del chasis y la carrocería. Analizar qué piezas faltan en comparación con los otros vehículos (comerciales). Analizar qué motores hacen falta y qué características (tamaño, potencia&amp;hellip;) debe tener cada uno.  SESIÓN 2  Montar los motores y los componentes electrónicos fuera del chasis y comprobar el funcionamiento.  https://123d.circuits.io/circuits/1568139-gazteleku-urduliz-coches-teledirigidos-control-de-motores  Montarlo todo en el chasis y comprobar el funcionamiento con el joystick cableado.</description>
+    </item>
+    
+    <item>
+      <title>Tareas realizadas</title>
+      <link>http://freejaus.github.io/ardupi/project/rc/tareas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/project/rc/tareas/</guid>
+      <description>Se han adquirido las piezas necesarias para construir un coche en una tienda especializada en vehículos RC. Se ha escogido un coche por ser el vehículo más fácil de manejar, y debido a las limitaciones para utilizar vehículos voladores en zonas urbanas.  Chasis, carrocería y engranajes Motor de corriente continua Servomotor Batería Variador/inversor y BEC. Es válido tanto para motores de corriente continua como para motores brushless (hasta 300A), y provee alimentación (6V y 3A) a través de una fuente conmutada.</description>
+    </item>
+    
+    <item>
+      <title>ToDos</title>
+      <link>http://freejaus.github.io/ardupi/project/rc/todos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/project/rc/todos/</guid>
+      <description>Comunicación
+ Mando a distancia IR. RF 333-415 MHz. RF 2.4GHz.  https://arduino-info.wikispaces.com/Nrf24L01-2.4GHz-HowTo  Bluetooth  Controlar desde el móvil.   Interrupciones
+ Modo bajo consumo (sleep)  Sensores
+ Seguir líneas. Aparcamiento automático. Recorrer un laberinto.  Cámara.
+ Placa para integrar las conexiones con un Arduino. ¿Shield o placa independiente?
+ Cambiar a motor brushless.
+ Bobinar/construir un motor.  Diseñar y fabricar BEC.
+ Diseñar y fabricar driver DC.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operating Systems for Raspberry Pi on FreeJaus - Ardupi</title>
+    <link>http://freejaus.github.io/ardupi/os4rpi/</link>
+    <description>Recent content in Operating Systems for Raspberry Pi on FreeJaus - Ardupi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 21 Feb 2018 22:31:19 +0100</lastBuildDate>
+    
+	<atom:link href="http://freejaus.github.io/ardupi/os4rpi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RetroPie - Manual de instalacion y configuracion</title>
+      <link>http://freejaus.github.io/ardupi/os4rpi/retropie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://freejaus.github.io/ardupi/os4rpi/retropie/</guid>
+      <description>Introduccion ¿Que es RetroPie? (Imagen para Tarjeta SD) La imagen para SD de RetroPie contiene un sistema ready-to-use que provee una instalacion completa de todos los sistemas y funciones que estan soportadas por el script de instalacion de RetroPie
+ Instalacion de todos los emuladores soportados por el script de instalacion de RetroPie (see section &amp;ldquo;supported systems/emulators for details&amp;rdquo;) Inicio automatico de Emulation Station, el front end para navegar a traves y cargar las ROMs que tengamos Splash Screen preconfigurada Sistema de comparticion SAMBA dispoible para copiar las ROMs a traves de la conexion de red Demonio USB para copiar las ROMs a traves de un pen-drive  Sistemas/Emuladores soportados The RetroPie SD-card includes emulators for a whole range of gaming history.</description>
+    </item>
+    
+  </channel>
+</rss>
