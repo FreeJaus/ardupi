@@ -1,4 +1,0 @@
----
-view: sitemap
-title: Sitemap
----
