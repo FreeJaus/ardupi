@@ -1,7 +1,7 @@
 ---
 title: Herramientas
-keywords:
 ---
 
-- fritzing
+- Arduino IDE
+- Fritzing
 - 123circuits

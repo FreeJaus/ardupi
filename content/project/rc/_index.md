@@ -1,5 +1,5 @@
 ---
-linktitle: "Vehículos RC"
+linktitle: "Radio Control (RC)"
 title: "Taller de vehículos de radio control"
 ---
 

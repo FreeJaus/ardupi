@@ -15,7 +15,7 @@ title: Referencias
      - [EEPROM Put](https://www.arduino.cc/en/Tutorial/EEPROMPut)
 	 - [EEPROM Get](https://www.arduino.cc/en/Reference/EEPROMGet)
 
-  EEPROM
+---
 
 https://www.pjrc.com/teensy/td_libs_VirtualWire.html
 http://www.airspayce.com/mikem/arduino/VirtualWire.pdf

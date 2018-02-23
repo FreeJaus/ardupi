@@ -1,9 +1,10 @@
 ---
-title: "Radio Control (RC)"
+title: "Bill of materials (BOM)"
 ---
 
-- [ATtiny816](http://www.microchip.com/wwwproducts/en/ATTINY816) ([datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/40001913A.pdf)): 8KB Flash, 512B SRAM and 128 bytes of EEPROM
-- [ATtiny1616](http://www.microchip.com/wwwproducts/en/ATTINY1616) ([datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/40001893B.pdf)): 16 KB Flash, 2 KB SRAM and 128 bytes of EEPROM
+- Datasheets
+  -  ([ATTINY816](http://ww1.microchip.com/downloads/en/DeviceDoc/40001913A.pdf)): 8KB Flash, 512B SRAM and 128 bytes of EEPROM
+  -  ([ATTINY1616](http://ww1.microchip.com/downloads/en/DeviceDoc/40001893B.pdf)): 16 KB Flash, 2 KB SRAM and 128 bytes of EEPROM
 
 # Pin count
 
@@ -18,7 +19,7 @@ title: "Radio Control (RC)"
 
 ## Nunchuk
 
-14/SOIC150mil (ATTINY814 or ATTINY1614)
+14/SOIC150mil ([ATtiny814](http://www.microchip.com/wwwproducts/en/ATTINY814) or [ATtiny1614](http://www.microchip.com/wwwproducts/en/ATTINY1614))
 
 - NRF24L01 + Joystick + 3x btn: 5-6 + 3 + 3 = 11-12
 - ++ 2x btn + encoder: + 2 + 2 = 15-16
@@ -26,7 +27,11 @@ title: "Radio Control (RC)"
 
 ## RC receiver & ESC commander, and PC receiver
 
-20/SOIC300mil or 20/VQFN3x3 (ATTINY816 or ATTINY1616)
+20/SOIC300mil or 20/VQFN3x3 ([ATtiny816](http://www.microchip.com/wwwproducts/en/ATTINY816) or [ATtiny1616](http://www.microchip.com/wwwproducts/en/ATTINY1616))
 
 - NRF24L01 + 2x servo: 5-6 + 2 = 7-8
 - NRF24L01 + USB: 5-6 + 2 = 7-8
+
+# Adapter PCBs
+
+- [martin2250/vUSBnRF24](https://github.com/martin2250/vUSBnRF24)
