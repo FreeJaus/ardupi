@@ -43,7 +43,7 @@ else
   printf "\nGet the deploy key\n"
   # by using Travis's stored variables to decrypt deploy_key.enc
   eval `ssh-agent -s`
-  openssl aes-256-cbc -K $encrypted_085e43ff19d1_key -iv $encrypted_085e43ff19d1_iv -in ../deploy_key.enc -d | ssh-add -
+  openssl aes-256-cbc -K $encrypted_c6ec93632284_key -iv $encrypted_c6ec93632284_iv -in ../deploy_key.enc -d | ssh-add -
   printf "\nPush to gh-pages\n"
   # Now that we're all set up, we can push.
   git push `echo "$REPO" | sed -e 's/https:\/\/github.com\//git@github.com:/g'` gh-pages
