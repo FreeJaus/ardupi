@@ -1,16 +1,3 @@
-{{ $currNode := . }}
-{{if isset .Params "categories"}}
-  {{ $.Scratch.Add "cats" .Params.categories }}
-  {{if gt (len ($.Scratch.Get "cats")) 1}}
-    {{ $.Scratch.Set "cats" (first 1 ($.Scratch.Get "cats") )}}
-  {{end}}
-  {{ $list := (index .Site.Taxonomies.categories (index ($.Scratch.Get "cats") 0))}}
-  {{ with $list.Len }}
-    {{$currNode.Scratch.Add "navfirst" (index $list 0).Page.RelPermalink}}
-    {{$currNode.Scratch.Add "navlast" (index $list (sub . 1)).Page.RelPermalink }}
-  {{end}}
-{{end}}
-
 {{if ne (.Scratch.Get "navfirst") $currNode.RelPermalink}}
   <a href="{{.Prev.RelPermalink}}"><div class="panel-nav" style="margin-bottom: -10px;"><i class="fa fa-angle-double-up"></i></div></a>
 {{end}}

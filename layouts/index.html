@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-UK{{ end }}">
-  <head>
-    {{ partial "head.html" . }}
-	{{ "<!-- Custom CSS -->" | safeHTML }}
-    <link href="{{.Site.BaseURL}}css/fj-index.css" rel="stylesheet">
-  </head>
+{{ define "head" }}
+  {{ partial "head.html" . }}
+  {{ "<!-- Custom CSS -->" | safeHTML }}
+  <link href="{{.Site.BaseURL}}css/fj-index.css" rel="stylesheet">
+{{ end }}
+
+{{ define "main" }}
   <body id="page-top" class="index">
     {{ partial "nav.html" . }}
 
@@ -48,10 +48,5 @@
 
     {{ partial "index/portfolio.html" . }}
     {{ partial "index/about.html" . }}
-	{{ "<!--index team.html-->" | safeHTML }}
-    {{ "<!--index clients.html-->" | safeHTML }}
-    {{ "<!--index footer.html-->" | safeHTML }}
-    {{ "<!--index modals.html-->" | safeHTML }}
     {{ partial "js.html" . }}
-  </body>
-</html>
+{{ end }}
